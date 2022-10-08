@@ -1,0 +1,831 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/issues/5438/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5438/commits"
+        },
+        "html": {
+            "href": "https://github.com/flutter/flutter-intellij/pull/5438"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/issues/5438"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5438/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5438"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/statuses/0a70af89464248fc4fa773e7eafc6725c0dd60a7"
+        }
+    },
+    "active_lock_reason": null,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "MEMBER",
+    "auto_merge": null,
+    "base": {
+        "label": "flutter:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/flutter/flutter-intellij/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/flutter/flutter-intellij/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/flutter/flutter-intellij/branches{/branch}",
+            "clone_url": "https://github.com/flutter/flutter-intellij.git",
+            "collaborators_url": "https://api.github.com/repos/flutter/flutter-intellij/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/comments{/number}",
+            "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/flutter/flutter-intellij/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/flutter/flutter-intellij/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/flutter/flutter-intellij/contributors",
+            "created_at": "2016-07-25T22:31:03Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/flutter/flutter-intellij/deployments",
+            "description": "Flutter Plugin for IntelliJ",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/flutter/flutter-intellij/downloads",
+            "events_url": "https://api.github.com/repos/flutter/flutter-intellij/events",
+            "fork": false,
+            "forks": 308,
+            "forks_count": 308,
+            "forks_url": "https://api.github.com/repos/flutter/flutter-intellij/forks",
+            "full_name": "flutter/flutter-intellij",
+            "git_commits_url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/flutter/flutter-intellij/git/tags{/sha}",
+            "git_url": "git://github.com/flutter/flutter-intellij.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "https://flutter.dev/using-ide",
+            "hooks_url": "https://api.github.com/repos/flutter/flutter-intellij/hooks",
+            "html_url": "https://github.com/flutter/flutter-intellij",
+            "id": 64172164,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/flutter/flutter-intellij/issues{/number}",
+            "keys_url": "https://api.github.com/repos/flutter/flutter-intellij/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/flutter/flutter-intellij/labels{/name}",
+            "language": "Java",
+            "languages_url": "https://api.github.com/repos/flutter/flutter-intellij/languages",
+            "license": {
+                "key": "bsd-3-clause",
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "node_id": "MDc6TGljZW5zZTU=",
+                "spdx_id": "BSD-3-Clause",
+                "url": "https://api.github.com/licenses/bsd-3-clause"
+            },
+            "merges_url": "https://api.github.com/repos/flutter/flutter-intellij/merges",
+            "milestones_url": "https://api.github.com/repos/flutter/flutter-intellij/milestones{/number}",
+            "mirror_url": null,
+            "name": "flutter-intellij",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2NDE3MjE2NA==",
+            "notifications_url": "https://api.github.com/repos/flutter/flutter-intellij/notifications{?since,all,participating}",
+            "open_issues": 514,
+            "open_issues_count": 514,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+                "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+                "followers_url": "https://api.github.com/users/flutter/followers",
+                "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+                "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/flutter",
+                "id": 14101776,
+                "login": "flutter",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+                "organizations_url": "https://api.github.com/users/flutter/orgs",
+                "received_events_url": "https://api.github.com/users/flutter/received_events",
+                "repos_url": "https://api.github.com/users/flutter/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/flutter"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls{/number}",
+            "pushed_at": "2022-10-03T08:04:48Z",
+            "releases_url": "https://api.github.com/repos/flutter/flutter-intellij/releases{/id}",
+            "size": 160091,
+            "ssh_url": "git@github.com:flutter/flutter-intellij.git",
+            "stargazers_count": 1802,
+            "stargazers_url": "https://api.github.com/repos/flutter/flutter-intellij/stargazers",
+            "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/flutter/flutter-intellij/subscribers",
+            "subscription_url": "https://api.github.com/repos/flutter/flutter-intellij/subscription",
+            "svn_url": "https://github.com/flutter/flutter-intellij",
+            "tags_url": "https://api.github.com/repos/flutter/flutter-intellij/tags",
+            "teams_url": "https://api.github.com/repos/flutter/flutter-intellij/teams",
+            "topics": [
+                "flutter",
+                "intellij-plugin",
+                "java"
+            ],
+            "trees_url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees{/sha}",
+            "updated_at": "2022-10-03T05:16:49Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij",
+            "visibility": "public",
+            "watchers": 1802,
+            "watchers_count": 1802,
+            "web_commit_signoff_required": false
+        },
+        "sha": "28aaecc3078f0f5d065194d64292e920941640d2",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+            "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+            "followers_url": "https://api.github.com/users/flutter/followers",
+            "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+            "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/flutter",
+            "id": 14101776,
+            "login": "flutter",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+            "organizations_url": "https://api.github.com/users/flutter/orgs",
+            "received_events_url": "https://api.github.com/users/flutter/received_events",
+            "repos_url": "https://api.github.com/users/flutter/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/flutter"
+        }
+    },
+    "body": "Resolves #5435 .\r\n\r\nUsers might not aware about the JDK configuration when they're setting up the environment, so I added a JDK configuration step which links to the JBR under the IDEA's content.",
+    "closed_at": "2021-04-26T17:13:01Z",
+    "comment_data": [],
+    "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/5438/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/15884415?v=4",
+                "events_url": "https://api.github.com/users/AlexV525/events{/privacy}",
+                "followers_url": "https://api.github.com/users/AlexV525/followers",
+                "following_url": "https://api.github.com/users/AlexV525/following{/other_user}",
+                "gists_url": "https://api.github.com/users/AlexV525/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/AlexV525",
+                "id": 15884415,
+                "login": "AlexV525",
+                "node_id": "MDQ6VXNlcjE1ODg0NDE1",
+                "organizations_url": "https://api.github.com/users/AlexV525/orgs",
+                "received_events_url": "https://api.github.com/users/AlexV525/received_events",
+                "repos_url": "https://api.github.com/users/AlexV525/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/AlexV525/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/AlexV525/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/AlexV525"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/48945e9054a0d6b8dbe176aa72e6b583a1766438/comments",
+            "commit": {
+                "author": {
+                    "date": "2021-04-26T03:02:12Z",
+                    "email": "github@alexv525.com",
+                    "name": "Alex Li"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2021-04-26T03:02:12Z",
+                    "email": "github@alexv525.com",
+                    "name": "Alex Li"
+                },
+                "message": "📝 Add JBR configuration step in the contributing doc",
+                "tree": {
+                    "sha": "97e61c591b49a2d8816504bd7c9b4e8f5c4267fc",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/97e61c591b49a2d8816504bd7c9b4e8f5c4267fc"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/48945e9054a0d6b8dbe176aa72e6b583a1766438",
+                "verification": {
+                    "payload": "tree 97e61c591b49a2d8816504bd7c9b4e8f5c4267fc\nparent 28aaecc3078f0f5d065194d64292e920941640d2\nauthor Alex Li <github@alexv525.com> 1619406132 +0800\ncommitter Alex Li <github@alexv525.com> 1619406132 +0800\n\n📝 Add JBR configuration step in the contributing doc\n",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdFiEEf789EY4J7wQZ6StFZkopalnpbCcFAmCGLTQACgkQZkopalnp\nbCeZZAf/divm6GZlUY2jMzXWu3GER5dphQ+RmsuHUkFXQxBWpIwNJvo0kGABkUXz\nhpcFni0nS59g6FTjwc7GAqxTE4sh8U7vt80uMmYXEeHtE42rePLuM81UcYohC2Pg\nnnmYNXBm8Qs+2VTLXlL9BqytNNZT+0H+coXWvlnE5b8Il/ZAeUNOKZ4eF4x50+Ib\nKdCtIO6dNribmIe3gDyTHctCg/GIpjf8HFLNGLQCMCwXxjtiMa3HCj5giASd4og9\nmD31LXpP+S8V2AugyeRsI4WpPMAnvbdZm56OLeWX5ZkHPgxM40h5+CoHrlyOmjss\nD1gbC8QQ14Z/F2NjZwVsz+WJuE/D5Q==\n=onGE\n-----END PGP SIGNATURE-----",
+                    "verified": true
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/15884415?v=4",
+                "events_url": "https://api.github.com/users/AlexV525/events{/privacy}",
+                "followers_url": "https://api.github.com/users/AlexV525/followers",
+                "following_url": "https://api.github.com/users/AlexV525/following{/other_user}",
+                "gists_url": "https://api.github.com/users/AlexV525/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/AlexV525",
+                "id": 15884415,
+                "login": "AlexV525",
+                "node_id": "MDQ6VXNlcjE1ODg0NDE1",
+                "organizations_url": "https://api.github.com/users/AlexV525/orgs",
+                "received_events_url": "https://api.github.com/users/AlexV525/received_events",
+                "repos_url": "https://api.github.com/users/AlexV525/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/AlexV525/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/AlexV525/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/AlexV525"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/48945e9054a0d6b8dbe176aa72e6b583a1766438",
+            "node_id": "MDY6Q29tbWl0MzI0MjY4NDMwOjQ4OTQ1ZTkwNTRhMGQ2YjhkYmUxNzZhYTcyZTZiNTgzYTE3NjY0Mzg=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/28aaecc3078f0f5d065194d64292e920941640d2",
+                    "sha": "28aaecc3078f0f5d065194d64292e920941640d2",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/28aaecc3078f0f5d065194d64292e920941640d2"
+                }
+            ],
+            "sha": "48945e9054a0d6b8dbe176aa72e6b583a1766438",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/48945e9054a0d6b8dbe176aa72e6b583a1766438"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/15884415?v=4",
+                "events_url": "https://api.github.com/users/AlexV525/events{/privacy}",
+                "followers_url": "https://api.github.com/users/AlexV525/followers",
+                "following_url": "https://api.github.com/users/AlexV525/following{/other_user}",
+                "gists_url": "https://api.github.com/users/AlexV525/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/AlexV525",
+                "id": 15884415,
+                "login": "AlexV525",
+                "node_id": "MDQ6VXNlcjE1ODg0NDE1",
+                "organizations_url": "https://api.github.com/users/AlexV525/orgs",
+                "received_events_url": "https://api.github.com/users/AlexV525/received_events",
+                "repos_url": "https://api.github.com/users/AlexV525/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/AlexV525/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/AlexV525/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/AlexV525"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/3a653a30fa2ed6bd4e9f686a1b82ef2dbe7efcd5/comments",
+            "commit": {
+                "author": {
+                    "date": "2021-04-26T15:47:06Z",
+                    "email": "github@alexv525.com",
+                    "name": "Alex Li"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2021-04-26T15:47:06Z",
+                    "email": "noreply@github.com",
+                    "name": "GitHub"
+                },
+                "message": "Switch the position for JDK and IDEA plugin",
+                "tree": {
+                    "sha": "1d5044e277f09998219b2b33f8a9b3abf9039b75",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/1d5044e277f09998219b2b33f8a9b3abf9039b75"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/3a653a30fa2ed6bd4e9f686a1b82ef2dbe7efcd5",
+                "verification": {
+                    "payload": "tree 1d5044e277f09998219b2b33f8a9b3abf9039b75\nparent 48945e9054a0d6b8dbe176aa72e6b583a1766438\nauthor Alex Li <github@alexv525.com> 1619452026 +0800\ncommitter GitHub <noreply@github.com> 1619452026 +0800\n\nSwitch the position for JDK and IDEA plugin",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJghuB6CRBK7hj4Ov3rIwAAZZUIAKbWVOvRs6kTMK/3TyTWxFR/\n1oGhwWqDvRhn0FNGgy5ZSiM3fcQEqCxKtewmnNiZCD20U3bIx+IZyagj858YUtNh\nvfOIvkqeYBaUjXatOsC2pPL3Bu1+7Laj1uirDp1hyfKgSR2M+LouFknjJ8L6tveH\nFezMaMy57Y6hUQYYSpmZUmdRf7ilUVP3XGxujC+9I2xHuN3bkR9IhQze0Er+vIEc\nh3qJNA/4/CwbWYiDe55Hwt8TxVvXOVeUUdcxygWJLPihWL/OntXZ57Xp3D2cdNtF\nAaZDWEb5aHu9bCHB5WKkAV8wwACvOpnaHQ8FuliDySrxrG0L9vLGnW8Vt1RA/9g=\n=gAcV\n-----END PGP SIGNATURE-----\n",
+                    "verified": true
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+                "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+                "followers_url": "https://api.github.com/users/web-flow/followers",
+                "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+                "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/web-flow",
+                "id": 19864447,
+                "login": "web-flow",
+                "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+                "organizations_url": "https://api.github.com/users/web-flow/orgs",
+                "received_events_url": "https://api.github.com/users/web-flow/received_events",
+                "repos_url": "https://api.github.com/users/web-flow/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/web-flow"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/3a653a30fa2ed6bd4e9f686a1b82ef2dbe7efcd5",
+            "node_id": "MDY6Q29tbWl0MzI0MjY4NDMwOjNhNjUzYTMwZmEyZWQ2YmQ0ZTlmNjg2YTFiODJlZjJkYmU3ZWZjZDU=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/48945e9054a0d6b8dbe176aa72e6b583a1766438",
+                    "sha": "48945e9054a0d6b8dbe176aa72e6b583a1766438",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/48945e9054a0d6b8dbe176aa72e6b583a1766438"
+                }
+            ],
+            "sha": "3a653a30fa2ed6bd4e9f686a1b82ef2dbe7efcd5",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/3a653a30fa2ed6bd4e9f686a1b82ef2dbe7efcd5"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/15884415?v=4",
+                "events_url": "https://api.github.com/users/AlexV525/events{/privacy}",
+                "followers_url": "https://api.github.com/users/AlexV525/followers",
+                "following_url": "https://api.github.com/users/AlexV525/following{/other_user}",
+                "gists_url": "https://api.github.com/users/AlexV525/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/AlexV525",
+                "id": 15884415,
+                "login": "AlexV525",
+                "node_id": "MDQ6VXNlcjE1ODg0NDE1",
+                "organizations_url": "https://api.github.com/users/AlexV525/orgs",
+                "received_events_url": "https://api.github.com/users/AlexV525/received_events",
+                "repos_url": "https://api.github.com/users/AlexV525/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/AlexV525/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/AlexV525/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/AlexV525"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/adea81e703f4619a20f07f5c85a3fbaaf103d15e/comments",
+            "commit": {
+                "author": {
+                    "date": "2021-04-26T15:47:44Z",
+                    "email": "github@alexv525.com",
+                    "name": "Alex Li"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2021-04-26T15:47:44Z",
+                    "email": "noreply@github.com",
+                    "name": "GitHub"
+                },
+                "message": "Update JBR link description",
+                "tree": {
+                    "sha": "a8aa3bcd40861fb9790f0279887f198e3f1e3520",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/a8aa3bcd40861fb9790f0279887f198e3f1e3520"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/adea81e703f4619a20f07f5c85a3fbaaf103d15e",
+                "verification": {
+                    "payload": "tree a8aa3bcd40861fb9790f0279887f198e3f1e3520\nparent 3a653a30fa2ed6bd4e9f686a1b82ef2dbe7efcd5\nauthor Alex Li <github@alexv525.com> 1619452064 +0800\ncommitter GitHub <noreply@github.com> 1619452064 +0800\n\nUpdate JBR link description",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJghuCgCRBK7hj4Ov3rIwAA+eYIAAefVCIYmTnvhxjfYoPhHrTc\nvsZ9j+O0Qq+qfM9CNy2P7eTG8nqxQqFPGnfio2TzTof+ncmKSv4ydTdWjd1iW5ji\nWt54V8S8XxRmFvsj8JuZC0V2klU13SVnQRgZeZTnMphFre2z4vrRydssrujOoogY\nHNZoAqjdqL1GijlcnVwnyDsPFwNOKymceAR1SCl3blAO0LE4w6mXDsqplMvppMSB\nQOUjAmxdKL0Y+qaiKa0RmT8iHokqW3p0uM4W+5tXbGP5ySkMwvQ3U9pPK4lmQNLz\ndHovoN/Gsto6/r+9lgQiCqHVub+4ArnaIMjZ/KsClUKDYSzCfNbsm+fI1t7EjRQ=\n=9IMR\n-----END PGP SIGNATURE-----\n",
+                    "verified": true
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+                "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+                "followers_url": "https://api.github.com/users/web-flow/followers",
+                "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+                "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/web-flow",
+                "id": 19864447,
+                "login": "web-flow",
+                "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+                "organizations_url": "https://api.github.com/users/web-flow/orgs",
+                "received_events_url": "https://api.github.com/users/web-flow/received_events",
+                "repos_url": "https://api.github.com/users/web-flow/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/web-flow"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/adea81e703f4619a20f07f5c85a3fbaaf103d15e",
+            "node_id": "MDY6Q29tbWl0MzI0MjY4NDMwOmFkZWE4MWU3MDNmNDYxOWEyMGYwN2Y1Yzg1YTNmYmFhZjEwM2QxNWU=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/3a653a30fa2ed6bd4e9f686a1b82ef2dbe7efcd5",
+                    "sha": "3a653a30fa2ed6bd4e9f686a1b82ef2dbe7efcd5",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/3a653a30fa2ed6bd4e9f686a1b82ef2dbe7efcd5"
+                }
+            ],
+            "sha": "adea81e703f4619a20f07f5c85a3fbaaf103d15e",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/adea81e703f4619a20f07f5c85a3fbaaf103d15e"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/15884415?v=4",
+                "events_url": "https://api.github.com/users/AlexV525/events{/privacy}",
+                "followers_url": "https://api.github.com/users/AlexV525/followers",
+                "following_url": "https://api.github.com/users/AlexV525/following{/other_user}",
+                "gists_url": "https://api.github.com/users/AlexV525/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/AlexV525",
+                "id": 15884415,
+                "login": "AlexV525",
+                "node_id": "MDQ6VXNlcjE1ODg0NDE1",
+                "organizations_url": "https://api.github.com/users/AlexV525/orgs",
+                "received_events_url": "https://api.github.com/users/AlexV525/received_events",
+                "repos_url": "https://api.github.com/users/AlexV525/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/AlexV525/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/AlexV525/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/AlexV525"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/36f3332e20d910c7be24fb43cf96d8ec3230c158/comments",
+            "commit": {
+                "author": {
+                    "date": "2021-04-26T15:53:11Z",
+                    "email": "github@alexv525.com",
+                    "name": "Alex Li"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2021-04-26T15:53:11Z",
+                    "email": "noreply@github.com",
+                    "name": "GitHub"
+                },
+                "message": "Make IDEA determine first",
+                "tree": {
+                    "sha": "868bd9064c8622d692927723a1f05022ff9cc63c",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/868bd9064c8622d692927723a1f05022ff9cc63c"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/36f3332e20d910c7be24fb43cf96d8ec3230c158",
+                "verification": {
+                    "payload": "tree 868bd9064c8622d692927723a1f05022ff9cc63c\nparent adea81e703f4619a20f07f5c85a3fbaaf103d15e\nauthor Alex Li <github@alexv525.com> 1619452391 +0800\ncommitter GitHub <noreply@github.com> 1619452391 +0800\n\nMake IDEA determine first",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJghuHnCRBK7hj4Ov3rIwAAPg8IAJoQwtkHJaWKPJz/NTIyxnnl\nnZLsehtpwq1NxQ7Tz8+Dk7s/61CVU1EM0AesuBoIDifj6PU9H+TdYPARhW7/QltE\niTN+5BbIby9hgVuKHUADPnBPqKoeq5iIo3hY+m4Y3xbcsmUsFXR0SuSjxjul3AxW\nYQiu+mt0wwah9nErmrTpzaHdsrxsDWLRkF+j2d3/0sPcbIU9dfXhYdjx6XruEciP\nFYm9VqaabrG6YqiqSsj2wYOwVzcMZFBdczLfQ2syjEU+lTtjhS/YrYO4dYWXFKLp\nowdd3vWApaxmS23Bfk5a/tpTFlBWUa6AW5C8dYtNf7CyZMwpBBNHErhe3MgHkCk=\n=LtnT\n-----END PGP SIGNATURE-----\n",
+                    "verified": true
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+                "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+                "followers_url": "https://api.github.com/users/web-flow/followers",
+                "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+                "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/web-flow",
+                "id": 19864447,
+                "login": "web-flow",
+                "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+                "organizations_url": "https://api.github.com/users/web-flow/orgs",
+                "received_events_url": "https://api.github.com/users/web-flow/received_events",
+                "repos_url": "https://api.github.com/users/web-flow/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/web-flow"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/36f3332e20d910c7be24fb43cf96d8ec3230c158",
+            "node_id": "MDY6Q29tbWl0MzI0MjY4NDMwOjM2ZjMzMzJlMjBkOTEwYzdiZTI0ZmI0M2NmOTZkOGVjMzIzMGMxNTg=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/adea81e703f4619a20f07f5c85a3fbaaf103d15e",
+                    "sha": "adea81e703f4619a20f07f5c85a3fbaaf103d15e",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/adea81e703f4619a20f07f5c85a3fbaaf103d15e"
+                }
+            ],
+            "sha": "36f3332e20d910c7be24fb43cf96d8ec3230c158",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/36f3332e20d910c7be24fb43cf96d8ec3230c158"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/15884415?v=4",
+                "events_url": "https://api.github.com/users/AlexV525/events{/privacy}",
+                "followers_url": "https://api.github.com/users/AlexV525/followers",
+                "following_url": "https://api.github.com/users/AlexV525/following{/other_user}",
+                "gists_url": "https://api.github.com/users/AlexV525/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/AlexV525",
+                "id": 15884415,
+                "login": "AlexV525",
+                "node_id": "MDQ6VXNlcjE1ODg0NDE1",
+                "organizations_url": "https://api.github.com/users/AlexV525/orgs",
+                "received_events_url": "https://api.github.com/users/AlexV525/received_events",
+                "repos_url": "https://api.github.com/users/AlexV525/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/AlexV525/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/AlexV525/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/AlexV525"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/b8b627f885a571c5e0d7d1f3b256e41379d6d036/comments",
+            "commit": {
+                "author": {
+                    "date": "2021-04-26T16:06:30Z",
+                    "email": "github@alexv525.com",
+                    "name": "Alex Li"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2021-04-26T16:06:30Z",
+                    "email": "noreply@github.com",
+                    "name": "GitHub"
+                },
+                "message": "Add a tip about \"Gradle build script found\" popup",
+                "tree": {
+                    "sha": "4438829545bdde7d3021dc149e3c81fe92751c10",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/4438829545bdde7d3021dc149e3c81fe92751c10"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/b8b627f885a571c5e0d7d1f3b256e41379d6d036",
+                "verification": {
+                    "payload": "tree 4438829545bdde7d3021dc149e3c81fe92751c10\nparent 36f3332e20d910c7be24fb43cf96d8ec3230c158\nauthor Alex Li <github@alexv525.com> 1619453190 +0800\ncommitter GitHub <noreply@github.com> 1619453190 +0800\n\nAdd a tip about \"Gradle build script found\" popup",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJghuUGCRBK7hj4Ov3rIwAAFGUIACXsl5GVgFCrUE6MB/GAkYxO\nwvxD2KkX0begAzcf45mBU5ffiyBCtaO9lI5ypOL9VOLGNpZM3XE4f0kUXupHoSLa\n/wsgbKlJacUheJp+ed3DDqrRjYYJPBxIHoXxTUSF0B5QRq3v5ph/EIiYwBLQOXa0\nJ4JbtfyMIGK5lxXer48bKPugam/zQ3zdkxJYP4nxDeBiY1EEuO8cmHeLGWI9K63T\nMCs0Kvnqwj6OQcqsuWWpEaczg1Zte+mQ0tLEoVo8bDNB9l3oknVVLOhUkaQlbadH\n6Uv7IOY84KsQQVHlIvEnD/XHAC5K393tAMfFpWT5cbd4af0K4xJ7lUwOP4bG8Qg=\n=AvaK\n-----END PGP SIGNATURE-----\n",
+                    "verified": true
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+                "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+                "followers_url": "https://api.github.com/users/web-flow/followers",
+                "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+                "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/web-flow",
+                "id": 19864447,
+                "login": "web-flow",
+                "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+                "organizations_url": "https://api.github.com/users/web-flow/orgs",
+                "received_events_url": "https://api.github.com/users/web-flow/received_events",
+                "repos_url": "https://api.github.com/users/web-flow/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/web-flow"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/b8b627f885a571c5e0d7d1f3b256e41379d6d036",
+            "node_id": "MDY6Q29tbWl0MzI0MjY4NDMwOmI4YjYyN2Y4ODVhNTcxYzVlMGQ3ZDFmM2IyNTZlNDEzNzlkNmQwMzY=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/36f3332e20d910c7be24fb43cf96d8ec3230c158",
+                    "sha": "36f3332e20d910c7be24fb43cf96d8ec3230c158",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/36f3332e20d910c7be24fb43cf96d8ec3230c158"
+                }
+            ],
+            "sha": "b8b627f885a571c5e0d7d1f3b256e41379d6d036",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/b8b627f885a571c5e0d7d1f3b256e41379d6d036"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/15884415?v=4",
+                "events_url": "https://api.github.com/users/AlexV525/events{/privacy}",
+                "followers_url": "https://api.github.com/users/AlexV525/followers",
+                "following_url": "https://api.github.com/users/AlexV525/following{/other_user}",
+                "gists_url": "https://api.github.com/users/AlexV525/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/AlexV525",
+                "id": 15884415,
+                "login": "AlexV525",
+                "node_id": "MDQ6VXNlcjE1ODg0NDE1",
+                "organizations_url": "https://api.github.com/users/AlexV525/orgs",
+                "received_events_url": "https://api.github.com/users/AlexV525/received_events",
+                "repos_url": "https://api.github.com/users/AlexV525/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/AlexV525/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/AlexV525/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/AlexV525"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/0a70af89464248fc4fa773e7eafc6725c0dd60a7/comments",
+            "commit": {
+                "author": {
+                    "date": "2021-04-26T16:11:38Z",
+                    "email": "github@alexv525.com",
+                    "name": "Alex Li"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2021-04-26T16:11:38Z",
+                    "email": "noreply@github.com",
+                    "name": "GitHub"
+                },
+                "message": "Grammar nit picking",
+                "tree": {
+                    "sha": "958faed12608a209d73d0bd193144801bb0cb1bb",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/958faed12608a209d73d0bd193144801bb0cb1bb"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/0a70af89464248fc4fa773e7eafc6725c0dd60a7",
+                "verification": {
+                    "payload": "tree 958faed12608a209d73d0bd193144801bb0cb1bb\nparent b8b627f885a571c5e0d7d1f3b256e41379d6d036\nauthor Alex Li <github@alexv525.com> 1619453498 +0800\ncommitter GitHub <noreply@github.com> 1619453498 +0800\n\nGrammar nit picking",
+                    "reason": "valid",
+                    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJghuY6CRBK7hj4Ov3rIwAAmA0IAHDYoJu14/KGnZkPTM8eLS8n\nN1lT1vxf9m1BiC2vzvFdsEsqayeuaaN55raQLMl4iyd2Epv+kcf5QQkAZ5IaPyw3\nyuJ2EYI1RaZvZj+TYBU8ZLVLIBEaYDlzKGyZ9CrtPW7HTbeGL5dobo1OIxhUgHwy\nThY+WmDxXBSvrYXcRD3PsETqAavhsqUQzGr6jqluf7+Bqxvny7frm+rB+3UkmUV8\nKe0DubAzdaD5BFR4aRmGzJsQtujpPdzLR8AQF/7QP0kqqUXDPi/b8QnXvmcI6jgG\nSe8t4kflx2GQzWyV4CTzeetzj9MK7BcY95DIZpNj/Bsq4Ver1nSCm08j3dm/KjI=\n=tlbw\n-----END PGP SIGNATURE-----\n",
+                    "verified": true
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+                "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+                "followers_url": "https://api.github.com/users/web-flow/followers",
+                "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+                "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/web-flow",
+                "id": 19864447,
+                "login": "web-flow",
+                "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+                "organizations_url": "https://api.github.com/users/web-flow/orgs",
+                "received_events_url": "https://api.github.com/users/web-flow/received_events",
+                "repos_url": "https://api.github.com/users/web-flow/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/web-flow"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/0a70af89464248fc4fa773e7eafc6725c0dd60a7",
+            "node_id": "MDY6Q29tbWl0MzI0MjY4NDMwOjBhNzBhZjg5NDY0MjQ4ZmM0ZmE3NzNlN2VhZmM2NzI1YzBkZDYwYTc=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/b8b627f885a571c5e0d7d1f3b256e41379d6d036",
+                    "sha": "b8b627f885a571c5e0d7d1f3b256e41379d6d036",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/b8b627f885a571c5e0d7d1f3b256e41379d6d036"
+                }
+            ],
+            "sha": "0a70af89464248fc4fa773e7eafc6725c0dd60a7",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/0a70af89464248fc4fa773e7eafc6725c0dd60a7"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5438/commits",
+    "created_at": "2021-04-26T03:07:13Z",
+    "diff_url": "https://github.com/flutter/flutter-intellij/pull/5438.diff",
+    "draft": false,
+    "head": {
+        "label": "AlexV525:update-jbr-in-contributing",
+        "ref": "update-jbr-in-contributing",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/AlexV525/flutter-intellij/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/AlexV525/flutter-intellij/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/AlexV525/flutter-intellij/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/AlexV525/flutter-intellij/branches{/branch}",
+            "clone_url": "https://github.com/AlexV525/flutter-intellij.git",
+            "collaborators_url": "https://api.github.com/repos/AlexV525/flutter-intellij/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/AlexV525/flutter-intellij/comments{/number}",
+            "commits_url": "https://api.github.com/repos/AlexV525/flutter-intellij/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/AlexV525/flutter-intellij/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/AlexV525/flutter-intellij/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/AlexV525/flutter-intellij/contributors",
+            "created_at": "2020-12-25T01:59:39Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/AlexV525/flutter-intellij/deployments",
+            "description": "Flutter makes it easy and fast to build beautiful mobile apps.",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/AlexV525/flutter-intellij/downloads",
+            "events_url": "https://api.github.com/repos/AlexV525/flutter-intellij/events",
+            "fork": true,
+            "forks": 0,
+            "forks_count": 0,
+            "forks_url": "https://api.github.com/repos/AlexV525/flutter-intellij/forks",
+            "full_name": "AlexV525/flutter-intellij",
+            "git_commits_url": "https://api.github.com/repos/AlexV525/flutter-intellij/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/AlexV525/flutter-intellij/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/AlexV525/flutter-intellij/git/tags{/sha}",
+            "git_url": "git://github.com/AlexV525/flutter-intellij.git",
+            "has_downloads": true,
+            "has_issues": false,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "https://flutter.dev/using-ide",
+            "hooks_url": "https://api.github.com/repos/AlexV525/flutter-intellij/hooks",
+            "html_url": "https://github.com/AlexV525/flutter-intellij",
+            "id": 324268430,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/AlexV525/flutter-intellij/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/AlexV525/flutter-intellij/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/AlexV525/flutter-intellij/issues{/number}",
+            "keys_url": "https://api.github.com/repos/AlexV525/flutter-intellij/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/AlexV525/flutter-intellij/labels{/name}",
+            "language": "Java",
+            "languages_url": "https://api.github.com/repos/AlexV525/flutter-intellij/languages",
+            "license": {
+                "key": "bsd-3-clause",
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "node_id": "MDc6TGljZW5zZTU=",
+                "spdx_id": "BSD-3-Clause",
+                "url": "https://api.github.com/licenses/bsd-3-clause"
+            },
+            "merges_url": "https://api.github.com/repos/AlexV525/flutter-intellij/merges",
+            "milestones_url": "https://api.github.com/repos/AlexV525/flutter-intellij/milestones{/number}",
+            "mirror_url": null,
+            "name": "flutter-intellij",
+            "node_id": "MDEwOlJlcG9zaXRvcnkzMjQyNjg0MzA=",
+            "notifications_url": "https://api.github.com/repos/AlexV525/flutter-intellij/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/15884415?v=4",
+                "events_url": "https://api.github.com/users/AlexV525/events{/privacy}",
+                "followers_url": "https://api.github.com/users/AlexV525/followers",
+                "following_url": "https://api.github.com/users/AlexV525/following{/other_user}",
+                "gists_url": "https://api.github.com/users/AlexV525/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/AlexV525",
+                "id": 15884415,
+                "login": "AlexV525",
+                "node_id": "MDQ6VXNlcjE1ODg0NDE1",
+                "organizations_url": "https://api.github.com/users/AlexV525/orgs",
+                "received_events_url": "https://api.github.com/users/AlexV525/received_events",
+                "repos_url": "https://api.github.com/users/AlexV525/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/AlexV525/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/AlexV525/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/AlexV525"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/AlexV525/flutter-intellij/pulls{/number}",
+            "pushed_at": "2022-05-24T04:52:40Z",
+            "releases_url": "https://api.github.com/repos/AlexV525/flutter-intellij/releases{/id}",
+            "size": 142532,
+            "ssh_url": "git@github.com:AlexV525/flutter-intellij.git",
+            "stargazers_count": 0,
+            "stargazers_url": "https://api.github.com/repos/AlexV525/flutter-intellij/stargazers",
+            "statuses_url": "https://api.github.com/repos/AlexV525/flutter-intellij/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/AlexV525/flutter-intellij/subscribers",
+            "subscription_url": "https://api.github.com/repos/AlexV525/flutter-intellij/subscription",
+            "svn_url": "https://github.com/AlexV525/flutter-intellij",
+            "tags_url": "https://api.github.com/repos/AlexV525/flutter-intellij/tags",
+            "teams_url": "https://api.github.com/repos/AlexV525/flutter-intellij/teams",
+            "topics": [],
+            "trees_url": "https://api.github.com/repos/AlexV525/flutter-intellij/git/trees{/sha}",
+            "updated_at": "2022-05-24T04:53:12Z",
+            "url": "https://api.github.com/repos/AlexV525/flutter-intellij",
+            "visibility": "public",
+            "watchers": 0,
+            "watchers_count": 0,
+            "web_commit_signoff_required": false
+        },
+        "sha": "0a70af89464248fc4fa773e7eafc6725c0dd60a7",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/15884415?v=4",
+            "events_url": "https://api.github.com/users/AlexV525/events{/privacy}",
+            "followers_url": "https://api.github.com/users/AlexV525/followers",
+            "following_url": "https://api.github.com/users/AlexV525/following{/other_user}",
+            "gists_url": "https://api.github.com/users/AlexV525/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/AlexV525",
+            "id": 15884415,
+            "login": "AlexV525",
+            "node_id": "MDQ6VXNlcjE1ODg0NDE1",
+            "organizations_url": "https://api.github.com/users/AlexV525/orgs",
+            "received_events_url": "https://api.github.com/users/AlexV525/received_events",
+            "repos_url": "https://api.github.com/users/AlexV525/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/AlexV525/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/AlexV525/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/AlexV525"
+        }
+    },
+    "html_url": "https://github.com/flutter/flutter-intellij/pull/5438",
+    "id": 622917480,
+    "issue_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/5438",
+    "labels": [
+        {
+            "color": "0e8a16",
+            "default": false,
+            "description": null,
+            "id": 487496526,
+            "name": "cla: yes",
+            "node_id": "MDU6TGFiZWw0ODc0OTY1MjY=",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/labels/cla:%20yes"
+        }
+    ],
+    "locked": false,
+    "merge_commit_sha": "12f4b4994c27fbe082b1bcb5928f07d1a46b81c1",
+    "merged_at": "2021-04-26T17:13:00Z",
+    "milestone": null,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0NjIyOTE3NDgw",
+    "number": 5438,
+    "patch_url": "https://github.com/flutter/flutter-intellij/pull/5438.patch",
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5438/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/0a70af89464248fc4fa773e7eafc6725c0dd60a7",
+    "title": "📝 Add JBR configuration step in the contributing doc",
+    "updated_at": "2021-04-27T02:12:00Z",
+    "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5438",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/15884415?v=4",
+        "events_url": "https://api.github.com/users/AlexV525/events{/privacy}",
+        "followers_url": "https://api.github.com/users/AlexV525/followers",
+        "following_url": "https://api.github.com/users/AlexV525/following{/other_user}",
+        "gists_url": "https://api.github.com/users/AlexV525/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/AlexV525",
+        "id": 15884415,
+        "login": "AlexV525",
+        "node_id": "MDQ6VXNlcjE1ODg0NDE1",
+        "organizations_url": "https://api.github.com/users/AlexV525/orgs",
+        "received_events_url": "https://api.github.com/users/AlexV525/received_events",
+        "repos_url": "https://api.github.com/users/AlexV525/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/AlexV525/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/AlexV525/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/AlexV525"
+    }
+}

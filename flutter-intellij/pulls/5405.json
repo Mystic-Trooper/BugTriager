@@ -1,0 +1,757 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/issues/5405/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5405/commits"
+        },
+        "html": {
+            "href": "https://github.com/flutter/flutter-intellij/pull/5405"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/issues/5405"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5405/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5405"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/statuses/1a481b5b0446f8e2e97eb7f699a5cdf284c5e93e"
+        }
+    },
+    "active_lock_reason": null,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "CONTRIBUTOR",
+    "auto_merge": null,
+    "base": {
+        "label": "flutter:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/flutter/flutter-intellij/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/flutter/flutter-intellij/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/flutter/flutter-intellij/branches{/branch}",
+            "clone_url": "https://github.com/flutter/flutter-intellij.git",
+            "collaborators_url": "https://api.github.com/repos/flutter/flutter-intellij/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/comments{/number}",
+            "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/flutter/flutter-intellij/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/flutter/flutter-intellij/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/flutter/flutter-intellij/contributors",
+            "created_at": "2016-07-25T22:31:03Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/flutter/flutter-intellij/deployments",
+            "description": "Flutter Plugin for IntelliJ",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/flutter/flutter-intellij/downloads",
+            "events_url": "https://api.github.com/repos/flutter/flutter-intellij/events",
+            "fork": false,
+            "forks": 308,
+            "forks_count": 308,
+            "forks_url": "https://api.github.com/repos/flutter/flutter-intellij/forks",
+            "full_name": "flutter/flutter-intellij",
+            "git_commits_url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/flutter/flutter-intellij/git/tags{/sha}",
+            "git_url": "git://github.com/flutter/flutter-intellij.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "https://flutter.dev/using-ide",
+            "hooks_url": "https://api.github.com/repos/flutter/flutter-intellij/hooks",
+            "html_url": "https://github.com/flutter/flutter-intellij",
+            "id": 64172164,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/flutter/flutter-intellij/issues{/number}",
+            "keys_url": "https://api.github.com/repos/flutter/flutter-intellij/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/flutter/flutter-intellij/labels{/name}",
+            "language": "Java",
+            "languages_url": "https://api.github.com/repos/flutter/flutter-intellij/languages",
+            "license": {
+                "key": "bsd-3-clause",
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "node_id": "MDc6TGljZW5zZTU=",
+                "spdx_id": "BSD-3-Clause",
+                "url": "https://api.github.com/licenses/bsd-3-clause"
+            },
+            "merges_url": "https://api.github.com/repos/flutter/flutter-intellij/merges",
+            "milestones_url": "https://api.github.com/repos/flutter/flutter-intellij/milestones{/number}",
+            "mirror_url": null,
+            "name": "flutter-intellij",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2NDE3MjE2NA==",
+            "notifications_url": "https://api.github.com/repos/flutter/flutter-intellij/notifications{?since,all,participating}",
+            "open_issues": 514,
+            "open_issues_count": 514,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+                "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+                "followers_url": "https://api.github.com/users/flutter/followers",
+                "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+                "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/flutter",
+                "id": 14101776,
+                "login": "flutter",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+                "organizations_url": "https://api.github.com/users/flutter/orgs",
+                "received_events_url": "https://api.github.com/users/flutter/received_events",
+                "repos_url": "https://api.github.com/users/flutter/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/flutter"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls{/number}",
+            "pushed_at": "2022-10-03T08:04:48Z",
+            "releases_url": "https://api.github.com/repos/flutter/flutter-intellij/releases{/id}",
+            "size": 160091,
+            "ssh_url": "git@github.com:flutter/flutter-intellij.git",
+            "stargazers_count": 1802,
+            "stargazers_url": "https://api.github.com/repos/flutter/flutter-intellij/stargazers",
+            "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/flutter/flutter-intellij/subscribers",
+            "subscription_url": "https://api.github.com/repos/flutter/flutter-intellij/subscription",
+            "svn_url": "https://github.com/flutter/flutter-intellij",
+            "tags_url": "https://api.github.com/repos/flutter/flutter-intellij/tags",
+            "teams_url": "https://api.github.com/repos/flutter/flutter-intellij/teams",
+            "topics": [
+                "flutter",
+                "intellij-plugin",
+                "java"
+            ],
+            "trees_url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees{/sha}",
+            "updated_at": "2022-10-03T05:16:49Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij",
+            "visibility": "public",
+            "watchers": 1802,
+            "watchers_count": 1802,
+            "web_commit_signoff_required": false
+        },
+        "sha": "f16fb41436ed8aa88e62a224fb84a511a5eca271",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+            "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+            "followers_url": "https://api.github.com/users/flutter/followers",
+            "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+            "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/flutter",
+            "id": 14101776,
+            "login": "flutter",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+            "organizations_url": "https://api.github.com/users/flutter/orgs",
+            "received_events_url": "https://api.github.com/users/flutter/received_events",
+            "repos_url": "https://api.github.com/users/flutter/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/flutter"
+        }
+    },
+    "body": "This pull request updates `stless`, `stful`, `stanim` live templates to include constructor. Resolves #5374 \r\n\r\nExample for `stless`:\r\n\r\n\r\nhttps://user-images.githubusercontent.com/33684401/115884683-22219380-a48a-11eb-8694-3157e48d8dc9.mov\r\n\r\n\r\n\r\n",
+    "closed_at": "2021-04-23T14:14:53Z",
+    "comment_data": [],
+    "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/5405/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/33684401?v=4",
+                "events_url": "https://api.github.com/users/JuYeong0413/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JuYeong0413/followers",
+                "following_url": "https://api.github.com/users/JuYeong0413/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JuYeong0413/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JuYeong0413",
+                "id": 33684401,
+                "login": "JuYeong0413",
+                "node_id": "MDQ6VXNlcjMzNjg0NDAx",
+                "organizations_url": "https://api.github.com/users/JuYeong0413/orgs",
+                "received_events_url": "https://api.github.com/users/JuYeong0413/received_events",
+                "repos_url": "https://api.github.com/users/JuYeong0413/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JuYeong0413/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JuYeong0413/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JuYeong0413"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/a483401510e7325d9613c7e984623ca3c977f910/comments",
+            "commit": {
+                "author": {
+                    "date": "2021-04-10T02:55:24Z",
+                    "email": "2jy22@naver.com",
+                    "name": "Juyeong Lee"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2021-04-10T02:55:24Z",
+                    "email": "2jy22@naver.com",
+                    "name": "Juyeong Lee"
+                },
+                "message": "Add constructor in stless live template",
+                "tree": {
+                    "sha": "df852ee9fcc59ad42d8b4c75db03e7090b48875c",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/df852ee9fcc59ad42d8b4c75db03e7090b48875c"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/a483401510e7325d9613c7e984623ca3c977f910",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/33684401?v=4",
+                "events_url": "https://api.github.com/users/JuYeong0413/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JuYeong0413/followers",
+                "following_url": "https://api.github.com/users/JuYeong0413/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JuYeong0413/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JuYeong0413",
+                "id": 33684401,
+                "login": "JuYeong0413",
+                "node_id": "MDQ6VXNlcjMzNjg0NDAx",
+                "organizations_url": "https://api.github.com/users/JuYeong0413/orgs",
+                "received_events_url": "https://api.github.com/users/JuYeong0413/received_events",
+                "repos_url": "https://api.github.com/users/JuYeong0413/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JuYeong0413/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JuYeong0413/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JuYeong0413"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/a483401510e7325d9613c7e984623ca3c977f910",
+            "node_id": "MDY6Q29tbWl0MzUwNzcwOTczOmE0ODM0MDE1MTBlNzMyNWQ5NjEzYzdlOTg0NjIzY2EzYzk3N2Y5MTA=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/7b2a150a073afa145073daa9298ee04ac49b6bf1",
+                    "sha": "7b2a150a073afa145073daa9298ee04ac49b6bf1",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/7b2a150a073afa145073daa9298ee04ac49b6bf1"
+                }
+            ],
+            "sha": "a483401510e7325d9613c7e984623ca3c977f910",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/a483401510e7325d9613c7e984623ca3c977f910"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/33684401?v=4",
+                "events_url": "https://api.github.com/users/JuYeong0413/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JuYeong0413/followers",
+                "following_url": "https://api.github.com/users/JuYeong0413/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JuYeong0413/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JuYeong0413",
+                "id": 33684401,
+                "login": "JuYeong0413",
+                "node_id": "MDQ6VXNlcjMzNjg0NDAx",
+                "organizations_url": "https://api.github.com/users/JuYeong0413/orgs",
+                "received_events_url": "https://api.github.com/users/JuYeong0413/received_events",
+                "repos_url": "https://api.github.com/users/JuYeong0413/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JuYeong0413/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JuYeong0413/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JuYeong0413"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/5eb18d3d445264aec4df49f278f72fa0c4d5ae82/comments",
+            "commit": {
+                "author": {
+                    "date": "2021-04-10T02:57:26Z",
+                    "email": "2jy22@naver.com",
+                    "name": "Juyeong Lee"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2021-04-10T02:57:26Z",
+                    "email": "2jy22@naver.com",
+                    "name": "Juyeong Lee"
+                },
+                "message": "Add constructor in stful live template",
+                "tree": {
+                    "sha": "82da8c259f8d2fe260a43ad6aafceeebd87184a6",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/82da8c259f8d2fe260a43ad6aafceeebd87184a6"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/5eb18d3d445264aec4df49f278f72fa0c4d5ae82",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/33684401?v=4",
+                "events_url": "https://api.github.com/users/JuYeong0413/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JuYeong0413/followers",
+                "following_url": "https://api.github.com/users/JuYeong0413/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JuYeong0413/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JuYeong0413",
+                "id": 33684401,
+                "login": "JuYeong0413",
+                "node_id": "MDQ6VXNlcjMzNjg0NDAx",
+                "organizations_url": "https://api.github.com/users/JuYeong0413/orgs",
+                "received_events_url": "https://api.github.com/users/JuYeong0413/received_events",
+                "repos_url": "https://api.github.com/users/JuYeong0413/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JuYeong0413/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JuYeong0413/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JuYeong0413"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/5eb18d3d445264aec4df49f278f72fa0c4d5ae82",
+            "node_id": "MDY6Q29tbWl0MzUwNzcwOTczOjVlYjE4ZDNkNDQ1MjY0YWVjNGRmNDlmMjc4ZjcyZmEwYzRkNWFlODI=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/a483401510e7325d9613c7e984623ca3c977f910",
+                    "sha": "a483401510e7325d9613c7e984623ca3c977f910",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/a483401510e7325d9613c7e984623ca3c977f910"
+                }
+            ],
+            "sha": "5eb18d3d445264aec4df49f278f72fa0c4d5ae82",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/5eb18d3d445264aec4df49f278f72fa0c4d5ae82"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/33684401?v=4",
+                "events_url": "https://api.github.com/users/JuYeong0413/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JuYeong0413/followers",
+                "following_url": "https://api.github.com/users/JuYeong0413/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JuYeong0413/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JuYeong0413",
+                "id": 33684401,
+                "login": "JuYeong0413",
+                "node_id": "MDQ6VXNlcjMzNjg0NDAx",
+                "organizations_url": "https://api.github.com/users/JuYeong0413/orgs",
+                "received_events_url": "https://api.github.com/users/JuYeong0413/received_events",
+                "repos_url": "https://api.github.com/users/JuYeong0413/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JuYeong0413/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JuYeong0413/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JuYeong0413"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/02c1451acfdf435608824a6c1f25563752e66a24/comments",
+            "commit": {
+                "author": {
+                    "date": "2021-04-10T03:04:09Z",
+                    "email": "2jy22@naver.com",
+                    "name": "Juyeong Lee"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2021-04-10T03:04:09Z",
+                    "email": "2jy22@naver.com",
+                    "name": "Juyeong Lee"
+                },
+                "message": "Add constructor in stanim live template",
+                "tree": {
+                    "sha": "66a1f3fcfc37abdb2a61cfafde685eb0bcf87d68",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/66a1f3fcfc37abdb2a61cfafde685eb0bcf87d68"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/02c1451acfdf435608824a6c1f25563752e66a24",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/33684401?v=4",
+                "events_url": "https://api.github.com/users/JuYeong0413/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JuYeong0413/followers",
+                "following_url": "https://api.github.com/users/JuYeong0413/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JuYeong0413/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JuYeong0413",
+                "id": 33684401,
+                "login": "JuYeong0413",
+                "node_id": "MDQ6VXNlcjMzNjg0NDAx",
+                "organizations_url": "https://api.github.com/users/JuYeong0413/orgs",
+                "received_events_url": "https://api.github.com/users/JuYeong0413/received_events",
+                "repos_url": "https://api.github.com/users/JuYeong0413/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JuYeong0413/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JuYeong0413/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JuYeong0413"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/02c1451acfdf435608824a6c1f25563752e66a24",
+            "node_id": "MDY6Q29tbWl0MzUwNzcwOTczOjAyYzE0NTFhY2ZkZjQzNTYwODgyNGE2YzFmMjU1NjM3NTJlNjZhMjQ=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/5eb18d3d445264aec4df49f278f72fa0c4d5ae82",
+                    "sha": "5eb18d3d445264aec4df49f278f72fa0c4d5ae82",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/5eb18d3d445264aec4df49f278f72fa0c4d5ae82"
+                }
+            ],
+            "sha": "02c1451acfdf435608824a6c1f25563752e66a24",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/02c1451acfdf435608824a6c1f25563752e66a24"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/33684401?v=4",
+                "events_url": "https://api.github.com/users/JuYeong0413/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JuYeong0413/followers",
+                "following_url": "https://api.github.com/users/JuYeong0413/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JuYeong0413/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JuYeong0413",
+                "id": 33684401,
+                "login": "JuYeong0413",
+                "node_id": "MDQ6VXNlcjMzNjg0NDAx",
+                "organizations_url": "https://api.github.com/users/JuYeong0413/orgs",
+                "received_events_url": "https://api.github.com/users/JuYeong0413/received_events",
+                "repos_url": "https://api.github.com/users/JuYeong0413/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JuYeong0413/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JuYeong0413/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JuYeong0413"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/2e2ccf6eeeccc3073fdcb77e0bd9cfc8b2157d4a/comments",
+            "commit": {
+                "author": {
+                    "date": "2021-04-23T13:44:53Z",
+                    "email": "2jy22@naver.com",
+                    "name": "Juyeong Lee"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2021-04-23T13:44:53Z",
+                    "email": "2jy22@naver.com",
+                    "name": "Juyeong Lee"
+                },
+                "message": "Merge remote-tracking branch 'upstream/master' into live-template-constructor",
+                "tree": {
+                    "sha": "1e7bdf17c2a69a9448498ff4992c28ec36a2b966",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/1e7bdf17c2a69a9448498ff4992c28ec36a2b966"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/2e2ccf6eeeccc3073fdcb77e0bd9cfc8b2157d4a",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/33684401?v=4",
+                "events_url": "https://api.github.com/users/JuYeong0413/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JuYeong0413/followers",
+                "following_url": "https://api.github.com/users/JuYeong0413/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JuYeong0413/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JuYeong0413",
+                "id": 33684401,
+                "login": "JuYeong0413",
+                "node_id": "MDQ6VXNlcjMzNjg0NDAx",
+                "organizations_url": "https://api.github.com/users/JuYeong0413/orgs",
+                "received_events_url": "https://api.github.com/users/JuYeong0413/received_events",
+                "repos_url": "https://api.github.com/users/JuYeong0413/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JuYeong0413/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JuYeong0413/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JuYeong0413"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/2e2ccf6eeeccc3073fdcb77e0bd9cfc8b2157d4a",
+            "node_id": "MDY6Q29tbWl0MzUwNzcwOTczOjJlMmNjZjZlZWVjY2MzMDczZmRjYjc3ZTBiZDljZmM4YjIxNTdkNGE=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/02c1451acfdf435608824a6c1f25563752e66a24",
+                    "sha": "02c1451acfdf435608824a6c1f25563752e66a24",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/02c1451acfdf435608824a6c1f25563752e66a24"
+                },
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/f16fb41436ed8aa88e62a224fb84a511a5eca271",
+                    "sha": "f16fb41436ed8aa88e62a224fb84a511a5eca271",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/f16fb41436ed8aa88e62a224fb84a511a5eca271"
+                }
+            ],
+            "sha": "2e2ccf6eeeccc3073fdcb77e0bd9cfc8b2157d4a",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/2e2ccf6eeeccc3073fdcb77e0bd9cfc8b2157d4a"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/33684401?v=4",
+                "events_url": "https://api.github.com/users/JuYeong0413/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JuYeong0413/followers",
+                "following_url": "https://api.github.com/users/JuYeong0413/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JuYeong0413/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JuYeong0413",
+                "id": 33684401,
+                "login": "JuYeong0413",
+                "node_id": "MDQ6VXNlcjMzNjg0NDAx",
+                "organizations_url": "https://api.github.com/users/JuYeong0413/orgs",
+                "received_events_url": "https://api.github.com/users/JuYeong0413/received_events",
+                "repos_url": "https://api.github.com/users/JuYeong0413/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JuYeong0413/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JuYeong0413/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JuYeong0413"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/1a481b5b0446f8e2e97eb7f699a5cdf284c5e93e/comments",
+            "commit": {
+                "author": {
+                    "date": "2021-04-23T14:03:09Z",
+                    "email": "2jy22@naver.com",
+                    "name": "Juyeong Lee"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2021-04-23T14:03:09Z",
+                    "email": "2jy22@naver.com",
+                    "name": "Juyeong Lee"
+                },
+                "message": "Remove null aware operator",
+                "tree": {
+                    "sha": "de41d88af844f1c6cef982b8f4c1d8e175035fed",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/de41d88af844f1c6cef982b8f4c1d8e175035fed"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/1a481b5b0446f8e2e97eb7f699a5cdf284c5e93e",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/33684401?v=4",
+                "events_url": "https://api.github.com/users/JuYeong0413/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JuYeong0413/followers",
+                "following_url": "https://api.github.com/users/JuYeong0413/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JuYeong0413/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JuYeong0413",
+                "id": 33684401,
+                "login": "JuYeong0413",
+                "node_id": "MDQ6VXNlcjMzNjg0NDAx",
+                "organizations_url": "https://api.github.com/users/JuYeong0413/orgs",
+                "received_events_url": "https://api.github.com/users/JuYeong0413/received_events",
+                "repos_url": "https://api.github.com/users/JuYeong0413/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JuYeong0413/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JuYeong0413/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JuYeong0413"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/1a481b5b0446f8e2e97eb7f699a5cdf284c5e93e",
+            "node_id": "MDY6Q29tbWl0MzUwNzcwOTczOjFhNDgxYjViMDQ0NmY4ZTJlOTdlYjdmNjk5YTVjZGYyODRjNWU5M2U=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/2e2ccf6eeeccc3073fdcb77e0bd9cfc8b2157d4a",
+                    "sha": "2e2ccf6eeeccc3073fdcb77e0bd9cfc8b2157d4a",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/2e2ccf6eeeccc3073fdcb77e0bd9cfc8b2157d4a"
+                }
+            ],
+            "sha": "1a481b5b0446f8e2e97eb7f699a5cdf284c5e93e",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/1a481b5b0446f8e2e97eb7f699a5cdf284c5e93e"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5405/commits",
+    "created_at": "2021-04-13T14:40:35Z",
+    "diff_url": "https://github.com/flutter/flutter-intellij/pull/5405.diff",
+    "draft": false,
+    "head": {
+        "label": "JuYeong0413:live-template-constructor",
+        "ref": "live-template-constructor",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/branches{/branch}",
+            "clone_url": "https://github.com/JuYeong0413/flutter-intellij.git",
+            "collaborators_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/comments{/number}",
+            "commits_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/contributors",
+            "created_at": "2021-03-23T15:53:16Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/deployments",
+            "description": "Flutter makes it easy and fast to build beautiful mobile apps.",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/downloads",
+            "events_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/events",
+            "fork": true,
+            "forks": 0,
+            "forks_count": 0,
+            "forks_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/forks",
+            "full_name": "JuYeong0413/flutter-intellij",
+            "git_commits_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/git/tags{/sha}",
+            "git_url": "git://github.com/JuYeong0413/flutter-intellij.git",
+            "has_downloads": true,
+            "has_issues": false,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "https://flutter.dev/using-ide",
+            "hooks_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/hooks",
+            "html_url": "https://github.com/JuYeong0413/flutter-intellij",
+            "id": 350770973,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/issues{/number}",
+            "keys_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/labels{/name}",
+            "language": "Java",
+            "languages_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/languages",
+            "license": {
+                "key": "bsd-3-clause",
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "node_id": "MDc6TGljZW5zZTU=",
+                "spdx_id": "BSD-3-Clause",
+                "url": "https://api.github.com/licenses/bsd-3-clause"
+            },
+            "merges_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/merges",
+            "milestones_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/milestones{/number}",
+            "mirror_url": null,
+            "name": "flutter-intellij",
+            "node_id": "MDEwOlJlcG9zaXRvcnkzNTA3NzA5NzM=",
+            "notifications_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/33684401?v=4",
+                "events_url": "https://api.github.com/users/JuYeong0413/events{/privacy}",
+                "followers_url": "https://api.github.com/users/JuYeong0413/followers",
+                "following_url": "https://api.github.com/users/JuYeong0413/following{/other_user}",
+                "gists_url": "https://api.github.com/users/JuYeong0413/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/JuYeong0413",
+                "id": 33684401,
+                "login": "JuYeong0413",
+                "node_id": "MDQ6VXNlcjMzNjg0NDAx",
+                "organizations_url": "https://api.github.com/users/JuYeong0413/orgs",
+                "received_events_url": "https://api.github.com/users/JuYeong0413/received_events",
+                "repos_url": "https://api.github.com/users/JuYeong0413/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/JuYeong0413/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/JuYeong0413/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/JuYeong0413"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/pulls{/number}",
+            "pushed_at": "2021-05-20T07:19:01Z",
+            "releases_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/releases{/id}",
+            "size": 89781,
+            "ssh_url": "git@github.com:JuYeong0413/flutter-intellij.git",
+            "stargazers_count": 0,
+            "stargazers_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/stargazers",
+            "statuses_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/subscribers",
+            "subscription_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/subscription",
+            "svn_url": "https://github.com/JuYeong0413/flutter-intellij",
+            "tags_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/tags",
+            "teams_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/teams",
+            "topics": [],
+            "trees_url": "https://api.github.com/repos/JuYeong0413/flutter-intellij/git/trees{/sha}",
+            "updated_at": "2021-05-20T02:34:56Z",
+            "url": "https://api.github.com/repos/JuYeong0413/flutter-intellij",
+            "visibility": "public",
+            "watchers": 0,
+            "watchers_count": 0,
+            "web_commit_signoff_required": false
+        },
+        "sha": "1a481b5b0446f8e2e97eb7f699a5cdf284c5e93e",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/33684401?v=4",
+            "events_url": "https://api.github.com/users/JuYeong0413/events{/privacy}",
+            "followers_url": "https://api.github.com/users/JuYeong0413/followers",
+            "following_url": "https://api.github.com/users/JuYeong0413/following{/other_user}",
+            "gists_url": "https://api.github.com/users/JuYeong0413/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/JuYeong0413",
+            "id": 33684401,
+            "login": "JuYeong0413",
+            "node_id": "MDQ6VXNlcjMzNjg0NDAx",
+            "organizations_url": "https://api.github.com/users/JuYeong0413/orgs",
+            "received_events_url": "https://api.github.com/users/JuYeong0413/received_events",
+            "repos_url": "https://api.github.com/users/JuYeong0413/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/JuYeong0413/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/JuYeong0413/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/JuYeong0413"
+        }
+    },
+    "html_url": "https://github.com/flutter/flutter-intellij/pull/5405",
+    "id": 614518308,
+    "issue_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/5405",
+    "labels": [
+        {
+            "color": "0e8a16",
+            "default": false,
+            "description": null,
+            "id": 487496526,
+            "name": "cla: yes",
+            "node_id": "MDU6TGFiZWw0ODc0OTY1MjY=",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/labels/cla:%20yes"
+        }
+    ],
+    "locked": false,
+    "merge_commit_sha": "491e53ec394aa080d744a903aa81a9756617d008",
+    "merged_at": "2021-04-23T14:14:52Z",
+    "milestone": null,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0NjE0NTE4MzA4",
+    "number": 5405,
+    "patch_url": "https://github.com/flutter/flutter-intellij/pull/5405.patch",
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5405/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/1a481b5b0446f8e2e97eb7f699a5cdf284c5e93e",
+    "title": "Add constructor in widget live templates",
+    "updated_at": "2021-05-19T16:10:20Z",
+    "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5405",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/33684401?v=4",
+        "events_url": "https://api.github.com/users/JuYeong0413/events{/privacy}",
+        "followers_url": "https://api.github.com/users/JuYeong0413/followers",
+        "following_url": "https://api.github.com/users/JuYeong0413/following{/other_user}",
+        "gists_url": "https://api.github.com/users/JuYeong0413/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/JuYeong0413",
+        "id": 33684401,
+        "login": "JuYeong0413",
+        "node_id": "MDQ6VXNlcjMzNjg0NDAx",
+        "organizations_url": "https://api.github.com/users/JuYeong0413/orgs",
+        "received_events_url": "https://api.github.com/users/JuYeong0413/received_events",
+        "repos_url": "https://api.github.com/users/JuYeong0413/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/JuYeong0413/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/JuYeong0413/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/JuYeong0413"
+    }
+}

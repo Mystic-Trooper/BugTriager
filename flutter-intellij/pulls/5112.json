@@ -1,0 +1,1700 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/issues/5112/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112/commits"
+        },
+        "html": {
+            "href": "https://github.com/flutter/flutter-intellij/pull/5112"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/issues/5112"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/statuses/10592e78baca6d6588c214b1d2b45238eca0fb66"
+        }
+    },
+    "active_lock_reason": null,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "MEMBER",
+    "auto_merge": null,
+    "base": {
+        "label": "flutter:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/flutter/flutter-intellij/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/flutter/flutter-intellij/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/flutter/flutter-intellij/branches{/branch}",
+            "clone_url": "https://github.com/flutter/flutter-intellij.git",
+            "collaborators_url": "https://api.github.com/repos/flutter/flutter-intellij/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/comments{/number}",
+            "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/flutter/flutter-intellij/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/flutter/flutter-intellij/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/flutter/flutter-intellij/contributors",
+            "created_at": "2016-07-25T22:31:03Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/flutter/flutter-intellij/deployments",
+            "description": "Flutter Plugin for IntelliJ",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/flutter/flutter-intellij/downloads",
+            "events_url": "https://api.github.com/repos/flutter/flutter-intellij/events",
+            "fork": false,
+            "forks": 308,
+            "forks_count": 308,
+            "forks_url": "https://api.github.com/repos/flutter/flutter-intellij/forks",
+            "full_name": "flutter/flutter-intellij",
+            "git_commits_url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/flutter/flutter-intellij/git/tags{/sha}",
+            "git_url": "git://github.com/flutter/flutter-intellij.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "https://flutter.dev/using-ide",
+            "hooks_url": "https://api.github.com/repos/flutter/flutter-intellij/hooks",
+            "html_url": "https://github.com/flutter/flutter-intellij",
+            "id": 64172164,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/flutter/flutter-intellij/issues{/number}",
+            "keys_url": "https://api.github.com/repos/flutter/flutter-intellij/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/flutter/flutter-intellij/labels{/name}",
+            "language": "Java",
+            "languages_url": "https://api.github.com/repos/flutter/flutter-intellij/languages",
+            "license": {
+                "key": "bsd-3-clause",
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "node_id": "MDc6TGljZW5zZTU=",
+                "spdx_id": "BSD-3-Clause",
+                "url": "https://api.github.com/licenses/bsd-3-clause"
+            },
+            "merges_url": "https://api.github.com/repos/flutter/flutter-intellij/merges",
+            "milestones_url": "https://api.github.com/repos/flutter/flutter-intellij/milestones{/number}",
+            "mirror_url": null,
+            "name": "flutter-intellij",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2NDE3MjE2NA==",
+            "notifications_url": "https://api.github.com/repos/flutter/flutter-intellij/notifications{?since,all,participating}",
+            "open_issues": 514,
+            "open_issues_count": 514,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+                "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+                "followers_url": "https://api.github.com/users/flutter/followers",
+                "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+                "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/flutter",
+                "id": 14101776,
+                "login": "flutter",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+                "organizations_url": "https://api.github.com/users/flutter/orgs",
+                "received_events_url": "https://api.github.com/users/flutter/received_events",
+                "repos_url": "https://api.github.com/users/flutter/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/flutter"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls{/number}",
+            "pushed_at": "2022-10-03T08:04:48Z",
+            "releases_url": "https://api.github.com/repos/flutter/flutter-intellij/releases{/id}",
+            "size": 160091,
+            "ssh_url": "git@github.com:flutter/flutter-intellij.git",
+            "stargazers_count": 1802,
+            "stargazers_url": "https://api.github.com/repos/flutter/flutter-intellij/stargazers",
+            "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/flutter/flutter-intellij/subscribers",
+            "subscription_url": "https://api.github.com/repos/flutter/flutter-intellij/subscription",
+            "svn_url": "https://github.com/flutter/flutter-intellij",
+            "tags_url": "https://api.github.com/repos/flutter/flutter-intellij/tags",
+            "teams_url": "https://api.github.com/repos/flutter/flutter-intellij/teams",
+            "topics": [
+                "flutter",
+                "intellij-plugin",
+                "java"
+            ],
+            "trees_url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees{/sha}",
+            "updated_at": "2022-10-03T05:16:49Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij",
+            "visibility": "public",
+            "watchers": 1802,
+            "watchers_count": 1802,
+            "web_commit_signoff_required": false
+        },
+        "sha": "5b41ef06e7a8f2eccd0ac8ef6ca026f1c942231e",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+            "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+            "followers_url": "https://api.github.com/users/flutter/followers",
+            "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+            "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/flutter",
+            "id": 14101776,
+            "login": "flutter",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+            "organizations_url": "https://api.github.com/users/flutter/orgs",
+            "received_events_url": "https://api.github.com/users/flutter/received_events",
+            "repos_url": "https://api.github.com/users/flutter/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/flutter"
+        }
+    },
+    "body": "This change is to start running a DevTools server for the duration of a project instead of having it associated with an application. \r\n\r\nCurrently we don't use the daemon to serve DevTools for non-bazel projects, but this should be okay once we're using `pub global run devtools` in flutter tools.",
+    "closed_at": "2020-12-10T23:48:35Z",
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r539838968"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/539838968"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "no need for an inner class. Nust write as a Lambda.",
+            "commit_id": "10592e78baca6d6588c214b1d2b45238eca0fb66",
+            "created_at": "2020-12-10T04:36:57Z",
+            "diff_hunk": "@@ -404,6 +408,14 @@ RestartResult parseResult(JsonElement result) {\n     }\n   }\n \n+  private static class DaemonShutdown extends Params<Boolean> {",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r539838968",
+            "id": 539838968,
+            "line": 411,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDUzOTgzODk2OA==",
+            "original_commit_id": "d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+            "original_line": 411,
+            "original_position": 15,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/daemon/DaemonApi.java",
+            "position": 15,
+            "pull_request_review_id": 548812647,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/539838968/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-12-10T23:35:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/539838968",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r539839445"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/539839445"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "have you tested that this code gracefully handles changing your flutter project?",
+            "commit_id": "10592e78baca6d6588c214b1d2b45238eca0fb66",
+            "created_at": "2020-12-10T04:38:25Z",
+            "diff_hunk": "@@ -0,0 +1,134 @@\n+/*\n+ * Copyright 2020 The Chromium Authors. All rights reserved.\n+ * Use of this source code is governed by a BSD-style license that can be\n+ * found in the LICENSE file.\n+ */\n+package io.flutter.run.daemon;\n+\n+import com.google.common.collect.ImmutableList;\n+import com.intellij.execution.ExecutionException;\n+import com.intellij.execution.configurations.GeneralCommandLine;\n+import com.intellij.execution.process.ProcessHandler;\n+import com.intellij.openapi.components.ServiceManager;\n+import com.intellij.openapi.project.Project;\n+import com.intellij.openapi.project.ProjectManager;\n+import com.intellij.openapi.project.ProjectManagerListener;\n+import com.intellij.openapi.util.io.FileUtil;\n+import com.intellij.openapi.vfs.CharsetToolkit;\n+import io.flutter.FlutterUtils;\n+import io.flutter.android.IntelliJAndroidSdk;\n+import io.flutter.bazel.Workspace;\n+import io.flutter.bazel.WorkspaceCache;\n+import io.flutter.sdk.FlutterSdk;\n+import io.flutter.sdk.FlutterSdkUtil;\n+import io.flutter.utils.MostlySilentOsProcessHandler;\n+import org.jetbrains.annotations.NotNull;\n+\n+import static com.jetbrains.lang.dart.ide.runner.server.vmService.VmServiceWrapper.LOG;\n+\n+public class DevToolsService {\n+  private class DevToolsServiceListener implements DaemonEvent.Listener {\n+  }\n+\n+  @NotNull private final Project project;\n+  private DaemonApi daemonApi;\n+  private ProcessHandler process;\n+  private DevToolsInstance devToolsInstance;\n+\n+  @NotNull\n+  public static DevToolsService getInstance(@NotNull final Project project) {\n+    return ServiceManager.getService(project, DevToolsService.class);\n+  }\n+\n+  private DevToolsService(@NotNull final Project project) {\n+    this.project = project;\n+    try {",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r539839445",
+            "id": 539839445,
+            "line": 48,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDUzOTgzOTQ0NQ==",
+            "original_commit_id": "d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+            "original_line": 45,
+            "original_position": 45,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/daemon/DevToolsService.java",
+            "position": 48,
+            "pull_request_review_id": 548813087,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/539839445/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-12-10T23:35:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/539839445",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r539840213"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/539840213"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "what happens if the flutter sdk changes once this is already initialized?",
+            "commit_id": "10592e78baca6d6588c214b1d2b45238eca0fb66",
+            "created_at": "2020-12-10T04:40:48Z",
+            "diff_hunk": "@@ -0,0 +1,134 @@\n+/*\n+ * Copyright 2020 The Chromium Authors. All rights reserved.\n+ * Use of this source code is governed by a BSD-style license that can be\n+ * found in the LICENSE file.\n+ */\n+package io.flutter.run.daemon;\n+\n+import com.google.common.collect.ImmutableList;\n+import com.intellij.execution.ExecutionException;\n+import com.intellij.execution.configurations.GeneralCommandLine;\n+import com.intellij.execution.process.ProcessHandler;\n+import com.intellij.openapi.components.ServiceManager;\n+import com.intellij.openapi.project.Project;\n+import com.intellij.openapi.project.ProjectManager;\n+import com.intellij.openapi.project.ProjectManagerListener;\n+import com.intellij.openapi.util.io.FileUtil;\n+import com.intellij.openapi.vfs.CharsetToolkit;\n+import io.flutter.FlutterUtils;\n+import io.flutter.android.IntelliJAndroidSdk;\n+import io.flutter.bazel.Workspace;\n+import io.flutter.bazel.WorkspaceCache;\n+import io.flutter.sdk.FlutterSdk;\n+import io.flutter.sdk.FlutterSdkUtil;\n+import io.flutter.utils.MostlySilentOsProcessHandler;\n+import org.jetbrains.annotations.NotNull;\n+\n+import static com.jetbrains.lang.dart.ide.runner.server.vmService.VmServiceWrapper.LOG;\n+\n+public class DevToolsService {\n+  private class DevToolsServiceListener implements DaemonEvent.Listener {\n+  }\n+\n+  @NotNull private final Project project;\n+  private DaemonApi daemonApi;\n+  private ProcessHandler process;\n+  private DevToolsInstance devToolsInstance;\n+\n+  @NotNull\n+  public static DevToolsService getInstance(@NotNull final Project project) {\n+    return ServiceManager.getService(project, DevToolsService.class);\n+  }\n+\n+  private DevToolsService(@NotNull final Project project) {\n+    this.project = project;\n+    try {\n+      final GeneralCommandLine command = chooseCommand(project);\n+      assert command != null;\n+      this.process = new MostlySilentOsProcessHandler(command);\n+      daemonApi = new DaemonApi(process);\n+      daemonApi.listen(process, new DevToolsServiceListener());\n+      daemonApi.devToolsServe().thenAccept((DaemonApi.DevToolsAddress address) -> {\n+        if (!project.isOpen()) {\n+          // We should skip starting DevTools (and doing any UI work) if the project has been closed.\n+          return;\n+        }\n+        if (address == null) {\n+          LOG.error(\"DevTools address was null\");\n+        }\n+        else {\n+          devToolsInstance = new DevToolsInstance(address.host, address.port);\n+        }\n+      });\n+    }\n+    catch (ExecutionException e) {\n+      e.printStackTrace();\n+    }\n+\n+    ProjectManager.getInstance().addProjectManagerListener(project, new ProjectManagerListener() {\n+      @Override\n+      public void projectClosing(@NotNull Project project) {\n+        daemonApi.daemonShutdown();\n+        if (!process.isProcessTerminated()) {\n+          process.destroyProcess();\n+        }\n+      }\n+    });\n+  }\n+\n+  private static GeneralCommandLine chooseCommand(@NotNull final Project project) {\n+    final String androidHome = IntelliJAndroidSdk.chooseAndroidHome(project, false);\n+\n+    // Use daemon script if this is a bazel project.\n+    final Workspace workspace = WorkspaceCache.getInstance(project).get();\n+    if (workspace != null) {\n+      final String script = workspace.getDaemonScript();\n+      if (script != null) {\n+        return createCommand(workspace.getRoot().getPath(), script, ImmutableList.of(), androidHome);\n+      }\n+\n+    }\n+\n+    // Otherwise, use the Flutter SDK.\n+    final FlutterSdk sdk = FlutterSdk.getFlutterSdk(project);",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r539840213",
+            "id": 539840213,
+            "line": 104,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDUzOTg0MDIxMw==",
+            "original_commit_id": "d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+            "original_line": 93,
+            "original_position": 93,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/daemon/DevToolsService.java",
+            "position": 104,
+            "pull_request_review_id": 548813770,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/539840213/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-12-10T23:35:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/539840213",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r539841745"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/539841745"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "why are we passing android home in. That seems like it has nothing to do with serving devtools. We should either share this code with the regular code to launch the daemon or remove code that is unrelated to the launching a daemon just to serve devtools.",
+            "commit_id": "10592e78baca6d6588c214b1d2b45238eca0fb66",
+            "created_at": "2020-12-10T04:45:36Z",
+            "diff_hunk": "@@ -0,0 +1,134 @@\n+/*\n+ * Copyright 2020 The Chromium Authors. All rights reserved.\n+ * Use of this source code is governed by a BSD-style license that can be\n+ * found in the LICENSE file.\n+ */\n+package io.flutter.run.daemon;\n+\n+import com.google.common.collect.ImmutableList;\n+import com.intellij.execution.ExecutionException;\n+import com.intellij.execution.configurations.GeneralCommandLine;\n+import com.intellij.execution.process.ProcessHandler;\n+import com.intellij.openapi.components.ServiceManager;\n+import com.intellij.openapi.project.Project;\n+import com.intellij.openapi.project.ProjectManager;\n+import com.intellij.openapi.project.ProjectManagerListener;\n+import com.intellij.openapi.util.io.FileUtil;\n+import com.intellij.openapi.vfs.CharsetToolkit;\n+import io.flutter.FlutterUtils;\n+import io.flutter.android.IntelliJAndroidSdk;\n+import io.flutter.bazel.Workspace;\n+import io.flutter.bazel.WorkspaceCache;\n+import io.flutter.sdk.FlutterSdk;\n+import io.flutter.sdk.FlutterSdkUtil;\n+import io.flutter.utils.MostlySilentOsProcessHandler;\n+import org.jetbrains.annotations.NotNull;\n+\n+import static com.jetbrains.lang.dart.ide.runner.server.vmService.VmServiceWrapper.LOG;\n+\n+public class DevToolsService {\n+  private class DevToolsServiceListener implements DaemonEvent.Listener {\n+  }\n+\n+  @NotNull private final Project project;\n+  private DaemonApi daemonApi;\n+  private ProcessHandler process;\n+  private DevToolsInstance devToolsInstance;\n+\n+  @NotNull\n+  public static DevToolsService getInstance(@NotNull final Project project) {\n+    return ServiceManager.getService(project, DevToolsService.class);\n+  }\n+\n+  private DevToolsService(@NotNull final Project project) {\n+    this.project = project;\n+    try {\n+      final GeneralCommandLine command = chooseCommand(project);\n+      assert command != null;\n+      this.process = new MostlySilentOsProcessHandler(command);\n+      daemonApi = new DaemonApi(process);\n+      daemonApi.listen(process, new DevToolsServiceListener());\n+      daemonApi.devToolsServe().thenAccept((DaemonApi.DevToolsAddress address) -> {\n+        if (!project.isOpen()) {\n+          // We should skip starting DevTools (and doing any UI work) if the project has been closed.\n+          return;\n+        }\n+        if (address == null) {\n+          LOG.error(\"DevTools address was null\");\n+        }\n+        else {\n+          devToolsInstance = new DevToolsInstance(address.host, address.port);\n+        }\n+      });\n+    }\n+    catch (ExecutionException e) {\n+      e.printStackTrace();\n+    }\n+\n+    ProjectManager.getInstance().addProjectManagerListener(project, new ProjectManagerListener() {\n+      @Override\n+      public void projectClosing(@NotNull Project project) {\n+        daemonApi.daemonShutdown();\n+        if (!process.isProcessTerminated()) {\n+          process.destroyProcess();\n+        }\n+      }\n+    });\n+  }\n+\n+  private static GeneralCommandLine chooseCommand(@NotNull final Project project) {\n+    final String androidHome = IntelliJAndroidSdk.chooseAndroidHome(project, false);",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r539841745",
+            "id": 539841745,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDUzOTg0MTc0NQ==",
+            "original_commit_id": "d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+            "original_line": 80,
+            "original_position": 80,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/daemon/DevToolsService.java",
+            "position": null,
+            "pull_request_review_id": 548815197,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112",
+            "reactions": {
+                "+1": 1,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 1,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/539841745/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-12-10T23:35:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/539841745",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r539842529"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/539842529"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "How can a caller of this know whether the devtools instance has started yet or not?\r\nPerhaps vend a CompletableFuture with the devToolsInstance or a boolean indicating the service has started.",
+            "commit_id": "10592e78baca6d6588c214b1d2b45238eca0fb66",
+            "created_at": "2020-12-10T04:48:05Z",
+            "diff_hunk": "@@ -0,0 +1,134 @@\n+/*\n+ * Copyright 2020 The Chromium Authors. All rights reserved.\n+ * Use of this source code is governed by a BSD-style license that can be\n+ * found in the LICENSE file.\n+ */\n+package io.flutter.run.daemon;\n+\n+import com.google.common.collect.ImmutableList;\n+import com.intellij.execution.ExecutionException;\n+import com.intellij.execution.configurations.GeneralCommandLine;\n+import com.intellij.execution.process.ProcessHandler;\n+import com.intellij.openapi.components.ServiceManager;\n+import com.intellij.openapi.project.Project;\n+import com.intellij.openapi.project.ProjectManager;\n+import com.intellij.openapi.project.ProjectManagerListener;\n+import com.intellij.openapi.util.io.FileUtil;\n+import com.intellij.openapi.vfs.CharsetToolkit;\n+import io.flutter.FlutterUtils;\n+import io.flutter.android.IntelliJAndroidSdk;\n+import io.flutter.bazel.Workspace;\n+import io.flutter.bazel.WorkspaceCache;\n+import io.flutter.sdk.FlutterSdk;\n+import io.flutter.sdk.FlutterSdkUtil;\n+import io.flutter.utils.MostlySilentOsProcessHandler;\n+import org.jetbrains.annotations.NotNull;\n+\n+import static com.jetbrains.lang.dart.ide.runner.server.vmService.VmServiceWrapper.LOG;\n+\n+public class DevToolsService {\n+  private class DevToolsServiceListener implements DaemonEvent.Listener {\n+  }\n+\n+  @NotNull private final Project project;\n+  private DaemonApi daemonApi;\n+  private ProcessHandler process;\n+  private DevToolsInstance devToolsInstance;",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r539842529",
+            "id": 539842529,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDUzOTg0MjUyOQ==",
+            "original_commit_id": "d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+            "original_line": 36,
+            "original_position": 36,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/daemon/DevToolsService.java",
+            "position": null,
+            "pull_request_review_id": 548815920,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112",
+            "reactions": {
+                "+1": 1,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 1,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/539842529/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-12-10T23:35:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/539842529",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540433345"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540433345"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Hmm.. I'm not sure what this would look like, i.e. how does someone change the project? If they open a new project, the project will get its own devtools server. ",
+            "commit_id": "10592e78baca6d6588c214b1d2b45238eca0fb66",
+            "created_at": "2020-12-10T19:20:52Z",
+            "diff_hunk": "@@ -0,0 +1,134 @@\n+/*\n+ * Copyright 2020 The Chromium Authors. All rights reserved.\n+ * Use of this source code is governed by a BSD-style license that can be\n+ * found in the LICENSE file.\n+ */\n+package io.flutter.run.daemon;\n+\n+import com.google.common.collect.ImmutableList;\n+import com.intellij.execution.ExecutionException;\n+import com.intellij.execution.configurations.GeneralCommandLine;\n+import com.intellij.execution.process.ProcessHandler;\n+import com.intellij.openapi.components.ServiceManager;\n+import com.intellij.openapi.project.Project;\n+import com.intellij.openapi.project.ProjectManager;\n+import com.intellij.openapi.project.ProjectManagerListener;\n+import com.intellij.openapi.util.io.FileUtil;\n+import com.intellij.openapi.vfs.CharsetToolkit;\n+import io.flutter.FlutterUtils;\n+import io.flutter.android.IntelliJAndroidSdk;\n+import io.flutter.bazel.Workspace;\n+import io.flutter.bazel.WorkspaceCache;\n+import io.flutter.sdk.FlutterSdk;\n+import io.flutter.sdk.FlutterSdkUtil;\n+import io.flutter.utils.MostlySilentOsProcessHandler;\n+import org.jetbrains.annotations.NotNull;\n+\n+import static com.jetbrains.lang.dart.ide.runner.server.vmService.VmServiceWrapper.LOG;\n+\n+public class DevToolsService {\n+  private class DevToolsServiceListener implements DaemonEvent.Listener {\n+  }\n+\n+  @NotNull private final Project project;\n+  private DaemonApi daemonApi;\n+  private ProcessHandler process;\n+  private DevToolsInstance devToolsInstance;\n+\n+  @NotNull\n+  public static DevToolsService getInstance(@NotNull final Project project) {\n+    return ServiceManager.getService(project, DevToolsService.class);\n+  }\n+\n+  private DevToolsService(@NotNull final Project project) {\n+    this.project = project;\n+    try {",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540433345",
+            "id": 540433345,
+            "in_reply_to_id": 539839445,
+            "line": 48,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDU0MDQzMzM0NQ==",
+            "original_commit_id": "d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+            "original_line": 45,
+            "original_position": 45,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/daemon/DevToolsService.java",
+            "position": 48,
+            "pull_request_review_id": 549526053,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540433345/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-12-10T23:35:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540433345",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540433421"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540433421"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Ah I didn't understand why this was relevant for DeviceService (where I copied this code from), but I think I can just delete this.",
+            "commit_id": "10592e78baca6d6588c214b1d2b45238eca0fb66",
+            "created_at": "2020-12-10T19:21:00Z",
+            "diff_hunk": "@@ -0,0 +1,134 @@\n+/*\n+ * Copyright 2020 The Chromium Authors. All rights reserved.\n+ * Use of this source code is governed by a BSD-style license that can be\n+ * found in the LICENSE file.\n+ */\n+package io.flutter.run.daemon;\n+\n+import com.google.common.collect.ImmutableList;\n+import com.intellij.execution.ExecutionException;\n+import com.intellij.execution.configurations.GeneralCommandLine;\n+import com.intellij.execution.process.ProcessHandler;\n+import com.intellij.openapi.components.ServiceManager;\n+import com.intellij.openapi.project.Project;\n+import com.intellij.openapi.project.ProjectManager;\n+import com.intellij.openapi.project.ProjectManagerListener;\n+import com.intellij.openapi.util.io.FileUtil;\n+import com.intellij.openapi.vfs.CharsetToolkit;\n+import io.flutter.FlutterUtils;\n+import io.flutter.android.IntelliJAndroidSdk;\n+import io.flutter.bazel.Workspace;\n+import io.flutter.bazel.WorkspaceCache;\n+import io.flutter.sdk.FlutterSdk;\n+import io.flutter.sdk.FlutterSdkUtil;\n+import io.flutter.utils.MostlySilentOsProcessHandler;\n+import org.jetbrains.annotations.NotNull;\n+\n+import static com.jetbrains.lang.dart.ide.runner.server.vmService.VmServiceWrapper.LOG;\n+\n+public class DevToolsService {\n+  private class DevToolsServiceListener implements DaemonEvent.Listener {\n+  }\n+\n+  @NotNull private final Project project;\n+  private DaemonApi daemonApi;\n+  private ProcessHandler process;\n+  private DevToolsInstance devToolsInstance;\n+\n+  @NotNull\n+  public static DevToolsService getInstance(@NotNull final Project project) {\n+    return ServiceManager.getService(project, DevToolsService.class);\n+  }\n+\n+  private DevToolsService(@NotNull final Project project) {\n+    this.project = project;\n+    try {\n+      final GeneralCommandLine command = chooseCommand(project);\n+      assert command != null;\n+      this.process = new MostlySilentOsProcessHandler(command);\n+      daemonApi = new DaemonApi(process);\n+      daemonApi.listen(process, new DevToolsServiceListener());\n+      daemonApi.devToolsServe().thenAccept((DaemonApi.DevToolsAddress address) -> {\n+        if (!project.isOpen()) {\n+          // We should skip starting DevTools (and doing any UI work) if the project has been closed.\n+          return;\n+        }\n+        if (address == null) {\n+          LOG.error(\"DevTools address was null\");\n+        }\n+        else {\n+          devToolsInstance = new DevToolsInstance(address.host, address.port);\n+        }\n+      });\n+    }\n+    catch (ExecutionException e) {\n+      e.printStackTrace();\n+    }\n+\n+    ProjectManager.getInstance().addProjectManagerListener(project, new ProjectManagerListener() {\n+      @Override\n+      public void projectClosing(@NotNull Project project) {\n+        daemonApi.daemonShutdown();\n+        if (!process.isProcessTerminated()) {\n+          process.destroyProcess();\n+        }\n+      }\n+    });\n+  }\n+\n+  private static GeneralCommandLine chooseCommand(@NotNull final Project project) {\n+    final String androidHome = IntelliJAndroidSdk.chooseAndroidHome(project, false);",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540433421",
+            "id": 540433421,
+            "in_reply_to_id": 539841745,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDU0MDQzMzQyMQ==",
+            "original_commit_id": "d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+            "original_line": 80,
+            "original_position": 80,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/daemon/DevToolsService.java",
+            "position": null,
+            "pull_request_review_id": 549526156,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540433421/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-12-10T23:35:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540433421",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540433494"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540433494"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "At this point nothing - the server will keep running and presumably there aren't many cases where users need a different version of devtools while working on a project. Are you thinking of some situations where this would be a problem?",
+            "commit_id": "10592e78baca6d6588c214b1d2b45238eca0fb66",
+            "created_at": "2020-12-10T19:21:07Z",
+            "diff_hunk": "@@ -0,0 +1,134 @@\n+/*\n+ * Copyright 2020 The Chromium Authors. All rights reserved.\n+ * Use of this source code is governed by a BSD-style license that can be\n+ * found in the LICENSE file.\n+ */\n+package io.flutter.run.daemon;\n+\n+import com.google.common.collect.ImmutableList;\n+import com.intellij.execution.ExecutionException;\n+import com.intellij.execution.configurations.GeneralCommandLine;\n+import com.intellij.execution.process.ProcessHandler;\n+import com.intellij.openapi.components.ServiceManager;\n+import com.intellij.openapi.project.Project;\n+import com.intellij.openapi.project.ProjectManager;\n+import com.intellij.openapi.project.ProjectManagerListener;\n+import com.intellij.openapi.util.io.FileUtil;\n+import com.intellij.openapi.vfs.CharsetToolkit;\n+import io.flutter.FlutterUtils;\n+import io.flutter.android.IntelliJAndroidSdk;\n+import io.flutter.bazel.Workspace;\n+import io.flutter.bazel.WorkspaceCache;\n+import io.flutter.sdk.FlutterSdk;\n+import io.flutter.sdk.FlutterSdkUtil;\n+import io.flutter.utils.MostlySilentOsProcessHandler;\n+import org.jetbrains.annotations.NotNull;\n+\n+import static com.jetbrains.lang.dart.ide.runner.server.vmService.VmServiceWrapper.LOG;\n+\n+public class DevToolsService {\n+  private class DevToolsServiceListener implements DaemonEvent.Listener {\n+  }\n+\n+  @NotNull private final Project project;\n+  private DaemonApi daemonApi;\n+  private ProcessHandler process;\n+  private DevToolsInstance devToolsInstance;\n+\n+  @NotNull\n+  public static DevToolsService getInstance(@NotNull final Project project) {\n+    return ServiceManager.getService(project, DevToolsService.class);\n+  }\n+\n+  private DevToolsService(@NotNull final Project project) {\n+    this.project = project;\n+    try {\n+      final GeneralCommandLine command = chooseCommand(project);\n+      assert command != null;\n+      this.process = new MostlySilentOsProcessHandler(command);\n+      daemonApi = new DaemonApi(process);\n+      daemonApi.listen(process, new DevToolsServiceListener());\n+      daemonApi.devToolsServe().thenAccept((DaemonApi.DevToolsAddress address) -> {\n+        if (!project.isOpen()) {\n+          // We should skip starting DevTools (and doing any UI work) if the project has been closed.\n+          return;\n+        }\n+        if (address == null) {\n+          LOG.error(\"DevTools address was null\");\n+        }\n+        else {\n+          devToolsInstance = new DevToolsInstance(address.host, address.port);\n+        }\n+      });\n+    }\n+    catch (ExecutionException e) {\n+      e.printStackTrace();\n+    }\n+\n+    ProjectManager.getInstance().addProjectManagerListener(project, new ProjectManagerListener() {\n+      @Override\n+      public void projectClosing(@NotNull Project project) {\n+        daemonApi.daemonShutdown();\n+        if (!process.isProcessTerminated()) {\n+          process.destroyProcess();\n+        }\n+      }\n+    });\n+  }\n+\n+  private static GeneralCommandLine chooseCommand(@NotNull final Project project) {\n+    final String androidHome = IntelliJAndroidSdk.chooseAndroidHome(project, false);\n+\n+    // Use daemon script if this is a bazel project.\n+    final Workspace workspace = WorkspaceCache.getInstance(project).get();\n+    if (workspace != null) {\n+      final String script = workspace.getDaemonScript();\n+      if (script != null) {\n+        return createCommand(workspace.getRoot().getPath(), script, ImmutableList.of(), androidHome);\n+      }\n+\n+    }\n+\n+    // Otherwise, use the Flutter SDK.\n+    final FlutterSdk sdk = FlutterSdk.getFlutterSdk(project);",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540433494",
+            "id": 540433494,
+            "in_reply_to_id": 539840213,
+            "line": 104,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDU0MDQzMzQ5NA==",
+            "original_commit_id": "d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+            "original_line": 93,
+            "original_position": 93,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/daemon/DevToolsService.java",
+            "position": 104,
+            "pull_request_review_id": 549526244,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540433494/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-12-10T23:35:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540433494",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540433695"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540433695"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "I think I'm not doing this correctly - see above (ln 77). A class is required that implements parseResult, is there a way to do that with a lambda?",
+            "commit_id": "10592e78baca6d6588c214b1d2b45238eca0fb66",
+            "created_at": "2020-12-10T19:21:24Z",
+            "diff_hunk": "@@ -404,6 +408,14 @@ RestartResult parseResult(JsonElement result) {\n     }\n   }\n \n+  private static class DaemonShutdown extends Params<Boolean> {",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540433695",
+            "id": 540433695,
+            "in_reply_to_id": 539838968,
+            "line": 411,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDU0MDQzMzY5NQ==",
+            "original_commit_id": "d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+            "original_line": 411,
+            "original_position": 15,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/daemon/DaemonApi.java",
+            "position": 15,
+            "pull_request_review_id": 549526473,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540433695/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-12-10T23:35:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540433695",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540444069"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540444069"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "if you changed your flutter sdk the version of the devtools server much change so you want to make sure you have the one from the new sdk not the old one.",
+            "commit_id": "10592e78baca6d6588c214b1d2b45238eca0fb66",
+            "created_at": "2020-12-10T19:37:41Z",
+            "diff_hunk": "@@ -0,0 +1,134 @@\n+/*\n+ * Copyright 2020 The Chromium Authors. All rights reserved.\n+ * Use of this source code is governed by a BSD-style license that can be\n+ * found in the LICENSE file.\n+ */\n+package io.flutter.run.daemon;\n+\n+import com.google.common.collect.ImmutableList;\n+import com.intellij.execution.ExecutionException;\n+import com.intellij.execution.configurations.GeneralCommandLine;\n+import com.intellij.execution.process.ProcessHandler;\n+import com.intellij.openapi.components.ServiceManager;\n+import com.intellij.openapi.project.Project;\n+import com.intellij.openapi.project.ProjectManager;\n+import com.intellij.openapi.project.ProjectManagerListener;\n+import com.intellij.openapi.util.io.FileUtil;\n+import com.intellij.openapi.vfs.CharsetToolkit;\n+import io.flutter.FlutterUtils;\n+import io.flutter.android.IntelliJAndroidSdk;\n+import io.flutter.bazel.Workspace;\n+import io.flutter.bazel.WorkspaceCache;\n+import io.flutter.sdk.FlutterSdk;\n+import io.flutter.sdk.FlutterSdkUtil;\n+import io.flutter.utils.MostlySilentOsProcessHandler;\n+import org.jetbrains.annotations.NotNull;\n+\n+import static com.jetbrains.lang.dart.ide.runner.server.vmService.VmServiceWrapper.LOG;\n+\n+public class DevToolsService {\n+  private class DevToolsServiceListener implements DaemonEvent.Listener {\n+  }\n+\n+  @NotNull private final Project project;\n+  private DaemonApi daemonApi;\n+  private ProcessHandler process;\n+  private DevToolsInstance devToolsInstance;\n+\n+  @NotNull\n+  public static DevToolsService getInstance(@NotNull final Project project) {\n+    return ServiceManager.getService(project, DevToolsService.class);\n+  }\n+\n+  private DevToolsService(@NotNull final Project project) {\n+    this.project = project;\n+    try {\n+      final GeneralCommandLine command = chooseCommand(project);\n+      assert command != null;\n+      this.process = new MostlySilentOsProcessHandler(command);\n+      daemonApi = new DaemonApi(process);\n+      daemonApi.listen(process, new DevToolsServiceListener());\n+      daemonApi.devToolsServe().thenAccept((DaemonApi.DevToolsAddress address) -> {\n+        if (!project.isOpen()) {\n+          // We should skip starting DevTools (and doing any UI work) if the project has been closed.\n+          return;\n+        }\n+        if (address == null) {\n+          LOG.error(\"DevTools address was null\");\n+        }\n+        else {\n+          devToolsInstance = new DevToolsInstance(address.host, address.port);\n+        }\n+      });\n+    }\n+    catch (ExecutionException e) {\n+      e.printStackTrace();\n+    }\n+\n+    ProjectManager.getInstance().addProjectManagerListener(project, new ProjectManagerListener() {\n+      @Override\n+      public void projectClosing(@NotNull Project project) {\n+        daemonApi.daemonShutdown();\n+        if (!process.isProcessTerminated()) {\n+          process.destroyProcess();\n+        }\n+      }\n+    });\n+  }\n+\n+  private static GeneralCommandLine chooseCommand(@NotNull final Project project) {\n+    final String androidHome = IntelliJAndroidSdk.chooseAndroidHome(project, false);\n+\n+    // Use daemon script if this is a bazel project.\n+    final Workspace workspace = WorkspaceCache.getInstance(project).get();\n+    if (workspace != null) {\n+      final String script = workspace.getDaemonScript();\n+      if (script != null) {\n+        return createCommand(workspace.getRoot().getPath(), script, ImmutableList.of(), androidHome);\n+      }\n+\n+    }\n+\n+    // Otherwise, use the Flutter SDK.\n+    final FlutterSdk sdk = FlutterSdk.getFlutterSdk(project);",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540444069",
+            "id": 540444069,
+            "in_reply_to_id": 539840213,
+            "line": 104,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDU0MDQ0NDA2OQ==",
+            "original_commit_id": "d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+            "original_line": 93,
+            "original_position": 93,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/daemon/DevToolsService.java",
+            "position": 104,
+            "pull_request_review_id": 549538694,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540444069/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-12-10T23:35:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540444069",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540444805"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540444805"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "if you have two projects open,  having two devtools servers is fine. what I'm worried about is if you open a new project and close your existing project. do we make sure we stop the first devtools server?",
+            "commit_id": "10592e78baca6d6588c214b1d2b45238eca0fb66",
+            "created_at": "2020-12-10T19:38:54Z",
+            "diff_hunk": "@@ -0,0 +1,134 @@\n+/*\n+ * Copyright 2020 The Chromium Authors. All rights reserved.\n+ * Use of this source code is governed by a BSD-style license that can be\n+ * found in the LICENSE file.\n+ */\n+package io.flutter.run.daemon;\n+\n+import com.google.common.collect.ImmutableList;\n+import com.intellij.execution.ExecutionException;\n+import com.intellij.execution.configurations.GeneralCommandLine;\n+import com.intellij.execution.process.ProcessHandler;\n+import com.intellij.openapi.components.ServiceManager;\n+import com.intellij.openapi.project.Project;\n+import com.intellij.openapi.project.ProjectManager;\n+import com.intellij.openapi.project.ProjectManagerListener;\n+import com.intellij.openapi.util.io.FileUtil;\n+import com.intellij.openapi.vfs.CharsetToolkit;\n+import io.flutter.FlutterUtils;\n+import io.flutter.android.IntelliJAndroidSdk;\n+import io.flutter.bazel.Workspace;\n+import io.flutter.bazel.WorkspaceCache;\n+import io.flutter.sdk.FlutterSdk;\n+import io.flutter.sdk.FlutterSdkUtil;\n+import io.flutter.utils.MostlySilentOsProcessHandler;\n+import org.jetbrains.annotations.NotNull;\n+\n+import static com.jetbrains.lang.dart.ide.runner.server.vmService.VmServiceWrapper.LOG;\n+\n+public class DevToolsService {\n+  private class DevToolsServiceListener implements DaemonEvent.Listener {\n+  }\n+\n+  @NotNull private final Project project;\n+  private DaemonApi daemonApi;\n+  private ProcessHandler process;\n+  private DevToolsInstance devToolsInstance;\n+\n+  @NotNull\n+  public static DevToolsService getInstance(@NotNull final Project project) {\n+    return ServiceManager.getService(project, DevToolsService.class);\n+  }\n+\n+  private DevToolsService(@NotNull final Project project) {\n+    this.project = project;\n+    try {",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540444805",
+            "id": 540444805,
+            "in_reply_to_id": 539839445,
+            "line": 48,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDU0MDQ0NDgwNQ==",
+            "original_commit_id": "d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+            "original_line": 45,
+            "original_position": 45,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/daemon/DevToolsService.java",
+            "position": 48,
+            "pull_request_review_id": 549539610,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540444805/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-12-10T23:35:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540444805",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540527167"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540527167"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Oh right, I used `ProjectManager.getInstance().addProjectManagerListener` to listen for project closing. In there `daemon.shutdown` is called, which stops the devtools server.",
+            "commit_id": "10592e78baca6d6588c214b1d2b45238eca0fb66",
+            "created_at": "2020-12-10T21:58:55Z",
+            "diff_hunk": "@@ -0,0 +1,134 @@\n+/*\n+ * Copyright 2020 The Chromium Authors. All rights reserved.\n+ * Use of this source code is governed by a BSD-style license that can be\n+ * found in the LICENSE file.\n+ */\n+package io.flutter.run.daemon;\n+\n+import com.google.common.collect.ImmutableList;\n+import com.intellij.execution.ExecutionException;\n+import com.intellij.execution.configurations.GeneralCommandLine;\n+import com.intellij.execution.process.ProcessHandler;\n+import com.intellij.openapi.components.ServiceManager;\n+import com.intellij.openapi.project.Project;\n+import com.intellij.openapi.project.ProjectManager;\n+import com.intellij.openapi.project.ProjectManagerListener;\n+import com.intellij.openapi.util.io.FileUtil;\n+import com.intellij.openapi.vfs.CharsetToolkit;\n+import io.flutter.FlutterUtils;\n+import io.flutter.android.IntelliJAndroidSdk;\n+import io.flutter.bazel.Workspace;\n+import io.flutter.bazel.WorkspaceCache;\n+import io.flutter.sdk.FlutterSdk;\n+import io.flutter.sdk.FlutterSdkUtil;\n+import io.flutter.utils.MostlySilentOsProcessHandler;\n+import org.jetbrains.annotations.NotNull;\n+\n+import static com.jetbrains.lang.dart.ide.runner.server.vmService.VmServiceWrapper.LOG;\n+\n+public class DevToolsService {\n+  private class DevToolsServiceListener implements DaemonEvent.Listener {\n+  }\n+\n+  @NotNull private final Project project;\n+  private DaemonApi daemonApi;\n+  private ProcessHandler process;\n+  private DevToolsInstance devToolsInstance;\n+\n+  @NotNull\n+  public static DevToolsService getInstance(@NotNull final Project project) {\n+    return ServiceManager.getService(project, DevToolsService.class);\n+  }\n+\n+  private DevToolsService(@NotNull final Project project) {\n+    this.project = project;\n+    try {",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540527167",
+            "id": 540527167,
+            "in_reply_to_id": 539839445,
+            "line": 48,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDU0MDUyNzE2Nw==",
+            "original_commit_id": "d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+            "original_line": 45,
+            "original_position": 45,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/daemon/DevToolsService.java",
+            "position": 48,
+            "pull_request_review_id": 549637178,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540527167/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-12-10T23:35:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540527167",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540529919"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540529919"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Hmm... I'm not sure how to manage this situation. Do we have examples elsewhere of checking whether the flutter sdk has changed?\r\n\r\nI'm also not sure about whether users change their flutter SDK frequently enough to monitor for this? My guess was that SDK would change if users update their flutter version or if they have multiple flutter downloads, but it would also surprise me that the implementation of DevTools would change significantly enough between those versions that a user would need the newest DevTools while in the middle of working on a project. Sounds like there may be some cases I'm not thinking of?",
+            "commit_id": "10592e78baca6d6588c214b1d2b45238eca0fb66",
+            "created_at": "2020-12-10T22:03:34Z",
+            "diff_hunk": "@@ -0,0 +1,134 @@\n+/*\n+ * Copyright 2020 The Chromium Authors. All rights reserved.\n+ * Use of this source code is governed by a BSD-style license that can be\n+ * found in the LICENSE file.\n+ */\n+package io.flutter.run.daemon;\n+\n+import com.google.common.collect.ImmutableList;\n+import com.intellij.execution.ExecutionException;\n+import com.intellij.execution.configurations.GeneralCommandLine;\n+import com.intellij.execution.process.ProcessHandler;\n+import com.intellij.openapi.components.ServiceManager;\n+import com.intellij.openapi.project.Project;\n+import com.intellij.openapi.project.ProjectManager;\n+import com.intellij.openapi.project.ProjectManagerListener;\n+import com.intellij.openapi.util.io.FileUtil;\n+import com.intellij.openapi.vfs.CharsetToolkit;\n+import io.flutter.FlutterUtils;\n+import io.flutter.android.IntelliJAndroidSdk;\n+import io.flutter.bazel.Workspace;\n+import io.flutter.bazel.WorkspaceCache;\n+import io.flutter.sdk.FlutterSdk;\n+import io.flutter.sdk.FlutterSdkUtil;\n+import io.flutter.utils.MostlySilentOsProcessHandler;\n+import org.jetbrains.annotations.NotNull;\n+\n+import static com.jetbrains.lang.dart.ide.runner.server.vmService.VmServiceWrapper.LOG;\n+\n+public class DevToolsService {\n+  private class DevToolsServiceListener implements DaemonEvent.Listener {\n+  }\n+\n+  @NotNull private final Project project;\n+  private DaemonApi daemonApi;\n+  private ProcessHandler process;\n+  private DevToolsInstance devToolsInstance;\n+\n+  @NotNull\n+  public static DevToolsService getInstance(@NotNull final Project project) {\n+    return ServiceManager.getService(project, DevToolsService.class);\n+  }\n+\n+  private DevToolsService(@NotNull final Project project) {\n+    this.project = project;\n+    try {\n+      final GeneralCommandLine command = chooseCommand(project);\n+      assert command != null;\n+      this.process = new MostlySilentOsProcessHandler(command);\n+      daemonApi = new DaemonApi(process);\n+      daemonApi.listen(process, new DevToolsServiceListener());\n+      daemonApi.devToolsServe().thenAccept((DaemonApi.DevToolsAddress address) -> {\n+        if (!project.isOpen()) {\n+          // We should skip starting DevTools (and doing any UI work) if the project has been closed.\n+          return;\n+        }\n+        if (address == null) {\n+          LOG.error(\"DevTools address was null\");\n+        }\n+        else {\n+          devToolsInstance = new DevToolsInstance(address.host, address.port);\n+        }\n+      });\n+    }\n+    catch (ExecutionException e) {\n+      e.printStackTrace();\n+    }\n+\n+    ProjectManager.getInstance().addProjectManagerListener(project, new ProjectManagerListener() {\n+      @Override\n+      public void projectClosing(@NotNull Project project) {\n+        daemonApi.daemonShutdown();\n+        if (!process.isProcessTerminated()) {\n+          process.destroyProcess();\n+        }\n+      }\n+    });\n+  }\n+\n+  private static GeneralCommandLine chooseCommand(@NotNull final Project project) {\n+    final String androidHome = IntelliJAndroidSdk.chooseAndroidHome(project, false);\n+\n+    // Use daemon script if this is a bazel project.\n+    final Workspace workspace = WorkspaceCache.getInstance(project).get();\n+    if (workspace != null) {\n+      final String script = workspace.getDaemonScript();\n+      if (script != null) {\n+        return createCommand(workspace.getRoot().getPath(), script, ImmutableList.of(), androidHome);\n+      }\n+\n+    }\n+\n+    // Otherwise, use the Flutter SDK.\n+    final FlutterSdk sdk = FlutterSdk.getFlutterSdk(project);",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540529919",
+            "id": 540529919,
+            "in_reply_to_id": 539840213,
+            "line": 104,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDU0MDUyOTkxOQ==",
+            "original_commit_id": "d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+            "original_line": 93,
+            "original_position": 93,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/daemon/DevToolsService.java",
+            "position": 104,
+            "pull_request_review_id": 549640370,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540529919/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-12-10T23:35:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540529919",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540578314"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540578314"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "ah you are right. I missed the extends.",
+            "commit_id": "10592e78baca6d6588c214b1d2b45238eca0fb66",
+            "created_at": "2020-12-10T23:32:34Z",
+            "diff_hunk": "@@ -404,6 +408,14 @@ RestartResult parseResult(JsonElement result) {\n     }\n   }\n \n+  private static class DaemonShutdown extends Params<Boolean> {",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/5112#discussion_r540578314",
+            "id": 540578314,
+            "in_reply_to_id": 539838968,
+            "line": 411,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDU0MDU3ODMxNA==",
+            "original_commit_id": "d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+            "original_line": 411,
+            "original_position": 15,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/daemon/DaemonApi.java",
+            "position": 15,
+            "pull_request_review_id": 549695049,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540578314/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-12-10T23:35:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/540578314",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        }
+    ],
+    "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/5112/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/d54d9554bfaa91e906466af5b152ff8fd8fe1447/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-12-09T00:52:17Z",
+                    "email": "helinx@google.com",
+                    "name": "Helin Shiah"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-12-09T22:29:05Z",
+                    "email": "helinx@google.com",
+                    "name": "Helin Shiah"
+                },
+                "message": "Add devtools service",
+                "tree": {
+                    "sha": "730d4c05ab61269ade96ab14c7573579bb293b96",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/730d4c05ab61269ade96ab14c7573579bb293b96"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+            "node_id": "MDY6Q29tbWl0MjU0MTU5OTE1OmQ1NGQ5NTU0YmZhYTkxZTkwNjQ2NmFmNWIxNTJmZjhmZDhmZTE0NDc=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/5b41ef06e7a8f2eccd0ac8ef6ca026f1c942231e",
+                    "sha": "5b41ef06e7a8f2eccd0ac8ef6ca026f1c942231e",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/5b41ef06e7a8f2eccd0ac8ef6ca026f1c942231e"
+                }
+            ],
+            "sha": "d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/d54d9554bfaa91e906466af5b152ff8fd8fe1447"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/adf5fe0c7c96d9aff50770a61ac95acbc7cd3f99/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-12-10T19:20:36Z",
+                    "email": "helinx@google.com",
+                    "name": "Helin Shiah"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-12-10T19:20:36Z",
+                    "email": "helinx@google.com",
+                    "name": "Helin Shiah"
+                },
+                "message": "Make instance completable, remove android_home",
+                "tree": {
+                    "sha": "dbf4e685f438f09bff66c626ad68a652af0f28e2",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/dbf4e685f438f09bff66c626ad68a652af0f28e2"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/adf5fe0c7c96d9aff50770a61ac95acbc7cd3f99",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/adf5fe0c7c96d9aff50770a61ac95acbc7cd3f99",
+            "node_id": "MDY6Q29tbWl0MjU0MTU5OTE1OmFkZjVmZTBjN2M5NmQ5YWZmNTA3NzBhNjFhYzk1YWNiYzdjZDNmOTk=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+                    "sha": "d54d9554bfaa91e906466af5b152ff8fd8fe1447",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/d54d9554bfaa91e906466af5b152ff8fd8fe1447"
+                }
+            ],
+            "sha": "adf5fe0c7c96d9aff50770a61ac95acbc7cd3f99",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/adf5fe0c7c96d9aff50770a61ac95acbc7cd3f99"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/f79f5fce1e4abeaeac5a1e2d2b946e0a1ea6ed91/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-12-10T19:34:05Z",
+                    "email": "helinx@google.com",
+                    "name": "Helin Shiah"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-12-10T19:34:05Z",
+                    "email": "helinx@google.com",
+                    "name": "Helin Shiah"
+                },
+                "message": "Add null command check for unit tests",
+                "tree": {
+                    "sha": "9e8435a270e0e190060bcd6b74388dd410cb41ec",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/9e8435a270e0e190060bcd6b74388dd410cb41ec"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/f79f5fce1e4abeaeac5a1e2d2b946e0a1ea6ed91",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/f79f5fce1e4abeaeac5a1e2d2b946e0a1ea6ed91",
+            "node_id": "MDY6Q29tbWl0MjU0MTU5OTE1OmY3OWY1ZmNlMWU0YWJlYWVhYzVhMWUyZDJiOTQ2ZTBhMWVhNmVkOTE=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/adf5fe0c7c96d9aff50770a61ac95acbc7cd3f99",
+                    "sha": "adf5fe0c7c96d9aff50770a61ac95acbc7cd3f99",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/adf5fe0c7c96d9aff50770a61ac95acbc7cd3f99"
+                }
+            ],
+            "sha": "f79f5fce1e4abeaeac5a1e2d2b946e0a1ea6ed91",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/f79f5fce1e4abeaeac5a1e2d2b946e0a1ea6ed91"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/bea3318a9686935410da2457860c0d18a60e724b/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-12-10T22:22:03Z",
+                    "email": "helinx@google.com",
+                    "name": "Helin Shiah"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-12-10T22:22:03Z",
+                    "email": "helinx@google.com",
+                    "name": "Helin Shiah"
+                },
+                "message": "Fix tests",
+                "tree": {
+                    "sha": "4601523794c19cd733ccda743e91cdb4b96f6c99",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/4601523794c19cd733ccda743e91cdb4b96f6c99"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/bea3318a9686935410da2457860c0d18a60e724b",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/bea3318a9686935410da2457860c0d18a60e724b",
+            "node_id": "MDY6Q29tbWl0MjU0MTU5OTE1OmJlYTMzMThhOTY4NjkzNTQxMGRhMjQ1Nzg2MGMwZDE4YTYwZTcyNGI=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/f79f5fce1e4abeaeac5a1e2d2b946e0a1ea6ed91",
+                    "sha": "f79f5fce1e4abeaeac5a1e2d2b946e0a1ea6ed91",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/f79f5fce1e4abeaeac5a1e2d2b946e0a1ea6ed91"
+                }
+            ],
+            "sha": "bea3318a9686935410da2457860c0d18a60e724b",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/bea3318a9686935410da2457860c0d18a60e724b"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/10592e78baca6d6588c214b1d2b45238eca0fb66/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-12-10T23:35:51Z",
+                    "email": "helinx@google.com",
+                    "name": "Helin Shiah"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-12-10T23:35:51Z",
+                    "email": "helinx@google.com",
+                    "name": "Helin Shiah"
+                },
+                "message": "Revert to DaemonShutdown class",
+                "tree": {
+                    "sha": "c91d0c1d2bc40392fd0cac622cde630ed442aed5",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/c91d0c1d2bc40392fd0cac622cde630ed442aed5"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/10592e78baca6d6588c214b1d2b45238eca0fb66",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/10592e78baca6d6588c214b1d2b45238eca0fb66",
+            "node_id": "MDY6Q29tbWl0MjU0MTU5OTE1OjEwNTkyZTc4YmFjYTZkNjU4OGMyMTRiMWQyYjQ1MjM4ZWNhMGZiNjY=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/bea3318a9686935410da2457860c0d18a60e724b",
+                    "sha": "bea3318a9686935410da2457860c0d18a60e724b",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/bea3318a9686935410da2457860c0d18a60e724b"
+                }
+            ],
+            "sha": "10592e78baca6d6588c214b1d2b45238eca0fb66",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/10592e78baca6d6588c214b1d2b45238eca0fb66"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112/commits",
+    "created_at": "2020-12-09T22:01:01Z",
+    "diff_url": "https://github.com/flutter/flutter-intellij/pull/5112.diff",
+    "draft": false,
+    "head": {
+        "label": "helin24:ide-devtools",
+        "ref": "ide-devtools",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/helin24/flutter-intellij/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/helin24/flutter-intellij/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/helin24/flutter-intellij/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/helin24/flutter-intellij/branches{/branch}",
+            "clone_url": "https://github.com/helin24/flutter-intellij.git",
+            "collaborators_url": "https://api.github.com/repos/helin24/flutter-intellij/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/helin24/flutter-intellij/comments{/number}",
+            "commits_url": "https://api.github.com/repos/helin24/flutter-intellij/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/helin24/flutter-intellij/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/helin24/flutter-intellij/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/helin24/flutter-intellij/contributors",
+            "created_at": "2020-04-08T17:47:00Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/helin24/flutter-intellij/deployments",
+            "description": "Flutter makes it easy and fast to build beautiful mobile apps.",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/helin24/flutter-intellij/downloads",
+            "events_url": "https://api.github.com/repos/helin24/flutter-intellij/events",
+            "fork": true,
+            "forks": 0,
+            "forks_count": 0,
+            "forks_url": "https://api.github.com/repos/helin24/flutter-intellij/forks",
+            "full_name": "helin24/flutter-intellij",
+            "git_commits_url": "https://api.github.com/repos/helin24/flutter-intellij/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/helin24/flutter-intellij/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/helin24/flutter-intellij/git/tags{/sha}",
+            "git_url": "git://github.com/helin24/flutter-intellij.git",
+            "has_downloads": true,
+            "has_issues": false,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "https://flutter.dev/using-ide",
+            "hooks_url": "https://api.github.com/repos/helin24/flutter-intellij/hooks",
+            "html_url": "https://github.com/helin24/flutter-intellij",
+            "id": 254159915,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/helin24/flutter-intellij/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/helin24/flutter-intellij/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/helin24/flutter-intellij/issues{/number}",
+            "keys_url": "https://api.github.com/repos/helin24/flutter-intellij/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/helin24/flutter-intellij/labels{/name}",
+            "language": "Java",
+            "languages_url": "https://api.github.com/repos/helin24/flutter-intellij/languages",
+            "license": {
+                "key": "bsd-3-clause",
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "node_id": "MDc6TGljZW5zZTU=",
+                "spdx_id": "BSD-3-Clause",
+                "url": "https://api.github.com/licenses/bsd-3-clause"
+            },
+            "merges_url": "https://api.github.com/repos/helin24/flutter-intellij/merges",
+            "milestones_url": "https://api.github.com/repos/helin24/flutter-intellij/milestones{/number}",
+            "mirror_url": null,
+            "name": "flutter-intellij",
+            "node_id": "MDEwOlJlcG9zaXRvcnkyNTQxNTk5MTU=",
+            "notifications_url": "https://api.github.com/repos/helin24/flutter-intellij/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/helin24/flutter-intellij/pulls{/number}",
+            "pushed_at": "2022-09-28T23:33:49Z",
+            "releases_url": "https://api.github.com/repos/helin24/flutter-intellij/releases{/id}",
+            "size": 159956,
+            "ssh_url": "git@github.com:helin24/flutter-intellij.git",
+            "stargazers_count": 0,
+            "stargazers_url": "https://api.github.com/repos/helin24/flutter-intellij/stargazers",
+            "statuses_url": "https://api.github.com/repos/helin24/flutter-intellij/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/helin24/flutter-intellij/subscribers",
+            "subscription_url": "https://api.github.com/repos/helin24/flutter-intellij/subscription",
+            "svn_url": "https://github.com/helin24/flutter-intellij",
+            "tags_url": "https://api.github.com/repos/helin24/flutter-intellij/tags",
+            "teams_url": "https://api.github.com/repos/helin24/flutter-intellij/teams",
+            "topics": [],
+            "trees_url": "https://api.github.com/repos/helin24/flutter-intellij/git/trees{/sha}",
+            "updated_at": "2022-01-18T19:42:51Z",
+            "url": "https://api.github.com/repos/helin24/flutter-intellij",
+            "visibility": "public",
+            "watchers": 0,
+            "watchers_count": 0,
+            "web_commit_signoff_required": false
+        },
+        "sha": "10592e78baca6d6588c214b1d2b45238eca0fb66",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+            "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+            "followers_url": "https://api.github.com/users/helin24/followers",
+            "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+            "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/helin24",
+            "id": 6379305,
+            "login": "helin24",
+            "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+            "organizations_url": "https://api.github.com/users/helin24/orgs",
+            "received_events_url": "https://api.github.com/users/helin24/received_events",
+            "repos_url": "https://api.github.com/users/helin24/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/helin24"
+        }
+    },
+    "html_url": "https://github.com/flutter/flutter-intellij/pull/5112",
+    "id": 535491235,
+    "issue_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/5112",
+    "labels": [
+        {
+            "color": "0e8a16",
+            "default": false,
+            "description": null,
+            "id": 487496526,
+            "name": "cla: yes",
+            "node_id": "MDU6TGFiZWw0ODc0OTY1MjY=",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/labels/cla:%20yes"
+        }
+    ],
+    "locked": false,
+    "merge_commit_sha": "492a7196babddef8fd201023023e9131cf129b72",
+    "merged_at": "2020-12-10T23:48:35Z",
+    "milestone": null,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0NTM1NDkxMjM1",
+    "number": 5112,
+    "patch_url": "https://github.com/flutter/flutter-intellij/pull/5112.patch",
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/10592e78baca6d6588c214b1d2b45238eca0fb66",
+    "title": "Add devtools service",
+    "updated_at": "2020-12-10T23:48:39Z",
+    "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5112",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+        "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+        "followers_url": "https://api.github.com/users/helin24/followers",
+        "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+        "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/helin24",
+        "id": 6379305,
+        "login": "helin24",
+        "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+        "organizations_url": "https://api.github.com/users/helin24/orgs",
+        "received_events_url": "https://api.github.com/users/helin24/received_events",
+        "repos_url": "https://api.github.com/users/helin24/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/helin24"
+    }
+}

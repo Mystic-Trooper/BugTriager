@@ -1,0 +1,880 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/issues/4674/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4674/commits"
+        },
+        "html": {
+            "href": "https://github.com/flutter/flutter-intellij/pull/4674"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/issues/4674"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4674/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4674"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/statuses/1bd58138f85f862be1efbf1d9e49b8eed92a15b7"
+        }
+    },
+    "active_lock_reason": null,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "MEMBER",
+    "auto_merge": null,
+    "base": {
+        "label": "flutter:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/flutter/flutter-intellij/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/flutter/flutter-intellij/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/flutter/flutter-intellij/branches{/branch}",
+            "clone_url": "https://github.com/flutter/flutter-intellij.git",
+            "collaborators_url": "https://api.github.com/repos/flutter/flutter-intellij/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/comments{/number}",
+            "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/flutter/flutter-intellij/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/flutter/flutter-intellij/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/flutter/flutter-intellij/contributors",
+            "created_at": "2016-07-25T22:31:03Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/flutter/flutter-intellij/deployments",
+            "description": "Flutter Plugin for IntelliJ",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/flutter/flutter-intellij/downloads",
+            "events_url": "https://api.github.com/repos/flutter/flutter-intellij/events",
+            "fork": false,
+            "forks": 308,
+            "forks_count": 308,
+            "forks_url": "https://api.github.com/repos/flutter/flutter-intellij/forks",
+            "full_name": "flutter/flutter-intellij",
+            "git_commits_url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/flutter/flutter-intellij/git/tags{/sha}",
+            "git_url": "git://github.com/flutter/flutter-intellij.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "https://flutter.dev/using-ide",
+            "hooks_url": "https://api.github.com/repos/flutter/flutter-intellij/hooks",
+            "html_url": "https://github.com/flutter/flutter-intellij",
+            "id": 64172164,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/flutter/flutter-intellij/issues{/number}",
+            "keys_url": "https://api.github.com/repos/flutter/flutter-intellij/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/flutter/flutter-intellij/labels{/name}",
+            "language": "Java",
+            "languages_url": "https://api.github.com/repos/flutter/flutter-intellij/languages",
+            "license": {
+                "key": "bsd-3-clause",
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "node_id": "MDc6TGljZW5zZTU=",
+                "spdx_id": "BSD-3-Clause",
+                "url": "https://api.github.com/licenses/bsd-3-clause"
+            },
+            "merges_url": "https://api.github.com/repos/flutter/flutter-intellij/merges",
+            "milestones_url": "https://api.github.com/repos/flutter/flutter-intellij/milestones{/number}",
+            "mirror_url": null,
+            "name": "flutter-intellij",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2NDE3MjE2NA==",
+            "notifications_url": "https://api.github.com/repos/flutter/flutter-intellij/notifications{?since,all,participating}",
+            "open_issues": 514,
+            "open_issues_count": 514,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+                "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+                "followers_url": "https://api.github.com/users/flutter/followers",
+                "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+                "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/flutter",
+                "id": 14101776,
+                "login": "flutter",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+                "organizations_url": "https://api.github.com/users/flutter/orgs",
+                "received_events_url": "https://api.github.com/users/flutter/received_events",
+                "repos_url": "https://api.github.com/users/flutter/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/flutter"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls{/number}",
+            "pushed_at": "2022-10-03T08:04:48Z",
+            "releases_url": "https://api.github.com/repos/flutter/flutter-intellij/releases{/id}",
+            "size": 160091,
+            "ssh_url": "git@github.com:flutter/flutter-intellij.git",
+            "stargazers_count": 1802,
+            "stargazers_url": "https://api.github.com/repos/flutter/flutter-intellij/stargazers",
+            "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/flutter/flutter-intellij/subscribers",
+            "subscription_url": "https://api.github.com/repos/flutter/flutter-intellij/subscription",
+            "svn_url": "https://github.com/flutter/flutter-intellij",
+            "tags_url": "https://api.github.com/repos/flutter/flutter-intellij/tags",
+            "teams_url": "https://api.github.com/repos/flutter/flutter-intellij/teams",
+            "topics": [
+                "flutter",
+                "intellij-plugin",
+                "java"
+            ],
+            "trees_url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees{/sha}",
+            "updated_at": "2022-10-03T05:16:49Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij",
+            "visibility": "public",
+            "watchers": 1802,
+            "watchers_count": 1802,
+            "web_commit_signoff_required": false
+        },
+        "sha": "9613f52268473db6fb114cb560ffec8282ab829c",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+            "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+            "followers_url": "https://api.github.com/users/flutter/followers",
+            "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+            "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/flutter",
+            "id": 14101776,
+            "login": "flutter",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+            "organizations_url": "https://api.github.com/users/flutter/orgs",
+            "received_events_url": "https://api.github.com/users/flutter/received_events",
+            "repos_url": "https://api.github.com/users/flutter/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/flutter"
+        }
+    },
+    "body": "Fix a few problems:\r\n- JxBrowser files were not available to unit tests\r\n- The script wasn't getting updated with the proper IDE and plugin versions\r\n- The result of the external build was not being returned, causing broken bots to be green\r\n",
+    "closed_at": "2020-06-30T21:27:30Z",
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4674#discussion_r447234553"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4674"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/447234553"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "wow. should we have a lint about return statements in finally clauses? @pq @munificent \r\nDetermining which return statement should actually apply in this case is a bit confusing.",
+            "commit_id": "1bd58138f85f862be1efbf1d9e49b8eed92a15b7",
+            "created_at": "2020-06-29T20:29:22Z",
+            "diff_hunk": "@@ -387,9 +411,9 @@ class GradleBuildCommand extends BuildCommand {\n       return await super.doit();\n     } finally {\n       if (Platform.isWindows) {\n-        return await exec('.\\\\gradlew.bat', ['--stop']);\n+        await exec('.\\\\gradlew.bat', ['--stop']);",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4674#discussion_r447234553",
+            "id": 447234553,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDQ0NzIzNDU1Mw==",
+            "original_commit_id": "f1e282ea5aea27112b90924cf66722a3b1a196a2",
+            "original_line": 414,
+            "original_position": 41,
+            "original_start_line": null,
+            "path": "tool/plugin/lib/plugin.dart",
+            "position": null,
+            "pull_request_review_id": 439476375,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4674",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/447234553/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-06-30T21:16:29Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/447234553",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4674#discussion_r447239122"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4674"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/447239122"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "I like that idea. I can't imagine why I typed \"return\" in the first place but I certainly didn't want it. Note the final statement in the protected block is a return, but you might not be able to determine that all the time.\r\n\r\nThanks for the review! Looks like I have a problem in the build script, which I'll fix.",
+            "commit_id": "1bd58138f85f862be1efbf1d9e49b8eed92a15b7",
+            "created_at": "2020-06-29T20:38:09Z",
+            "diff_hunk": "@@ -387,9 +411,9 @@ class GradleBuildCommand extends BuildCommand {\n       return await super.doit();\n     } finally {\n       if (Platform.isWindows) {\n-        return await exec('.\\\\gradlew.bat', ['--stop']);\n+        await exec('.\\\\gradlew.bat', ['--stop']);",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4674#discussion_r447239122",
+            "id": 447239122,
+            "in_reply_to_id": 447234553,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDQ0NzIzOTEyMg==",
+            "original_commit_id": "f1e282ea5aea27112b90924cf66722a3b1a196a2",
+            "original_line": 414,
+            "original_position": 41,
+            "original_start_line": null,
+            "path": "tool/plugin/lib/plugin.dart",
+            "position": null,
+            "pull_request_review_id": 439482177,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4674",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/447239122/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-06-30T21:16:29Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/447239122",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4674#discussion_r448035621"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4674"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/448035621"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Is this change leftover from working on jxbrowser stuff? Or is it necessary for dealing with the jxbrowser files that are in your directory but not committed?",
+            "commit_id": "1bd58138f85f862be1efbf1d9e49b8eed92a15b7",
+            "created_at": "2020-06-30T23:33:34Z",
+            "diff_hunk": "@@ -33,6 +33,8 @@ intellij {\n dependencies {\n   testCompile \"org.powermock:powermock-api-mockito2:2.0.0\"\n   testCompile \"org.powermock:powermock-module-junit4:2.0.0\"\n+  implementation fileTree(dir: \"$project.rootDir/lib/jxbrowser\",",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4674#discussion_r448035621",
+            "id": 448035621,
+            "line": 36,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDQ0ODAzNTYyMQ==",
+            "original_commit_id": "1bd58138f85f862be1efbf1d9e49b8eed92a15b7",
+            "original_line": 36,
+            "original_position": 4,
+            "original_start_line": null,
+            "path": "flutter-idea/build.gradle",
+            "position": 4,
+            "pull_request_review_id": 440454076,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4674",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/448035621/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-06-30T23:33:34Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/448035621",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            }
+        }
+    ],
+    "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/4674/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/f1e282ea5aea27112b90924cf66722a3b1a196a2/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-06-29T20:20:04Z",
+                    "email": "messick@google.com",
+                    "name": "Steve Messick"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-06-29T20:20:04Z",
+                    "email": "messick@google.com",
+                    "name": "Steve Messick"
+                },
+                "message": "update build script",
+                "tree": {
+                    "sha": "740f2524a51831091e61098040f7a79872663bc2",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/740f2524a51831091e61098040f7a79872663bc2"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/f1e282ea5aea27112b90924cf66722a3b1a196a2",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/f1e282ea5aea27112b90924cf66722a3b1a196a2",
+            "node_id": "MDY6Q29tbWl0NjQxNzIxNjQ6ZjFlMjgyZWE1YWVhMjcxMTJiOTA5MjRjZjY2NzIyYTNiMWExOTZhMg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/9613f52268473db6fb114cb560ffec8282ab829c",
+                    "sha": "9613f52268473db6fb114cb560ffec8282ab829c",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/9613f52268473db6fb114cb560ffec8282ab829c"
+                }
+            ],
+            "sha": "f1e282ea5aea27112b90924cf66722a3b1a196a2",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/f1e282ea5aea27112b90924cf66722a3b1a196a2"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/ae2f9756c3bb627e6fe34f5beb237a7abe4bead8/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-06-30T21:09:51Z",
+                    "email": "messick@google.com",
+                    "name": "Steve Messick"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-06-30T21:09:51Z",
+                    "email": "messick@google.com",
+                    "name": "Steve Messick"
+                },
+                "message": "Fix script; add repo for JB annotations",
+                "tree": {
+                    "sha": "6f4a305e43a5a4e69cd1a9e8c002d8e0aa1711a9",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/6f4a305e43a5a4e69cd1a9e8c002d8e0aa1711a9"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/ae2f9756c3bb627e6fe34f5beb237a7abe4bead8",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/ae2f9756c3bb627e6fe34f5beb237a7abe4bead8",
+            "node_id": "MDY6Q29tbWl0NjQxNzIxNjQ6YWUyZjk3NTZjM2JiNjI3ZTZmZTM0ZjViZWIyMzdhN2FiZTRiZWFkOA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/f1e282ea5aea27112b90924cf66722a3b1a196a2",
+                    "sha": "f1e282ea5aea27112b90924cf66722a3b1a196a2",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/f1e282ea5aea27112b90924cf66722a3b1a196a2"
+                }
+            ],
+            "sha": "ae2f9756c3bb627e6fe34f5beb237a7abe4bead8",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/ae2f9756c3bb627e6fe34f5beb237a7abe4bead8"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/3f5fe88f4b8ad0a61d7a6fc0ca0b9d8178ec0f27/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-06-30T21:14:31Z",
+                    "email": "messick@google.com",
+                    "name": "Steve Messick"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-06-30T21:14:31Z",
+                    "email": "messick@google.com",
+                    "name": "Steve Messick"
+                },
+                "message": "generate",
+                "tree": {
+                    "sha": "a410228688d538d760b07005baf59cd7ca8e1180",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/a410228688d538d760b07005baf59cd7ca8e1180"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/3f5fe88f4b8ad0a61d7a6fc0ca0b9d8178ec0f27",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/3f5fe88f4b8ad0a61d7a6fc0ca0b9d8178ec0f27",
+            "node_id": "MDY6Q29tbWl0NjQxNzIxNjQ6M2Y1ZmU4OGY0YjhhZDBhNjFkN2E2ZmMwY2EwYjlkODE3OGVjMGYyNw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/ae2f9756c3bb627e6fe34f5beb237a7abe4bead8",
+                    "sha": "ae2f9756c3bb627e6fe34f5beb237a7abe4bead8",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/ae2f9756c3bb627e6fe34f5beb237a7abe4bead8"
+                }
+            ],
+            "sha": "3f5fe88f4b8ad0a61d7a6fc0ca0b9d8178ec0f27",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/3f5fe88f4b8ad0a61d7a6fc0ca0b9d8178ec0f27"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/1bd58138f85f862be1efbf1d9e49b8eed92a15b7/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-06-30T21:16:16Z",
+                    "email": "messick@google.com",
+                    "name": "Steve Messick"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-06-30T21:16:16Z",
+                    "email": "messick@google.com",
+                    "name": "Steve Messick"
+                },
+                "message": "revert",
+                "tree": {
+                    "sha": "27283b5acae4afb061d3b9176052323803b6aad4",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/27283b5acae4afb061d3b9176052323803b6aad4"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/1bd58138f85f862be1efbf1d9e49b8eed92a15b7",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/1bd58138f85f862be1efbf1d9e49b8eed92a15b7",
+            "node_id": "MDY6Q29tbWl0NjQxNzIxNjQ6MWJkNTgxMzhmODVmODYyYmUxZWZiZjFkOWU0OWI4ZWVkOTJhMTViNw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/3f5fe88f4b8ad0a61d7a6fc0ca0b9d8178ec0f27",
+                    "sha": "3f5fe88f4b8ad0a61d7a6fc0ca0b9d8178ec0f27",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/3f5fe88f4b8ad0a61d7a6fc0ca0b9d8178ec0f27"
+                }
+            ],
+            "sha": "1bd58138f85f862be1efbf1d9e49b8eed92a15b7",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/1bd58138f85f862be1efbf1d9e49b8eed92a15b7"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4674/commits",
+    "created_at": "2020-06-29T20:25:06Z",
+    "diff_url": "https://github.com/flutter/flutter-intellij/pull/4674.diff",
+    "draft": false,
+    "head": {
+        "label": "flutter:build-update",
+        "ref": "build-update",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/flutter/flutter-intellij/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/flutter/flutter-intellij/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/flutter/flutter-intellij/branches{/branch}",
+            "clone_url": "https://github.com/flutter/flutter-intellij.git",
+            "collaborators_url": "https://api.github.com/repos/flutter/flutter-intellij/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/comments{/number}",
+            "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/flutter/flutter-intellij/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/flutter/flutter-intellij/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/flutter/flutter-intellij/contributors",
+            "created_at": "2016-07-25T22:31:03Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/flutter/flutter-intellij/deployments",
+            "description": "Flutter Plugin for IntelliJ",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/flutter/flutter-intellij/downloads",
+            "events_url": "https://api.github.com/repos/flutter/flutter-intellij/events",
+            "fork": false,
+            "forks": 308,
+            "forks_count": 308,
+            "forks_url": "https://api.github.com/repos/flutter/flutter-intellij/forks",
+            "full_name": "flutter/flutter-intellij",
+            "git_commits_url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/flutter/flutter-intellij/git/tags{/sha}",
+            "git_url": "git://github.com/flutter/flutter-intellij.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "https://flutter.dev/using-ide",
+            "hooks_url": "https://api.github.com/repos/flutter/flutter-intellij/hooks",
+            "html_url": "https://github.com/flutter/flutter-intellij",
+            "id": 64172164,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/flutter/flutter-intellij/issues{/number}",
+            "keys_url": "https://api.github.com/repos/flutter/flutter-intellij/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/flutter/flutter-intellij/labels{/name}",
+            "language": "Java",
+            "languages_url": "https://api.github.com/repos/flutter/flutter-intellij/languages",
+            "license": {
+                "key": "bsd-3-clause",
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "node_id": "MDc6TGljZW5zZTU=",
+                "spdx_id": "BSD-3-Clause",
+                "url": "https://api.github.com/licenses/bsd-3-clause"
+            },
+            "merges_url": "https://api.github.com/repos/flutter/flutter-intellij/merges",
+            "milestones_url": "https://api.github.com/repos/flutter/flutter-intellij/milestones{/number}",
+            "mirror_url": null,
+            "name": "flutter-intellij",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2NDE3MjE2NA==",
+            "notifications_url": "https://api.github.com/repos/flutter/flutter-intellij/notifications{?since,all,participating}",
+            "open_issues": 514,
+            "open_issues_count": 514,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+                "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+                "followers_url": "https://api.github.com/users/flutter/followers",
+                "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+                "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/flutter",
+                "id": 14101776,
+                "login": "flutter",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+                "organizations_url": "https://api.github.com/users/flutter/orgs",
+                "received_events_url": "https://api.github.com/users/flutter/received_events",
+                "repos_url": "https://api.github.com/users/flutter/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/flutter"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls{/number}",
+            "pushed_at": "2022-10-03T08:04:48Z",
+            "releases_url": "https://api.github.com/repos/flutter/flutter-intellij/releases{/id}",
+            "size": 160091,
+            "ssh_url": "git@github.com:flutter/flutter-intellij.git",
+            "stargazers_count": 1802,
+            "stargazers_url": "https://api.github.com/repos/flutter/flutter-intellij/stargazers",
+            "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/flutter/flutter-intellij/subscribers",
+            "subscription_url": "https://api.github.com/repos/flutter/flutter-intellij/subscription",
+            "svn_url": "https://github.com/flutter/flutter-intellij",
+            "tags_url": "https://api.github.com/repos/flutter/flutter-intellij/tags",
+            "teams_url": "https://api.github.com/repos/flutter/flutter-intellij/teams",
+            "topics": [
+                "flutter",
+                "intellij-plugin",
+                "java"
+            ],
+            "trees_url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees{/sha}",
+            "updated_at": "2022-10-03T05:16:49Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij",
+            "visibility": "public",
+            "watchers": 1802,
+            "watchers_count": 1802,
+            "web_commit_signoff_required": false
+        },
+        "sha": "1bd58138f85f862be1efbf1d9e49b8eed92a15b7",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+            "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+            "followers_url": "https://api.github.com/users/flutter/followers",
+            "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+            "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/flutter",
+            "id": 14101776,
+            "login": "flutter",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+            "organizations_url": "https://api.github.com/users/flutter/orgs",
+            "received_events_url": "https://api.github.com/users/flutter/received_events",
+            "repos_url": "https://api.github.com/users/flutter/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/flutter"
+        }
+    },
+    "html_url": "https://github.com/flutter/flutter-intellij/pull/4674",
+    "id": 441630158,
+    "issue_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/4674",
+    "labels": [
+        {
+            "color": "0e8a16",
+            "default": false,
+            "description": null,
+            "id": 487496526,
+            "name": "cla: yes",
+            "node_id": "MDU6TGFiZWw0ODc0OTY1MjY=",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/labels/cla:%20yes"
+        }
+    ],
+    "locked": false,
+    "merge_commit_sha": "b5870fade730f50fdf5b48fc467ad1ffd3668c95",
+    "merged_at": "2020-06-30T21:27:30Z",
+    "milestone": null,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0NDQxNjMwMTU4",
+    "number": 4674,
+    "patch_url": "https://github.com/flutter/flutter-intellij/pull/4674.patch",
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4674/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/1bd58138f85f862be1efbf1d9e49b8eed92a15b7",
+    "title": "Update build script",
+    "updated_at": "2020-07-01T21:02:20Z",
+    "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4674",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+        "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+        "followers_url": "https://api.github.com/users/stevemessick/followers",
+        "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+        "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/stevemessick",
+        "id": 8518285,
+        "login": "stevemessick",
+        "node_id": "MDQ6VXNlcjg1MTgyODU=",
+        "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+        "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+        "repos_url": "https://api.github.com/users/stevemessick/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/stevemessick"
+    }
+}

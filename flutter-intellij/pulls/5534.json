@@ -1,0 +1,904 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/issues/5534/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5534/commits"
+        },
+        "html": {
+            "href": "https://github.com/flutter/flutter-intellij/pull/5534"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/issues/5534"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5534/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5534"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/statuses/9bdd4e308632fe038ff883ef0c2d18be94f540db"
+        }
+    },
+    "active_lock_reason": null,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "MEMBER",
+    "auto_merge": null,
+    "base": {
+        "label": "flutter:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/flutter/flutter-intellij/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/flutter/flutter-intellij/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/flutter/flutter-intellij/branches{/branch}",
+            "clone_url": "https://github.com/flutter/flutter-intellij.git",
+            "collaborators_url": "https://api.github.com/repos/flutter/flutter-intellij/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/comments{/number}",
+            "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/flutter/flutter-intellij/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/flutter/flutter-intellij/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/flutter/flutter-intellij/contributors",
+            "created_at": "2016-07-25T22:31:03Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/flutter/flutter-intellij/deployments",
+            "description": "Flutter Plugin for IntelliJ",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/flutter/flutter-intellij/downloads",
+            "events_url": "https://api.github.com/repos/flutter/flutter-intellij/events",
+            "fork": false,
+            "forks": 308,
+            "forks_count": 308,
+            "forks_url": "https://api.github.com/repos/flutter/flutter-intellij/forks",
+            "full_name": "flutter/flutter-intellij",
+            "git_commits_url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/flutter/flutter-intellij/git/tags{/sha}",
+            "git_url": "git://github.com/flutter/flutter-intellij.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "https://flutter.dev/using-ide",
+            "hooks_url": "https://api.github.com/repos/flutter/flutter-intellij/hooks",
+            "html_url": "https://github.com/flutter/flutter-intellij",
+            "id": 64172164,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/flutter/flutter-intellij/issues{/number}",
+            "keys_url": "https://api.github.com/repos/flutter/flutter-intellij/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/flutter/flutter-intellij/labels{/name}",
+            "language": "Java",
+            "languages_url": "https://api.github.com/repos/flutter/flutter-intellij/languages",
+            "license": {
+                "key": "bsd-3-clause",
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "node_id": "MDc6TGljZW5zZTU=",
+                "spdx_id": "BSD-3-Clause",
+                "url": "https://api.github.com/licenses/bsd-3-clause"
+            },
+            "merges_url": "https://api.github.com/repos/flutter/flutter-intellij/merges",
+            "milestones_url": "https://api.github.com/repos/flutter/flutter-intellij/milestones{/number}",
+            "mirror_url": null,
+            "name": "flutter-intellij",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2NDE3MjE2NA==",
+            "notifications_url": "https://api.github.com/repos/flutter/flutter-intellij/notifications{?since,all,participating}",
+            "open_issues": 514,
+            "open_issues_count": 514,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+                "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+                "followers_url": "https://api.github.com/users/flutter/followers",
+                "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+                "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/flutter",
+                "id": 14101776,
+                "login": "flutter",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+                "organizations_url": "https://api.github.com/users/flutter/orgs",
+                "received_events_url": "https://api.github.com/users/flutter/received_events",
+                "repos_url": "https://api.github.com/users/flutter/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/flutter"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls{/number}",
+            "pushed_at": "2022-10-03T08:04:48Z",
+            "releases_url": "https://api.github.com/repos/flutter/flutter-intellij/releases{/id}",
+            "size": 160091,
+            "ssh_url": "git@github.com:flutter/flutter-intellij.git",
+            "stargazers_count": 1802,
+            "stargazers_url": "https://api.github.com/repos/flutter/flutter-intellij/stargazers",
+            "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/flutter/flutter-intellij/subscribers",
+            "subscription_url": "https://api.github.com/repos/flutter/flutter-intellij/subscription",
+            "svn_url": "https://github.com/flutter/flutter-intellij",
+            "tags_url": "https://api.github.com/repos/flutter/flutter-intellij/tags",
+            "teams_url": "https://api.github.com/repos/flutter/flutter-intellij/teams",
+            "topics": [
+                "flutter",
+                "intellij-plugin",
+                "java"
+            ],
+            "trees_url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees{/sha}",
+            "updated_at": "2022-10-03T05:16:49Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij",
+            "visibility": "public",
+            "watchers": 1802,
+            "watchers_count": 1802,
+            "web_commit_signoff_required": false
+        },
+        "sha": "deb20c8f569f5ed16fbf8be36fe8cfd64d064f34",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+            "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+            "followers_url": "https://api.github.com/users/flutter/followers",
+            "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+            "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/flutter",
+            "id": 14101776,
+            "login": "flutter",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+            "organizations_url": "https://api.github.com/users/flutter/orgs",
+            "received_events_url": "https://api.github.com/users/flutter/received_events",
+            "repos_url": "https://api.github.com/users/flutter/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/flutter"
+        }
+    },
+    "body": "- switch the repo's analysis options to using package:lints\r\n\r\nThis updates the analysis options files for this repo to bring in the recommended set of lints from `package:lints`. The commits here build on the work in https://github.com/flutter/flutter-intellij/pull/5520; after that lands I'll re-sync this branch and squash the commits.\r\n",
+    "closed_at": "2021-06-01T23:00:43Z",
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/5534#discussion_r643525911"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5534"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/643525911"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "\"shallow checkout\" -- I forgot a word. Don't worry about it here.",
+            "commit_id": "9bdd4e308632fe038ff883ef0c2d18be94f540db",
+            "created_at": "2021-06-01T22:30:22Z",
+            "diff_hunk": "@@ -31,8 +31,9 @@ Future<int> exec(String cmd, List<String> args, {String cwd}) async {\n }\n \n Future<String> makeDevLog(BuildSpec spec) async {\n-  if (lastReleaseName == null)\n-    return ''; // The shallow on travis causes problems.\n+  if (lastReleaseName == null) {\n+    return '';\n+  } // The shallow on travis causes problems.",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/5534#discussion_r643525911",
+            "id": 643525911,
+            "line": 36,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDY0MzUyNTkxMQ==",
+            "original_commit_id": "9bdd4e308632fe038ff883ef0c2d18be94f540db",
+            "original_line": 36,
+            "original_position": 8,
+            "original_start_line": null,
+            "path": "tool/plugin/lib/util.dart",
+            "position": 8,
+            "pull_request_review_id": 673644237,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5534",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/643525911/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2021-06-01T22:45:23Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/643525911",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            }
+        }
+    ],
+    "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/5534/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1269969?v=4",
+                "events_url": "https://api.github.com/users/devoncarew/events{/privacy}",
+                "followers_url": "https://api.github.com/users/devoncarew/followers",
+                "following_url": "https://api.github.com/users/devoncarew/following{/other_user}",
+                "gists_url": "https://api.github.com/users/devoncarew/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/devoncarew",
+                "id": 1269969,
+                "login": "devoncarew",
+                "node_id": "MDQ6VXNlcjEyNjk5Njk=",
+                "organizations_url": "https://api.github.com/users/devoncarew/orgs",
+                "received_events_url": "https://api.github.com/users/devoncarew/received_events",
+                "repos_url": "https://api.github.com/users/devoncarew/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/devoncarew/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/devoncarew/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/devoncarew"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/35a9397e5e1ba45513b504706d6c556b7a0b0d44/comments",
+            "commit": {
+                "author": {
+                    "date": "2021-05-26T20:38:52Z",
+                    "email": "devoncarew@google.com",
+                    "name": "Devon Carew"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2021-05-26T20:38:52Z",
+                    "email": "devoncarew@google.com",
+                    "name": "Devon Carew"
+                },
+                "message": "update the set of supported IntelliJ versions",
+                "tree": {
+                    "sha": "84d3c2077ba349286e1e6a98c1afef856d461441",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/84d3c2077ba349286e1e6a98c1afef856d461441"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/35a9397e5e1ba45513b504706d6c556b7a0b0d44",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1269969?v=4",
+                "events_url": "https://api.github.com/users/devoncarew/events{/privacy}",
+                "followers_url": "https://api.github.com/users/devoncarew/followers",
+                "following_url": "https://api.github.com/users/devoncarew/following{/other_user}",
+                "gists_url": "https://api.github.com/users/devoncarew/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/devoncarew",
+                "id": 1269969,
+                "login": "devoncarew",
+                "node_id": "MDQ6VXNlcjEyNjk5Njk=",
+                "organizations_url": "https://api.github.com/users/devoncarew/orgs",
+                "received_events_url": "https://api.github.com/users/devoncarew/received_events",
+                "repos_url": "https://api.github.com/users/devoncarew/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/devoncarew/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/devoncarew/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/devoncarew"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/35a9397e5e1ba45513b504706d6c556b7a0b0d44",
+            "node_id": "MDY6Q29tbWl0NzUzMjM3Mzc6MzVhOTM5N2U1ZTFiYTQ1NTEzYjUwNDcwNmQ2YzU1NmI3YTBiMGQ0NA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/9a456c6963ce10fc0e0329b11df2d4a28a9641f1",
+                    "sha": "9a456c6963ce10fc0e0329b11df2d4a28a9641f1",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/9a456c6963ce10fc0e0329b11df2d4a28a9641f1"
+                }
+            ],
+            "sha": "35a9397e5e1ba45513b504706d6c556b7a0b0d44",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/35a9397e5e1ba45513b504706d6c556b7a0b0d44"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1269969?v=4",
+                "events_url": "https://api.github.com/users/devoncarew/events{/privacy}",
+                "followers_url": "https://api.github.com/users/devoncarew/followers",
+                "following_url": "https://api.github.com/users/devoncarew/following{/other_user}",
+                "gists_url": "https://api.github.com/users/devoncarew/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/devoncarew",
+                "id": 1269969,
+                "login": "devoncarew",
+                "node_id": "MDQ6VXNlcjEyNjk5Njk=",
+                "organizations_url": "https://api.github.com/users/devoncarew/orgs",
+                "received_events_url": "https://api.github.com/users/devoncarew/received_events",
+                "repos_url": "https://api.github.com/users/devoncarew/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/devoncarew/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/devoncarew/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/devoncarew"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/a48d04dacf7e44693998f81e3106bef0218776bb/comments",
+            "commit": {
+                "author": {
+                    "date": "2021-05-26T21:50:00Z",
+                    "email": "devoncarew@google.com",
+                    "name": "Devon Carew"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2021-05-26T21:50:00Z",
+                    "email": "devoncarew@google.com",
+                    "name": "Devon Carew"
+                },
+                "message": "update edit.dart",
+                "tree": {
+                    "sha": "f7bf27ea24e08e27528bb2f6384c20234cff2760",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/f7bf27ea24e08e27528bb2f6384c20234cff2760"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/a48d04dacf7e44693998f81e3106bef0218776bb",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1269969?v=4",
+                "events_url": "https://api.github.com/users/devoncarew/events{/privacy}",
+                "followers_url": "https://api.github.com/users/devoncarew/followers",
+                "following_url": "https://api.github.com/users/devoncarew/following{/other_user}",
+                "gists_url": "https://api.github.com/users/devoncarew/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/devoncarew",
+                "id": 1269969,
+                "login": "devoncarew",
+                "node_id": "MDQ6VXNlcjEyNjk5Njk=",
+                "organizations_url": "https://api.github.com/users/devoncarew/orgs",
+                "received_events_url": "https://api.github.com/users/devoncarew/received_events",
+                "repos_url": "https://api.github.com/users/devoncarew/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/devoncarew/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/devoncarew/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/devoncarew"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/a48d04dacf7e44693998f81e3106bef0218776bb",
+            "node_id": "MDY6Q29tbWl0NzUzMjM3Mzc6YTQ4ZDA0ZGFjZjdlNDQ2OTM5OThmODFlMzEwNmJlZjAyMTg3NzZiYg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/35a9397e5e1ba45513b504706d6c556b7a0b0d44",
+                    "sha": "35a9397e5e1ba45513b504706d6c556b7a0b0d44",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/35a9397e5e1ba45513b504706d6c556b7a0b0d44"
+                }
+            ],
+            "sha": "a48d04dacf7e44693998f81e3106bef0218776bb",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/a48d04dacf7e44693998f81e3106bef0218776bb"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1269969?v=4",
+                "events_url": "https://api.github.com/users/devoncarew/events{/privacy}",
+                "followers_url": "https://api.github.com/users/devoncarew/followers",
+                "following_url": "https://api.github.com/users/devoncarew/following{/other_user}",
+                "gists_url": "https://api.github.com/users/devoncarew/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/devoncarew",
+                "id": 1269969,
+                "login": "devoncarew",
+                "node_id": "MDQ6VXNlcjEyNjk5Njk=",
+                "organizations_url": "https://api.github.com/users/devoncarew/orgs",
+                "received_events_url": "https://api.github.com/users/devoncarew/received_events",
+                "repos_url": "https://api.github.com/users/devoncarew/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/devoncarew/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/devoncarew/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/devoncarew"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/eb99ac3746a8f66434c2c1d8e6fdb36f5a68f4a2/comments",
+            "commit": {
+                "author": {
+                    "date": "2021-05-27T21:57:42Z",
+                    "email": "devoncarew@google.com",
+                    "name": "Devon Carew"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2021-05-27T21:57:42Z",
+                    "email": "devoncarew@google.com",
+                    "name": "Devon Carew"
+                },
+                "message": "re-add support for AS 4.2",
+                "tree": {
+                    "sha": "4caa320a2b208516197262cfb96c8cdfb313a523",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/4caa320a2b208516197262cfb96c8cdfb313a523"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/eb99ac3746a8f66434c2c1d8e6fdb36f5a68f4a2",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1269969?v=4",
+                "events_url": "https://api.github.com/users/devoncarew/events{/privacy}",
+                "followers_url": "https://api.github.com/users/devoncarew/followers",
+                "following_url": "https://api.github.com/users/devoncarew/following{/other_user}",
+                "gists_url": "https://api.github.com/users/devoncarew/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/devoncarew",
+                "id": 1269969,
+                "login": "devoncarew",
+                "node_id": "MDQ6VXNlcjEyNjk5Njk=",
+                "organizations_url": "https://api.github.com/users/devoncarew/orgs",
+                "received_events_url": "https://api.github.com/users/devoncarew/received_events",
+                "repos_url": "https://api.github.com/users/devoncarew/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/devoncarew/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/devoncarew/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/devoncarew"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/eb99ac3746a8f66434c2c1d8e6fdb36f5a68f4a2",
+            "node_id": "MDY6Q29tbWl0NzUzMjM3Mzc6ZWI5OWFjMzc0NmE4ZjY2NDM0YzJjMWQ4ZTZmZGIzNmY1YTY4ZjRhMg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/a48d04dacf7e44693998f81e3106bef0218776bb",
+                    "sha": "a48d04dacf7e44693998f81e3106bef0218776bb",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/a48d04dacf7e44693998f81e3106bef0218776bb"
+                }
+            ],
+            "sha": "eb99ac3746a8f66434c2c1d8e6fdb36f5a68f4a2",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/eb99ac3746a8f66434c2c1d8e6fdb36f5a68f4a2"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1269969?v=4",
+                "events_url": "https://api.github.com/users/devoncarew/events{/privacy}",
+                "followers_url": "https://api.github.com/users/devoncarew/followers",
+                "following_url": "https://api.github.com/users/devoncarew/following{/other_user}",
+                "gists_url": "https://api.github.com/users/devoncarew/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/devoncarew",
+                "id": 1269969,
+                "login": "devoncarew",
+                "node_id": "MDQ6VXNlcjEyNjk5Njk=",
+                "organizations_url": "https://api.github.com/users/devoncarew/orgs",
+                "received_events_url": "https://api.github.com/users/devoncarew/received_events",
+                "repos_url": "https://api.github.com/users/devoncarew/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/devoncarew/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/devoncarew/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/devoncarew"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/5a5eb7d2478bb7a3ed9eb2afbe1114aaed2eef5d/comments",
+            "commit": {
+                "author": {
+                    "date": "2021-06-01T02:27:44Z",
+                    "email": "devoncarew@google.com",
+                    "name": "Devon Carew"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2021-06-01T02:27:44Z",
+                    "email": "devoncarew@google.com",
+                    "name": "Devon Carew"
+                },
+                "message": "switch the repo analysis options to using package:lints",
+                "tree": {
+                    "sha": "4c828c6309bf0dba5d4174279ec4c2e791a80f30",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/4c828c6309bf0dba5d4174279ec4c2e791a80f30"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/5a5eb7d2478bb7a3ed9eb2afbe1114aaed2eef5d",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1269969?v=4",
+                "events_url": "https://api.github.com/users/devoncarew/events{/privacy}",
+                "followers_url": "https://api.github.com/users/devoncarew/followers",
+                "following_url": "https://api.github.com/users/devoncarew/following{/other_user}",
+                "gists_url": "https://api.github.com/users/devoncarew/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/devoncarew",
+                "id": 1269969,
+                "login": "devoncarew",
+                "node_id": "MDQ6VXNlcjEyNjk5Njk=",
+                "organizations_url": "https://api.github.com/users/devoncarew/orgs",
+                "received_events_url": "https://api.github.com/users/devoncarew/received_events",
+                "repos_url": "https://api.github.com/users/devoncarew/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/devoncarew/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/devoncarew/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/devoncarew"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/5a5eb7d2478bb7a3ed9eb2afbe1114aaed2eef5d",
+            "node_id": "MDY6Q29tbWl0NzUzMjM3Mzc6NWE1ZWI3ZDI0NzhiYjdhM2VkOWViMmFmYmUxMTE0YWFlZDJlZWY1ZA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/eb99ac3746a8f66434c2c1d8e6fdb36f5a68f4a2",
+                    "sha": "eb99ac3746a8f66434c2c1d8e6fdb36f5a68f4a2",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/eb99ac3746a8f66434c2c1d8e6fdb36f5a68f4a2"
+                }
+            ],
+            "sha": "5a5eb7d2478bb7a3ed9eb2afbe1114aaed2eef5d",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/5a5eb7d2478bb7a3ed9eb2afbe1114aaed2eef5d"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1269969?v=4",
+                "events_url": "https://api.github.com/users/devoncarew/events{/privacy}",
+                "followers_url": "https://api.github.com/users/devoncarew/followers",
+                "following_url": "https://api.github.com/users/devoncarew/following{/other_user}",
+                "gists_url": "https://api.github.com/users/devoncarew/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/devoncarew",
+                "id": 1269969,
+                "login": "devoncarew",
+                "node_id": "MDQ6VXNlcjEyNjk5Njk=",
+                "organizations_url": "https://api.github.com/users/devoncarew/orgs",
+                "received_events_url": "https://api.github.com/users/devoncarew/received_events",
+                "repos_url": "https://api.github.com/users/devoncarew/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/devoncarew/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/devoncarew/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/devoncarew"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/f62bb394315948f380c535a010944080bf0b37f1/comments",
+            "commit": {
+                "author": {
+                    "date": "2021-06-01T18:29:14Z",
+                    "email": "devoncarew@google.com",
+                    "name": "Devon Carew"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2021-06-01T18:29:14Z",
+                    "email": "devoncarew@google.com",
+                    "name": "Devon Carew"
+                },
+                "message": "merge to master",
+                "tree": {
+                    "sha": "c71560caf8b6e4036ade0c76936c19a6b74fa789",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/c71560caf8b6e4036ade0c76936c19a6b74fa789"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/f62bb394315948f380c535a010944080bf0b37f1",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1269969?v=4",
+                "events_url": "https://api.github.com/users/devoncarew/events{/privacy}",
+                "followers_url": "https://api.github.com/users/devoncarew/followers",
+                "following_url": "https://api.github.com/users/devoncarew/following{/other_user}",
+                "gists_url": "https://api.github.com/users/devoncarew/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/devoncarew",
+                "id": 1269969,
+                "login": "devoncarew",
+                "node_id": "MDQ6VXNlcjEyNjk5Njk=",
+                "organizations_url": "https://api.github.com/users/devoncarew/orgs",
+                "received_events_url": "https://api.github.com/users/devoncarew/received_events",
+                "repos_url": "https://api.github.com/users/devoncarew/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/devoncarew/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/devoncarew/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/devoncarew"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/f62bb394315948f380c535a010944080bf0b37f1",
+            "node_id": "MDY6Q29tbWl0NzUzMjM3Mzc6ZjYyYmIzOTQzMTU5NDhmMzgwYzUzNWEwMTA5NDQwODBiZjBiMzdmMQ==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/5a5eb7d2478bb7a3ed9eb2afbe1114aaed2eef5d",
+                    "sha": "5a5eb7d2478bb7a3ed9eb2afbe1114aaed2eef5d",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/5a5eb7d2478bb7a3ed9eb2afbe1114aaed2eef5d"
+                },
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/deb20c8f569f5ed16fbf8be36fe8cfd64d064f34",
+                    "sha": "deb20c8f569f5ed16fbf8be36fe8cfd64d064f34",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/deb20c8f569f5ed16fbf8be36fe8cfd64d064f34"
+                }
+            ],
+            "sha": "f62bb394315948f380c535a010944080bf0b37f1",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/f62bb394315948f380c535a010944080bf0b37f1"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1269969?v=4",
+                "events_url": "https://api.github.com/users/devoncarew/events{/privacy}",
+                "followers_url": "https://api.github.com/users/devoncarew/followers",
+                "following_url": "https://api.github.com/users/devoncarew/following{/other_user}",
+                "gists_url": "https://api.github.com/users/devoncarew/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/devoncarew",
+                "id": 1269969,
+                "login": "devoncarew",
+                "node_id": "MDQ6VXNlcjEyNjk5Njk=",
+                "organizations_url": "https://api.github.com/users/devoncarew/orgs",
+                "received_events_url": "https://api.github.com/users/devoncarew/received_events",
+                "repos_url": "https://api.github.com/users/devoncarew/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/devoncarew/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/devoncarew/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/devoncarew"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/9bdd4e308632fe038ff883ef0c2d18be94f540db/comments",
+            "commit": {
+                "author": {
+                    "date": "2021-06-01T21:33:43Z",
+                    "email": "devoncarew@google.com",
+                    "name": "Devon Carew"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2021-06-01T21:33:43Z",
+                    "email": "devoncarew@google.com",
+                    "name": "Devon Carew"
+                },
+                "message": "add a lints dep to testData/sample_tests/pubspec.yaml",
+                "tree": {
+                    "sha": "6899807c7f5c8a4af8fe05a88bc077cc9e8a1b6a",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/6899807c7f5c8a4af8fe05a88bc077cc9e8a1b6a"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/9bdd4e308632fe038ff883ef0c2d18be94f540db",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1269969?v=4",
+                "events_url": "https://api.github.com/users/devoncarew/events{/privacy}",
+                "followers_url": "https://api.github.com/users/devoncarew/followers",
+                "following_url": "https://api.github.com/users/devoncarew/following{/other_user}",
+                "gists_url": "https://api.github.com/users/devoncarew/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/devoncarew",
+                "id": 1269969,
+                "login": "devoncarew",
+                "node_id": "MDQ6VXNlcjEyNjk5Njk=",
+                "organizations_url": "https://api.github.com/users/devoncarew/orgs",
+                "received_events_url": "https://api.github.com/users/devoncarew/received_events",
+                "repos_url": "https://api.github.com/users/devoncarew/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/devoncarew/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/devoncarew/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/devoncarew"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/9bdd4e308632fe038ff883ef0c2d18be94f540db",
+            "node_id": "MDY6Q29tbWl0NzUzMjM3Mzc6OWJkZDRlMzA4NjMyZmUwMzhmZjg4M2VmMGMyZDE4YmU5NGY1NDBkYg==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/f62bb394315948f380c535a010944080bf0b37f1",
+                    "sha": "f62bb394315948f380c535a010944080bf0b37f1",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/f62bb394315948f380c535a010944080bf0b37f1"
+                }
+            ],
+            "sha": "9bdd4e308632fe038ff883ef0c2d18be94f540db",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/9bdd4e308632fe038ff883ef0c2d18be94f540db"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5534/commits",
+    "created_at": "2021-06-01T02:31:17Z",
+    "diff_url": "https://github.com/flutter/flutter-intellij/pull/5534.diff",
+    "draft": false,
+    "head": {
+        "label": "devoncarew:use_package_lints",
+        "ref": "use_package_lints",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/devoncarew/flutter-intellij/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/devoncarew/flutter-intellij/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/devoncarew/flutter-intellij/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/devoncarew/flutter-intellij/branches{/branch}",
+            "clone_url": "https://github.com/devoncarew/flutter-intellij.git",
+            "collaborators_url": "https://api.github.com/repos/devoncarew/flutter-intellij/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/devoncarew/flutter-intellij/comments{/number}",
+            "commits_url": "https://api.github.com/repos/devoncarew/flutter-intellij/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/devoncarew/flutter-intellij/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/devoncarew/flutter-intellij/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/devoncarew/flutter-intellij/contributors",
+            "created_at": "2016-12-01T19:08:06Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/devoncarew/flutter-intellij/deployments",
+            "description": "Flutter Plugin for IntelliJ",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/devoncarew/flutter-intellij/downloads",
+            "events_url": "https://api.github.com/repos/devoncarew/flutter-intellij/events",
+            "fork": true,
+            "forks": 1,
+            "forks_count": 1,
+            "forks_url": "https://api.github.com/repos/devoncarew/flutter-intellij/forks",
+            "full_name": "devoncarew/flutter-intellij",
+            "git_commits_url": "https://api.github.com/repos/devoncarew/flutter-intellij/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/devoncarew/flutter-intellij/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/devoncarew/flutter-intellij/git/tags{/sha}",
+            "git_url": "git://github.com/devoncarew/flutter-intellij.git",
+            "has_downloads": true,
+            "has_issues": false,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "",
+            "hooks_url": "https://api.github.com/repos/devoncarew/flutter-intellij/hooks",
+            "html_url": "https://github.com/devoncarew/flutter-intellij",
+            "id": 75323737,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/devoncarew/flutter-intellij/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/devoncarew/flutter-intellij/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/devoncarew/flutter-intellij/issues{/number}",
+            "keys_url": "https://api.github.com/repos/devoncarew/flutter-intellij/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/devoncarew/flutter-intellij/labels{/name}",
+            "language": "Java",
+            "languages_url": "https://api.github.com/repos/devoncarew/flutter-intellij/languages",
+            "license": {
+                "key": "bsd-3-clause",
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "node_id": "MDc6TGljZW5zZTU=",
+                "spdx_id": "BSD-3-Clause",
+                "url": "https://api.github.com/licenses/bsd-3-clause"
+            },
+            "merges_url": "https://api.github.com/repos/devoncarew/flutter-intellij/merges",
+            "milestones_url": "https://api.github.com/repos/devoncarew/flutter-intellij/milestones{/number}",
+            "mirror_url": null,
+            "name": "flutter-intellij",
+            "node_id": "MDEwOlJlcG9zaXRvcnk3NTMyMzczNw==",
+            "notifications_url": "https://api.github.com/repos/devoncarew/flutter-intellij/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1269969?v=4",
+                "events_url": "https://api.github.com/users/devoncarew/events{/privacy}",
+                "followers_url": "https://api.github.com/users/devoncarew/followers",
+                "following_url": "https://api.github.com/users/devoncarew/following{/other_user}",
+                "gists_url": "https://api.github.com/users/devoncarew/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/devoncarew",
+                "id": 1269969,
+                "login": "devoncarew",
+                "node_id": "MDQ6VXNlcjEyNjk5Njk=",
+                "organizations_url": "https://api.github.com/users/devoncarew/orgs",
+                "received_events_url": "https://api.github.com/users/devoncarew/received_events",
+                "repos_url": "https://api.github.com/users/devoncarew/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/devoncarew/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/devoncarew/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/devoncarew"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/devoncarew/flutter-intellij/pulls{/number}",
+            "pushed_at": "2021-07-27T15:44:08Z",
+            "releases_url": "https://api.github.com/repos/devoncarew/flutter-intellij/releases{/id}",
+            "size": 93913,
+            "ssh_url": "git@github.com:devoncarew/flutter-intellij.git",
+            "stargazers_count": 0,
+            "stargazers_url": "https://api.github.com/repos/devoncarew/flutter-intellij/stargazers",
+            "statuses_url": "https://api.github.com/repos/devoncarew/flutter-intellij/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/devoncarew/flutter-intellij/subscribers",
+            "subscription_url": "https://api.github.com/repos/devoncarew/flutter-intellij/subscription",
+            "svn_url": "https://github.com/devoncarew/flutter-intellij",
+            "tags_url": "https://api.github.com/repos/devoncarew/flutter-intellij/tags",
+            "teams_url": "https://api.github.com/repos/devoncarew/flutter-intellij/teams",
+            "topics": [],
+            "trees_url": "https://api.github.com/repos/devoncarew/flutter-intellij/git/trees{/sha}",
+            "updated_at": "2017-03-28T23:43:59Z",
+            "url": "https://api.github.com/repos/devoncarew/flutter-intellij",
+            "visibility": "public",
+            "watchers": 0,
+            "watchers_count": 0,
+            "web_commit_signoff_required": false
+        },
+        "sha": "9bdd4e308632fe038ff883ef0c2d18be94f540db",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/1269969?v=4",
+            "events_url": "https://api.github.com/users/devoncarew/events{/privacy}",
+            "followers_url": "https://api.github.com/users/devoncarew/followers",
+            "following_url": "https://api.github.com/users/devoncarew/following{/other_user}",
+            "gists_url": "https://api.github.com/users/devoncarew/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/devoncarew",
+            "id": 1269969,
+            "login": "devoncarew",
+            "node_id": "MDQ6VXNlcjEyNjk5Njk=",
+            "organizations_url": "https://api.github.com/users/devoncarew/orgs",
+            "received_events_url": "https://api.github.com/users/devoncarew/received_events",
+            "repos_url": "https://api.github.com/users/devoncarew/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/devoncarew/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/devoncarew/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/devoncarew"
+        }
+    },
+    "html_url": "https://github.com/flutter/flutter-intellij/pull/5534",
+    "id": 658598372,
+    "issue_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/5534",
+    "labels": [
+        {
+            "color": "0e8a16",
+            "default": false,
+            "description": null,
+            "id": 487496526,
+            "name": "cla: yes",
+            "node_id": "MDU6TGFiZWw0ODc0OTY1MjY=",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/labels/cla:%20yes"
+        }
+    ],
+    "locked": false,
+    "merge_commit_sha": "b177abc6e51958b0f6d45354dbffe223fb8f67e5",
+    "merged_at": "2021-06-01T23:00:42Z",
+    "milestone": null,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0NjU4NTk4Mzcy",
+    "number": 5534,
+    "patch_url": "https://github.com/flutter/flutter-intellij/pull/5534.patch",
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5534/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/9bdd4e308632fe038ff883ef0c2d18be94f540db",
+    "title": "switch the repo's analysis options to using package:lints",
+    "updated_at": "2021-06-01T23:00:43Z",
+    "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/5534",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1269969?v=4",
+        "events_url": "https://api.github.com/users/devoncarew/events{/privacy}",
+        "followers_url": "https://api.github.com/users/devoncarew/followers",
+        "following_url": "https://api.github.com/users/devoncarew/following{/other_user}",
+        "gists_url": "https://api.github.com/users/devoncarew/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/devoncarew",
+        "id": 1269969,
+        "login": "devoncarew",
+        "node_id": "MDQ6VXNlcjEyNjk5Njk=",
+        "organizations_url": "https://api.github.com/users/devoncarew/orgs",
+        "received_events_url": "https://api.github.com/users/devoncarew/received_events",
+        "repos_url": "https://api.github.com/users/devoncarew/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/devoncarew/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/devoncarew/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/devoncarew"
+    }
+}

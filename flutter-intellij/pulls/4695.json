@@ -1,0 +1,793 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/issues/4695/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4695/commits"
+        },
+        "html": {
+            "href": "https://github.com/flutter/flutter-intellij/pull/4695"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/issues/4695"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4695/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4695"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/statuses/e2b3de9863f62b1983da4eb27567972e5ce94794"
+        }
+    },
+    "active_lock_reason": null,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "CONTRIBUTOR",
+    "auto_merge": null,
+    "base": {
+        "label": "flutter:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/flutter/flutter-intellij/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/flutter/flutter-intellij/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/flutter/flutter-intellij/branches{/branch}",
+            "clone_url": "https://github.com/flutter/flutter-intellij.git",
+            "collaborators_url": "https://api.github.com/repos/flutter/flutter-intellij/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/comments{/number}",
+            "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/flutter/flutter-intellij/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/flutter/flutter-intellij/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/flutter/flutter-intellij/contributors",
+            "created_at": "2016-07-25T22:31:03Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/flutter/flutter-intellij/deployments",
+            "description": "Flutter Plugin for IntelliJ",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/flutter/flutter-intellij/downloads",
+            "events_url": "https://api.github.com/repos/flutter/flutter-intellij/events",
+            "fork": false,
+            "forks": 308,
+            "forks_count": 308,
+            "forks_url": "https://api.github.com/repos/flutter/flutter-intellij/forks",
+            "full_name": "flutter/flutter-intellij",
+            "git_commits_url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/flutter/flutter-intellij/git/tags{/sha}",
+            "git_url": "git://github.com/flutter/flutter-intellij.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "https://flutter.dev/using-ide",
+            "hooks_url": "https://api.github.com/repos/flutter/flutter-intellij/hooks",
+            "html_url": "https://github.com/flutter/flutter-intellij",
+            "id": 64172164,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/flutter/flutter-intellij/issues{/number}",
+            "keys_url": "https://api.github.com/repos/flutter/flutter-intellij/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/flutter/flutter-intellij/labels{/name}",
+            "language": "Java",
+            "languages_url": "https://api.github.com/repos/flutter/flutter-intellij/languages",
+            "license": {
+                "key": "bsd-3-clause",
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "node_id": "MDc6TGljZW5zZTU=",
+                "spdx_id": "BSD-3-Clause",
+                "url": "https://api.github.com/licenses/bsd-3-clause"
+            },
+            "merges_url": "https://api.github.com/repos/flutter/flutter-intellij/merges",
+            "milestones_url": "https://api.github.com/repos/flutter/flutter-intellij/milestones{/number}",
+            "mirror_url": null,
+            "name": "flutter-intellij",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2NDE3MjE2NA==",
+            "notifications_url": "https://api.github.com/repos/flutter/flutter-intellij/notifications{?since,all,participating}",
+            "open_issues": 514,
+            "open_issues_count": 514,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+                "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+                "followers_url": "https://api.github.com/users/flutter/followers",
+                "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+                "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/flutter",
+                "id": 14101776,
+                "login": "flutter",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+                "organizations_url": "https://api.github.com/users/flutter/orgs",
+                "received_events_url": "https://api.github.com/users/flutter/received_events",
+                "repos_url": "https://api.github.com/users/flutter/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/flutter"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls{/number}",
+            "pushed_at": "2022-10-03T08:04:48Z",
+            "releases_url": "https://api.github.com/repos/flutter/flutter-intellij/releases{/id}",
+            "size": 160091,
+            "ssh_url": "git@github.com:flutter/flutter-intellij.git",
+            "stargazers_count": 1802,
+            "stargazers_url": "https://api.github.com/repos/flutter/flutter-intellij/stargazers",
+            "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/flutter/flutter-intellij/subscribers",
+            "subscription_url": "https://api.github.com/repos/flutter/flutter-intellij/subscription",
+            "svn_url": "https://github.com/flutter/flutter-intellij",
+            "tags_url": "https://api.github.com/repos/flutter/flutter-intellij/tags",
+            "teams_url": "https://api.github.com/repos/flutter/flutter-intellij/teams",
+            "topics": [
+                "flutter",
+                "intellij-plugin",
+                "java"
+            ],
+            "trees_url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees{/sha}",
+            "updated_at": "2022-10-03T05:16:49Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij",
+            "visibility": "public",
+            "watchers": 1802,
+            "watchers_count": 1802,
+            "web_commit_signoff_required": false
+        },
+        "sha": "e2a993ee154a2dfe0e3322fc1bf522792a7f8c4e",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+            "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+            "followers_url": "https://api.github.com/users/flutter/followers",
+            "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+            "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/flutter",
+            "id": 14101776,
+            "login": "flutter",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+            "organizations_url": "https://api.github.com/users/flutter/orgs",
+            "received_events_url": "https://api.github.com/users/flutter/received_events",
+            "repos_url": "https://api.github.com/users/flutter/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/flutter"
+        }
+    },
+    "body": "##  Goal\r\nThe goal of this pull request is to resolve the issue displaying color icons in IntelliJ Idea and Android studio for `Colors.fromARGB` and `Colors.fromRGBO` functions.\r\n\r\n## Changes\r\nAdded annotation support for `const Color.fromARGB`, `Color.fromARGB`, `const Color.fromRGBO`, `Color.fromRBGO`\r\nAdded helper functions to `ExpressionParsingUtils.java` to parse color components and create corresponding Color\r\nAdded unit tests\r\n\r\n## Fixes\r\nhttps://github.com/flutter/flutter-intellij/issues/3347",
+    "closed_at": "2020-07-27T12:32:46Z",
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4695#discussion_r452925630"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4695"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/452925630"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "We're assuming here that the numbers are in decimal; from spot checking fromARGB call sites, is that a reasonable assumption?",
+            "commit_id": "e2b3de9863f62b1983da4eb27567972e5ce94794",
+            "created_at": "2020-07-10T15:47:02Z",
+            "diff_hunk": "@@ -40,4 +40,58 @@ public static Color parseColor(String text, String colorText) {\n     //noinspection UseJBColor\n     return new Color((int)(value >> 16) & 0xFF, (int)(value >> 8) & 0xFF, (int)value & 0xFF, (int)(value >> 24) & 0xFF);\n   }\n+\n+  public static Color parseColorComponents(String callText, String prefix, boolean isARGB) {\n+    if (callText.startsWith(prefix) && callText.endsWith(\")\")) {\n+      final String colorString = callText.substring(prefix.length(), callText.length() - 1).trim();\n+      final String[] maybeNumbers = colorString.split(\",\");\n+      if (maybeNumbers.length < 4) {\n+        return null;\n+      }\n+      return isARGB ? parseARGBColorComponents(maybeNumbers) : parseRGBOColorComponents(maybeNumbers);\n+    }\n+    return null;\n+  }\n+\n+  private static Color parseARGBColorComponents(String[] maybeNumbers) {\n+    if (maybeNumbers.length < 4) {\n+      return null;\n+    }\n+    final int[] argb = new int[4];\n+    for (int i = 0; i < 4; ++i) {\n+      try {\n+        argb[i] = Integer.parseUnsignedInt(maybeNumbers[i].trim());",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4695#discussion_r452925630",
+            "id": 452925630,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDQ1MjkyNTYzMA==",
+            "original_commit_id": "9f1fa6c2c33583107e7d58a301541b3b744eebce",
+            "original_line": 63,
+            "original_position": 24,
+            "original_start_line": null,
+            "path": "src/io/flutter/editor/ExpressionParsingUtils.java",
+            "position": null,
+            "pull_request_review_id": 446508574,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4695",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/452925630/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-07-27T05:48:58Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/452925630",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1269969?v=4",
+                "events_url": "https://api.github.com/users/devoncarew/events{/privacy}",
+                "followers_url": "https://api.github.com/users/devoncarew/followers",
+                "following_url": "https://api.github.com/users/devoncarew/following{/other_user}",
+                "gists_url": "https://api.github.com/users/devoncarew/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/devoncarew",
+                "id": 1269969,
+                "login": "devoncarew",
+                "node_id": "MDQ6VXNlcjEyNjk5Njk=",
+                "organizations_url": "https://api.github.com/users/devoncarew/orgs",
+                "received_events_url": "https://api.github.com/users/devoncarew/received_events",
+                "repos_url": "https://api.github.com/users/devoncarew/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/devoncarew/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/devoncarew/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/devoncarew"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4695#discussion_r454150835"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4695"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/454150835"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "Thank you, fixed",
+            "commit_id": "e2b3de9863f62b1983da4eb27567972e5ce94794",
+            "created_at": "2020-07-14T07:13:32Z",
+            "diff_hunk": "@@ -40,4 +40,58 @@ public static Color parseColor(String text, String colorText) {\n     //noinspection UseJBColor\n     return new Color((int)(value >> 16) & 0xFF, (int)(value >> 8) & 0xFF, (int)value & 0xFF, (int)(value >> 24) & 0xFF);\n   }\n+\n+  public static Color parseColorComponents(String callText, String prefix, boolean isARGB) {\n+    if (callText.startsWith(prefix) && callText.endsWith(\")\")) {\n+      final String colorString = callText.substring(prefix.length(), callText.length() - 1).trim();\n+      final String[] maybeNumbers = colorString.split(\",\");\n+      if (maybeNumbers.length < 4) {\n+        return null;\n+      }\n+      return isARGB ? parseARGBColorComponents(maybeNumbers) : parseRGBOColorComponents(maybeNumbers);\n+    }\n+    return null;\n+  }\n+\n+  private static Color parseARGBColorComponents(String[] maybeNumbers) {\n+    if (maybeNumbers.length < 4) {\n+      return null;\n+    }\n+    final int[] argb = new int[4];\n+    for (int i = 0; i < 4; ++i) {\n+      try {\n+        argb[i] = Integer.parseUnsignedInt(maybeNumbers[i].trim());",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4695#discussion_r454150835",
+            "id": 454150835,
+            "in_reply_to_id": 452925630,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDQ1NDE1MDgzNQ==",
+            "original_commit_id": "9f1fa6c2c33583107e7d58a301541b3b744eebce",
+            "original_line": 63,
+            "original_position": 24,
+            "original_start_line": null,
+            "path": "src/io/flutter/editor/ExpressionParsingUtils.java",
+            "position": null,
+            "pull_request_review_id": 447846020,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4695",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/454150835/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-07-27T05:48:58Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/454150835",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/700982?v=4",
+                "events_url": "https://api.github.com/users/dratushnyy/events{/privacy}",
+                "followers_url": "https://api.github.com/users/dratushnyy/followers",
+                "following_url": "https://api.github.com/users/dratushnyy/following{/other_user}",
+                "gists_url": "https://api.github.com/users/dratushnyy/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/dratushnyy",
+                "id": 700982,
+                "login": "dratushnyy",
+                "node_id": "MDQ6VXNlcjcwMDk4Mg==",
+                "organizations_url": "https://api.github.com/users/dratushnyy/orgs",
+                "received_events_url": "https://api.github.com/users/dratushnyy/received_events",
+                "repos_url": "https://api.github.com/users/dratushnyy/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/dratushnyy/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/dratushnyy/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/dratushnyy"
+            }
+        }
+    ],
+    "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/4695/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/700982?v=4",
+                "events_url": "https://api.github.com/users/dratushnyy/events{/privacy}",
+                "followers_url": "https://api.github.com/users/dratushnyy/followers",
+                "following_url": "https://api.github.com/users/dratushnyy/following{/other_user}",
+                "gists_url": "https://api.github.com/users/dratushnyy/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/dratushnyy",
+                "id": 700982,
+                "login": "dratushnyy",
+                "node_id": "MDQ6VXNlcjcwMDk4Mg==",
+                "organizations_url": "https://api.github.com/users/dratushnyy/orgs",
+                "received_events_url": "https://api.github.com/users/dratushnyy/received_events",
+                "repos_url": "https://api.github.com/users/dratushnyy/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/dratushnyy/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/dratushnyy/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/dratushnyy"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/514cc65c086fbd502c76445b27d127e570ac55ad/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-07-10T10:27:19Z",
+                    "email": "d.ratushnyy@gmail.com",
+                    "name": "Dmitry Ratushnyy"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-07-10T10:47:33Z",
+                    "email": "ratushnyy.dmitry@linecorp.com",
+                    "name": "Ratushnyy Dmitry"
+                },
+                "message": "[ISSUE-3347]\nIntelliJ Idea: Display color icons for `Colors.fromARGB` and\n`Colors.fromRGBO` functions",
+                "tree": {
+                    "sha": "a294f201214e5ae4cd61132f715ddaf30677de07",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/a294f201214e5ae4cd61132f715ddaf30677de07"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/514cc65c086fbd502c76445b27d127e570ac55ad",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/514cc65c086fbd502c76445b27d127e570ac55ad",
+            "node_id": "MDY6Q29tbWl0Mjc4NTU2NDE5OjUxNGNjNjVjMDg2ZmJkNTAyYzc2NDQ1YjI3ZDEyN2U1NzBhYzU1YWQ=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/e2a993ee154a2dfe0e3322fc1bf522792a7f8c4e",
+                    "sha": "e2a993ee154a2dfe0e3322fc1bf522792a7f8c4e",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/e2a993ee154a2dfe0e3322fc1bf522792a7f8c4e"
+                }
+            ],
+            "sha": "514cc65c086fbd502c76445b27d127e570ac55ad",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/514cc65c086fbd502c76445b27d127e570ac55ad"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/700982?v=4",
+                "events_url": "https://api.github.com/users/dratushnyy/events{/privacy}",
+                "followers_url": "https://api.github.com/users/dratushnyy/followers",
+                "following_url": "https://api.github.com/users/dratushnyy/following{/other_user}",
+                "gists_url": "https://api.github.com/users/dratushnyy/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/dratushnyy",
+                "id": 700982,
+                "login": "dratushnyy",
+                "node_id": "MDQ6VXNlcjcwMDk4Mg==",
+                "organizations_url": "https://api.github.com/users/dratushnyy/orgs",
+                "received_events_url": "https://api.github.com/users/dratushnyy/received_events",
+                "repos_url": "https://api.github.com/users/dratushnyy/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/dratushnyy/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/dratushnyy/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/dratushnyy"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/9f1fa6c2c33583107e7d58a301541b3b744eebce/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-07-10T10:56:37Z",
+                    "email": "d.ratushnyy@gmail.com",
+                    "name": "Dmitry Ratushnyy"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-07-10T10:57:09Z",
+                    "email": "ratushnyy.dmitry@linecorp.com",
+                    "name": "Ratushnyy Dmitry"
+                },
+                "message": "[ISSUE-3347]\nFix test name",
+                "tree": {
+                    "sha": "232e1e0dfdb7d47e857daafd835f825dafd0435b",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/232e1e0dfdb7d47e857daafd835f825dafd0435b"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/9f1fa6c2c33583107e7d58a301541b3b744eebce",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/9f1fa6c2c33583107e7d58a301541b3b744eebce",
+            "node_id": "MDY6Q29tbWl0Mjc4NTU2NDE5OjlmMWZhNmMyYzMzNTgzMTA3ZTdkNThhMzAxNTQxYjNiNzQ0ZWViY2U=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/514cc65c086fbd502c76445b27d127e570ac55ad",
+                    "sha": "514cc65c086fbd502c76445b27d127e570ac55ad",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/514cc65c086fbd502c76445b27d127e570ac55ad"
+                }
+            ],
+            "sha": "9f1fa6c2c33583107e7d58a301541b3b744eebce",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/9f1fa6c2c33583107e7d58a301541b3b744eebce"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/700982?v=4",
+                "events_url": "https://api.github.com/users/dratushnyy/events{/privacy}",
+                "followers_url": "https://api.github.com/users/dratushnyy/followers",
+                "following_url": "https://api.github.com/users/dratushnyy/following{/other_user}",
+                "gists_url": "https://api.github.com/users/dratushnyy/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/dratushnyy",
+                "id": 700982,
+                "login": "dratushnyy",
+                "node_id": "MDQ6VXNlcjcwMDk4Mg==",
+                "organizations_url": "https://api.github.com/users/dratushnyy/orgs",
+                "received_events_url": "https://api.github.com/users/dratushnyy/received_events",
+                "repos_url": "https://api.github.com/users/dratushnyy/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/dratushnyy/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/dratushnyy/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/dratushnyy"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/67801d02b5a7f3cd3b48e097a302691ca0f35566/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-07-14T07:03:40Z",
+                    "email": "d.ratushnyy@gmail.com",
+                    "name": "Dmitry Ratushnyy"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-07-14T07:05:22Z",
+                    "email": "ratushnyy.dmitry@linecorp.com",
+                    "name": "Ratushnyy Dmitry"
+                },
+                "message": " [ISSUE-3347]\n Allow hex digits in `fromARGB` and `fromRBGO`",
+                "tree": {
+                    "sha": "02db274bd1e473de07acb48272a5206f7fa3fafe",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/02db274bd1e473de07acb48272a5206f7fa3fafe"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/67801d02b5a7f3cd3b48e097a302691ca0f35566",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/67801d02b5a7f3cd3b48e097a302691ca0f35566",
+            "node_id": "MDY6Q29tbWl0Mjc4NTU2NDE5OjY3ODAxZDAyYjVhN2YzY2QzYjQ4ZTA5N2EzMDI2OTFjYTBmMzU1NjY=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/9f1fa6c2c33583107e7d58a301541b3b744eebce",
+                    "sha": "9f1fa6c2c33583107e7d58a301541b3b744eebce",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/9f1fa6c2c33583107e7d58a301541b3b744eebce"
+                }
+            ],
+            "sha": "67801d02b5a7f3cd3b48e097a302691ca0f35566",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/67801d02b5a7f3cd3b48e097a302691ca0f35566"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/700982?v=4",
+                "events_url": "https://api.github.com/users/dratushnyy/events{/privacy}",
+                "followers_url": "https://api.github.com/users/dratushnyy/followers",
+                "following_url": "https://api.github.com/users/dratushnyy/following{/other_user}",
+                "gists_url": "https://api.github.com/users/dratushnyy/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/dratushnyy",
+                "id": 700982,
+                "login": "dratushnyy",
+                "node_id": "MDQ6VXNlcjcwMDk4Mg==",
+                "organizations_url": "https://api.github.com/users/dratushnyy/orgs",
+                "received_events_url": "https://api.github.com/users/dratushnyy/received_events",
+                "repos_url": "https://api.github.com/users/dratushnyy/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/dratushnyy/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/dratushnyy/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/dratushnyy"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/69cb10421c2650f23bcf35a1103abfcb9356c04a/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-07-14T08:29:42Z",
+                    "email": "d.ratushnyy@gmail.com",
+                    "name": "Dmitry Ratushnyy"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-07-14T08:29:55Z",
+                    "email": "ratushnyy.dmitry@linecorp.com",
+                    "name": "Ratushnyy Dmitry"
+                },
+                "message": "[ISSUE-3347]\nAttempt to fix text",
+                "tree": {
+                    "sha": "54d8b15caedd771436be9f84d186780aaf841062",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/54d8b15caedd771436be9f84d186780aaf841062"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/69cb10421c2650f23bcf35a1103abfcb9356c04a",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/69cb10421c2650f23bcf35a1103abfcb9356c04a",
+            "node_id": "MDY6Q29tbWl0Mjc4NTU2NDE5OjY5Y2IxMDQyMWMyNjUwZjIzYmNmMzVhMTEwM2FiZmNiOTM1NmMwNGE=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/67801d02b5a7f3cd3b48e097a302691ca0f35566",
+                    "sha": "67801d02b5a7f3cd3b48e097a302691ca0f35566",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/67801d02b5a7f3cd3b48e097a302691ca0f35566"
+                }
+            ],
+            "sha": "69cb10421c2650f23bcf35a1103abfcb9356c04a",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/69cb10421c2650f23bcf35a1103abfcb9356c04a"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/700982?v=4",
+                "events_url": "https://api.github.com/users/dratushnyy/events{/privacy}",
+                "followers_url": "https://api.github.com/users/dratushnyy/followers",
+                "following_url": "https://api.github.com/users/dratushnyy/following{/other_user}",
+                "gists_url": "https://api.github.com/users/dratushnyy/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/dratushnyy",
+                "id": 700982,
+                "login": "dratushnyy",
+                "node_id": "MDQ6VXNlcjcwMDk4Mg==",
+                "organizations_url": "https://api.github.com/users/dratushnyy/orgs",
+                "received_events_url": "https://api.github.com/users/dratushnyy/received_events",
+                "repos_url": "https://api.github.com/users/dratushnyy/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/dratushnyy/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/dratushnyy/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/dratushnyy"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/e2b3de9863f62b1983da4eb27567972e5ce94794/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-07-27T05:47:19Z",
+                    "email": "d.ratushnyy@gmail.com",
+                    "name": "Dmitry Ratushnyy"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-07-27T05:48:34Z",
+                    "email": "ratushnyy.dmitry@linecorp.com",
+                    "name": "Ratushnyy Dmitry"
+                },
+                "message": "[ISSUE-3347] Fix tests for `Color.fromARGB` and `Color.fromRBGO`",
+                "tree": {
+                    "sha": "aff3d939ae168e70c46cfb3f5293ee69454c2441",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/aff3d939ae168e70c46cfb3f5293ee69454c2441"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/e2b3de9863f62b1983da4eb27567972e5ce94794",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/e2b3de9863f62b1983da4eb27567972e5ce94794",
+            "node_id": "MDY6Q29tbWl0Mjc4NTU2NDE5OmUyYjNkZTk4NjNmNjJiMTk4M2RhNGViMjc1Njc5NzJlNWNlOTQ3OTQ=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/69cb10421c2650f23bcf35a1103abfcb9356c04a",
+                    "sha": "69cb10421c2650f23bcf35a1103abfcb9356c04a",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/69cb10421c2650f23bcf35a1103abfcb9356c04a"
+                }
+            ],
+            "sha": "e2b3de9863f62b1983da4eb27567972e5ce94794",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/e2b3de9863f62b1983da4eb27567972e5ce94794"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4695/commits",
+    "created_at": "2020-07-10T10:51:04Z",
+    "diff_url": "https://github.com/flutter/flutter-intellij/pull/4695.diff",
+    "draft": false,
+    "head": {
+        "label": "dratushnyy:ISSUE-3347",
+        "ref": "ISSUE-3347",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/branches{/branch}",
+            "clone_url": "https://github.com/dratushnyy/flutter-intellij.git",
+            "collaborators_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/comments{/number}",
+            "commits_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/contributors",
+            "created_at": "2020-07-10T06:27:49Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/deployments",
+            "description": "Flutter makes it easy and fast to build beautiful mobile apps.",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/downloads",
+            "events_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/events",
+            "fork": true,
+            "forks": 0,
+            "forks_count": 0,
+            "forks_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/forks",
+            "full_name": "dratushnyy/flutter-intellij",
+            "git_commits_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/git/tags{/sha}",
+            "git_url": "git://github.com/dratushnyy/flutter-intellij.git",
+            "has_downloads": true,
+            "has_issues": false,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "https://flutter.dev/using-ide",
+            "hooks_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/hooks",
+            "html_url": "https://github.com/dratushnyy/flutter-intellij",
+            "id": 278556419,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/issues{/number}",
+            "keys_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/labels{/name}",
+            "language": null,
+            "languages_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/languages",
+            "license": {
+                "key": "bsd-3-clause",
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "node_id": "MDc6TGljZW5zZTU=",
+                "spdx_id": "BSD-3-Clause",
+                "url": "https://api.github.com/licenses/bsd-3-clause"
+            },
+            "merges_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/merges",
+            "milestones_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/milestones{/number}",
+            "mirror_url": null,
+            "name": "flutter-intellij",
+            "node_id": "MDEwOlJlcG9zaXRvcnkyNzg1NTY0MTk=",
+            "notifications_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/700982?v=4",
+                "events_url": "https://api.github.com/users/dratushnyy/events{/privacy}",
+                "followers_url": "https://api.github.com/users/dratushnyy/followers",
+                "following_url": "https://api.github.com/users/dratushnyy/following{/other_user}",
+                "gists_url": "https://api.github.com/users/dratushnyy/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/dratushnyy",
+                "id": 700982,
+                "login": "dratushnyy",
+                "node_id": "MDQ6VXNlcjcwMDk4Mg==",
+                "organizations_url": "https://api.github.com/users/dratushnyy/orgs",
+                "received_events_url": "https://api.github.com/users/dratushnyy/received_events",
+                "repos_url": "https://api.github.com/users/dratushnyy/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/dratushnyy/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/dratushnyy/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/dratushnyy"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/pulls{/number}",
+            "pushed_at": "2020-07-27T05:48:57Z",
+            "releases_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/releases{/id}",
+            "size": 24750,
+            "ssh_url": "git@github.com:dratushnyy/flutter-intellij.git",
+            "stargazers_count": 0,
+            "stargazers_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/stargazers",
+            "statuses_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/subscribers",
+            "subscription_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/subscription",
+            "svn_url": "https://github.com/dratushnyy/flutter-intellij",
+            "tags_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/tags",
+            "teams_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/teams",
+            "topics": [],
+            "trees_url": "https://api.github.com/repos/dratushnyy/flutter-intellij/git/trees{/sha}",
+            "updated_at": "2020-07-10T06:27:51Z",
+            "url": "https://api.github.com/repos/dratushnyy/flutter-intellij",
+            "visibility": "public",
+            "watchers": 0,
+            "watchers_count": 0,
+            "web_commit_signoff_required": false
+        },
+        "sha": "e2b3de9863f62b1983da4eb27567972e5ce94794",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/700982?v=4",
+            "events_url": "https://api.github.com/users/dratushnyy/events{/privacy}",
+            "followers_url": "https://api.github.com/users/dratushnyy/followers",
+            "following_url": "https://api.github.com/users/dratushnyy/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dratushnyy/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/dratushnyy",
+            "id": 700982,
+            "login": "dratushnyy",
+            "node_id": "MDQ6VXNlcjcwMDk4Mg==",
+            "organizations_url": "https://api.github.com/users/dratushnyy/orgs",
+            "received_events_url": "https://api.github.com/users/dratushnyy/received_events",
+            "repos_url": "https://api.github.com/users/dratushnyy/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/dratushnyy/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dratushnyy/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/dratushnyy"
+        }
+    },
+    "html_url": "https://github.com/flutter/flutter-intellij/pull/4695",
+    "id": 447370443,
+    "issue_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/4695",
+    "labels": [
+        {
+            "color": "0e8a16",
+            "default": false,
+            "description": null,
+            "id": 487496526,
+            "name": "cla: yes",
+            "node_id": "MDU6TGFiZWw0ODc0OTY1MjY=",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/labels/cla:%20yes"
+        }
+    ],
+    "locked": false,
+    "merge_commit_sha": "9956c5db88d9570640ec5b024aa7afc395d0be2b",
+    "merged_at": "2020-07-27T12:32:46Z",
+    "milestone": null,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0NDQ3MzcwNDQz",
+    "number": 4695,
+    "patch_url": "https://github.com/flutter/flutter-intellij/pull/4695.patch",
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4695/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/e2b3de9863f62b1983da4eb27567972e5ce94794",
+    "title": "[ISSUE-3347]",
+    "updated_at": "2020-07-31T00:47:09Z",
+    "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4695",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/700982?v=4",
+        "events_url": "https://api.github.com/users/dratushnyy/events{/privacy}",
+        "followers_url": "https://api.github.com/users/dratushnyy/followers",
+        "following_url": "https://api.github.com/users/dratushnyy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/dratushnyy/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/dratushnyy",
+        "id": 700982,
+        "login": "dratushnyy",
+        "node_id": "MDQ6VXNlcjcwMDk4Mg==",
+        "organizations_url": "https://api.github.com/users/dratushnyy/orgs",
+        "received_events_url": "https://api.github.com/users/dratushnyy/received_events",
+        "repos_url": "https://api.github.com/users/dratushnyy/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/dratushnyy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/dratushnyy/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/dratushnyy"
+    }
+}

@@ -1,0 +1,1862 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/issues/4385/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385/commits"
+        },
+        "html": {
+            "href": "https://github.com/flutter/flutter-intellij/pull/4385"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/issues/4385"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/statuses/e76bc87f741877f2423aa8614091d80f073c6954"
+        }
+    },
+    "active_lock_reason": null,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "CONTRIBUTOR",
+    "auto_merge": null,
+    "base": {
+        "label": "flutter:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/flutter/flutter-intellij/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/flutter/flutter-intellij/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/flutter/flutter-intellij/branches{/branch}",
+            "clone_url": "https://github.com/flutter/flutter-intellij.git",
+            "collaborators_url": "https://api.github.com/repos/flutter/flutter-intellij/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/comments{/number}",
+            "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/flutter/flutter-intellij/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/flutter/flutter-intellij/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/flutter/flutter-intellij/contributors",
+            "created_at": "2016-07-25T22:31:03Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/flutter/flutter-intellij/deployments",
+            "description": "Flutter Plugin for IntelliJ",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/flutter/flutter-intellij/downloads",
+            "events_url": "https://api.github.com/repos/flutter/flutter-intellij/events",
+            "fork": false,
+            "forks": 308,
+            "forks_count": 308,
+            "forks_url": "https://api.github.com/repos/flutter/flutter-intellij/forks",
+            "full_name": "flutter/flutter-intellij",
+            "git_commits_url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/flutter/flutter-intellij/git/tags{/sha}",
+            "git_url": "git://github.com/flutter/flutter-intellij.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "https://flutter.dev/using-ide",
+            "hooks_url": "https://api.github.com/repos/flutter/flutter-intellij/hooks",
+            "html_url": "https://github.com/flutter/flutter-intellij",
+            "id": 64172164,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/flutter/flutter-intellij/issues{/number}",
+            "keys_url": "https://api.github.com/repos/flutter/flutter-intellij/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/flutter/flutter-intellij/labels{/name}",
+            "language": "Java",
+            "languages_url": "https://api.github.com/repos/flutter/flutter-intellij/languages",
+            "license": {
+                "key": "bsd-3-clause",
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "node_id": "MDc6TGljZW5zZTU=",
+                "spdx_id": "BSD-3-Clause",
+                "url": "https://api.github.com/licenses/bsd-3-clause"
+            },
+            "merges_url": "https://api.github.com/repos/flutter/flutter-intellij/merges",
+            "milestones_url": "https://api.github.com/repos/flutter/flutter-intellij/milestones{/number}",
+            "mirror_url": null,
+            "name": "flutter-intellij",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2NDE3MjE2NA==",
+            "notifications_url": "https://api.github.com/repos/flutter/flutter-intellij/notifications{?since,all,participating}",
+            "open_issues": 514,
+            "open_issues_count": 514,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+                "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+                "followers_url": "https://api.github.com/users/flutter/followers",
+                "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+                "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/flutter",
+                "id": 14101776,
+                "login": "flutter",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+                "organizations_url": "https://api.github.com/users/flutter/orgs",
+                "received_events_url": "https://api.github.com/users/flutter/received_events",
+                "repos_url": "https://api.github.com/users/flutter/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/flutter"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls{/number}",
+            "pushed_at": "2022-10-03T08:04:48Z",
+            "releases_url": "https://api.github.com/repos/flutter/flutter-intellij/releases{/id}",
+            "size": 160091,
+            "ssh_url": "git@github.com:flutter/flutter-intellij.git",
+            "stargazers_count": 1802,
+            "stargazers_url": "https://api.github.com/repos/flutter/flutter-intellij/stargazers",
+            "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/flutter/flutter-intellij/subscribers",
+            "subscription_url": "https://api.github.com/repos/flutter/flutter-intellij/subscription",
+            "svn_url": "https://github.com/flutter/flutter-intellij",
+            "tags_url": "https://api.github.com/repos/flutter/flutter-intellij/tags",
+            "teams_url": "https://api.github.com/repos/flutter/flutter-intellij/teams",
+            "topics": [
+                "flutter",
+                "intellij-plugin",
+                "java"
+            ],
+            "trees_url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees{/sha}",
+            "updated_at": "2022-10-03T05:16:49Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij",
+            "visibility": "public",
+            "watchers": 1802,
+            "watchers_count": 1802,
+            "web_commit_signoff_required": false
+        },
+        "sha": "0f893a3d1053acf18270f18ff208b415f490b02f",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+            "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+            "followers_url": "https://api.github.com/users/flutter/followers",
+            "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+            "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/flutter",
+            "id": 14101776,
+            "login": "flutter",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+            "organizations_url": "https://api.github.com/users/flutter/orgs",
+            "received_events_url": "https://api.github.com/users/flutter/received_events",
+            "repos_url": "https://api.github.com/users/flutter/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/flutter"
+        }
+    },
+    "body": "",
+    "closed_at": "2020-02-19T23:48:37Z",
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r380831471"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380831471"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "what if the outline has changed? we need to clear out the cache in that case.",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-18T17:43:23Z",
+            "diff_hunk": "@@ -84,21 +84,22 @@ private void clearCachedInfo() {\n     }\n \n     final FlutterOutline outline = outlineService.getIfUpdated(file);\n+    final String path = file.getVirtualFile().getPath();\n     // If the outline is outdated, then request a new pass to generate line markers.\n     if (outline == null) {\n-      clearCachedInfo();\n+      clearCachedInfo(path);\n       outlineService.addListener(getListenerForFile(file));\n       return new HashMap<>();\n     }\n \n     synchronized (this) {\n       // Visit the fields on the outline to get which calls are actual named tests.\n-      if (cachedCallToTestType == null) {\n-        cachedCallToTestType = new HashMap<>();\n-        populateTestTypeMap(outline, cachedCallToTestType, file);\n+      if (!cachedCallToTestType.containsKey(path)) {",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r380831471",
+            "id": 380831471,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MDgzMTQ3MQ==",
+            "original_commit_id": "0acff30bda37a8e880f959a9cf9f4af215566aa8",
+            "original_line": 97,
+            "original_position": 33,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/common/CommonTestConfigUtils.java",
+            "position": null,
+            "pull_request_review_id": 360541895,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380831471/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:38:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380831471",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r380832087"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380832087"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "caching DartCallExpressions will cause us to hang on to old IntelliJ ASTs and leave us vulnerable to if IntelliJ recomputes AST nodes. It is safer to use file offsets as keys.",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-18T17:44:32Z",
+            "diff_hunk": "@@ -64,11 +64,11 @@ public TestType asTestCall(@NotNull PsiElement element) {\n     return null;\n   }\n \n-  Map<DartCallExpression, TestType> cachedCallToTestType;\n+  private final Map<String, Map<DartCallExpression, TestType>> cachedCallToTestType = new HashMap<>();",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r380832087",
+            "id": 380832087,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MDgzMjA4Nw==",
+            "original_commit_id": "0acff30bda37a8e880f959a9cf9f4af215566aa8",
+            "original_line": 67,
+            "original_position": 5,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/common/CommonTestConfigUtils.java",
+            "position": null,
+            "pull_request_review_id": 360542668,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380832087/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:38:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380832087",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r380840335"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380840335"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "The outline given will be null and the cache will be cleared.\r\n\r\nCF: the comments above and the documentation for outlineService.getIfUpdated:\r\n\r\nhttps://github.com/flutter/flutter-intellij/blob/f69eec4dfa31dcd3964fa79d925474376d24e2ad/src/io/flutter/editor/ActiveEditorsOutlineService.java#L187-L194",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-18T17:59:46Z",
+            "diff_hunk": "@@ -84,21 +84,22 @@ private void clearCachedInfo() {\n     }\n \n     final FlutterOutline outline = outlineService.getIfUpdated(file);\n+    final String path = file.getVirtualFile().getPath();\n     // If the outline is outdated, then request a new pass to generate line markers.\n     if (outline == null) {\n-      clearCachedInfo();\n+      clearCachedInfo(path);\n       outlineService.addListener(getListenerForFile(file));\n       return new HashMap<>();\n     }\n \n     synchronized (this) {\n       // Visit the fields on the outline to get which calls are actual named tests.\n-      if (cachedCallToTestType == null) {\n-        cachedCallToTestType = new HashMap<>();\n-        populateTestTypeMap(outline, cachedCallToTestType, file);\n+      if (!cachedCallToTestType.containsKey(path)) {",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r380840335",
+            "id": 380840335,
+            "in_reply_to_id": 380831471,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MDg0MDMzNQ==",
+            "original_commit_id": "0acff30bda37a8e880f959a9cf9f4af215566aa8",
+            "original_line": 97,
+            "original_position": 33,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/common/CommonTestConfigUtils.java",
+            "position": null,
+            "pull_request_review_id": 360552871,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380840335/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:38:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380840335",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14947366?v=4",
+                "events_url": "https://api.github.com/users/DaveShuckerow/events{/privacy}",
+                "followers_url": "https://api.github.com/users/DaveShuckerow/followers",
+                "following_url": "https://api.github.com/users/DaveShuckerow/following{/other_user}",
+                "gists_url": "https://api.github.com/users/DaveShuckerow/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/DaveShuckerow",
+                "id": 14947366,
+                "login": "DaveShuckerow",
+                "node_id": "MDQ6VXNlcjE0OTQ3MzY2",
+                "organizations_url": "https://api.github.com/users/DaveShuckerow/orgs",
+                "received_events_url": "https://api.github.com/users/DaveShuckerow/received_events",
+                "repos_url": "https://api.github.com/users/DaveShuckerow/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/DaveShuckerow/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/DaveShuckerow/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/DaveShuckerow"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r380841369"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380841369"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "Done.",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-18T18:01:48Z",
+            "diff_hunk": "@@ -64,11 +64,11 @@ public TestType asTestCall(@NotNull PsiElement element) {\n     return null;\n   }\n \n-  Map<DartCallExpression, TestType> cachedCallToTestType;\n+  private final Map<String, Map<DartCallExpression, TestType>> cachedCallToTestType = new HashMap<>();",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r380841369",
+            "id": 380841369,
+            "in_reply_to_id": 380832087,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MDg0MTM2OQ==",
+            "original_commit_id": "0acff30bda37a8e880f959a9cf9f4af215566aa8",
+            "original_line": 67,
+            "original_position": 5,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/common/CommonTestConfigUtils.java",
+            "position": null,
+            "pull_request_review_id": 360554185,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380841369/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:38:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380841369",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14947366?v=4",
+                "events_url": "https://api.github.com/users/DaveShuckerow/events{/privacy}",
+                "followers_url": "https://api.github.com/users/DaveShuckerow/followers",
+                "following_url": "https://api.github.com/users/DaveShuckerow/following{/other_user}",
+                "gists_url": "https://api.github.com/users/DaveShuckerow/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/DaveShuckerow",
+                "id": 14947366,
+                "login": "DaveShuckerow",
+                "node_id": "MDQ6VXNlcjE0OTQ3MzY2",
+                "organizations_url": "https://api.github.com/users/DaveShuckerow/orgs",
+                "received_events_url": "https://api.github.com/users/DaveShuckerow/received_events",
+                "repos_url": "https://api.github.com/users/DaveShuckerow/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/DaveShuckerow/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/DaveShuckerow/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/DaveShuckerow"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r380843881"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380843881"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "that is not a safe assumption.\r\nThe only assumption safe to depend on is the outline will be null if it is out of date.\r\nFor example, imagine if another service such as the the widget indent guides or HotUI is also requesting outlines using ActiveEditorsOutlineService, you could easily get a non-null outline even though it is different than the outline your cache is based on.\r\n",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-18T18:06:50Z",
+            "diff_hunk": "@@ -84,21 +84,22 @@ private void clearCachedInfo() {\n     }\n \n     final FlutterOutline outline = outlineService.getIfUpdated(file);\n+    final String path = file.getVirtualFile().getPath();\n     // If the outline is outdated, then request a new pass to generate line markers.\n     if (outline == null) {\n-      clearCachedInfo();\n+      clearCachedInfo(path);\n       outlineService.addListener(getListenerForFile(file));\n       return new HashMap<>();\n     }\n \n     synchronized (this) {\n       // Visit the fields on the outline to get which calls are actual named tests.\n-      if (cachedCallToTestType == null) {\n-        cachedCallToTestType = new HashMap<>();\n-        populateTestTypeMap(outline, cachedCallToTestType, file);\n+      if (!cachedCallToTestType.containsKey(path)) {",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r380843881",
+            "id": 380843881,
+            "in_reply_to_id": 380831471,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MDg0Mzg4MQ==",
+            "original_commit_id": "0acff30bda37a8e880f959a9cf9f4af215566aa8",
+            "original_line": 97,
+            "original_position": 33,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/common/CommonTestConfigUtils.java",
+            "position": null,
+            "pull_request_review_id": 360557318,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380843881/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:38:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380843881",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r380846356"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380846356"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "optimization: move this findElementAt call so you only call it when unit_test_group or unit_test_test is found. Currently we are doing this fairly expensive operation a lot more times than we need to.\r\nI do like that you are still using\r\nfile.findElementAt to avoid location calculation bugs.",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-18T18:11:31Z",
+            "diff_hunk": "@@ -160,7 +161,7 @@ protected ActiveEditorsOutlineService getActiveEditorsOutlineService(@NotNull Pr\n    * Traverses the {@param outline} tree and adds to {@param callToTestType } the {@link DartCallExpression}s that are tests or test groups.\n    */\n   private void populateTestTypeMap(@NotNull FlutterOutline outline,\n-                                   @NotNull Map<DartCallExpression, TestType> callToTestType,\n+                                   @NotNull Map<Integer, TestType> callToTestType,\n                                    @NotNull PsiFile file) {\n     final PsiElement element = file.findElementAt(outline.getOffset());",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r380846356",
+            "id": 380846356,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MDg0NjM1Ng==",
+            "original_commit_id": "9a1a89ba27b1f8c6490f839dec6810d4c7160b70",
+            "original_line": 166,
+            "original_position": 73,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/common/CommonTestConfigUtils.java",
+            "position": null,
+            "pull_request_review_id": 360560418,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380846356/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:38:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380846356",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r380847253"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380847253"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "This code checks if the outline is outdated and returns null if so.\r\n\r\nIf you have suggestions for how to improve the heuristic, they are welcome.",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-18T18:13:13Z",
+            "diff_hunk": "@@ -84,21 +84,22 @@ private void clearCachedInfo() {\n     }\n \n     final FlutterOutline outline = outlineService.getIfUpdated(file);\n+    final String path = file.getVirtualFile().getPath();\n     // If the outline is outdated, then request a new pass to generate line markers.\n     if (outline == null) {\n-      clearCachedInfo();\n+      clearCachedInfo(path);\n       outlineService.addListener(getListenerForFile(file));\n       return new HashMap<>();\n     }\n \n     synchronized (this) {\n       // Visit the fields on the outline to get which calls are actual named tests.\n-      if (cachedCallToTestType == null) {\n-        cachedCallToTestType = new HashMap<>();\n-        populateTestTypeMap(outline, cachedCallToTestType, file);\n+      if (!cachedCallToTestType.containsKey(path)) {",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r380847253",
+            "id": 380847253,
+            "in_reply_to_id": 380831471,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MDg0NzI1Mw==",
+            "original_commit_id": "0acff30bda37a8e880f959a9cf9f4af215566aa8",
+            "original_line": 97,
+            "original_position": 33,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/common/CommonTestConfigUtils.java",
+            "position": null,
+            "pull_request_review_id": 360561527,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380847253/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:38:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380847253",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14947366?v=4",
+                "events_url": "https://api.github.com/users/DaveShuckerow/events{/privacy}",
+                "followers_url": "https://api.github.com/users/DaveShuckerow/followers",
+                "following_url": "https://api.github.com/users/DaveShuckerow/following{/other_user}",
+                "gists_url": "https://api.github.com/users/DaveShuckerow/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/DaveShuckerow",
+                "id": 14947366,
+                "login": "DaveShuckerow",
+                "node_id": "MDQ6VXNlcjE0OTQ3MzY2",
+                "organizations_url": "https://api.github.com/users/DaveShuckerow/orgs",
+                "received_events_url": "https://api.github.com/users/DaveShuckerow/received_events",
+                "repos_url": "https://api.github.com/users/DaveShuckerow/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/DaveShuckerow/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/DaveShuckerow/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/DaveShuckerow"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r380869088"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380869088"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "the getIfUpdated method is fine as written. What you need to do is not depend on getting a null outline for the case that there was an update. To do that you should store what the outline was in CommonTestConfigUtils so that you can tell if you have gotten a new outline so need to update your cache.",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-18T18:55:38Z",
+            "diff_hunk": "@@ -84,21 +84,22 @@ private void clearCachedInfo() {\n     }\n \n     final FlutterOutline outline = outlineService.getIfUpdated(file);\n+    final String path = file.getVirtualFile().getPath();\n     // If the outline is outdated, then request a new pass to generate line markers.\n     if (outline == null) {\n-      clearCachedInfo();\n+      clearCachedInfo(path);\n       outlineService.addListener(getListenerForFile(file));\n       return new HashMap<>();\n     }\n \n     synchronized (this) {\n       // Visit the fields on the outline to get which calls are actual named tests.\n-      if (cachedCallToTestType == null) {\n-        cachedCallToTestType = new HashMap<>();\n-        populateTestTypeMap(outline, cachedCallToTestType, file);\n+      if (!cachedCallToTestType.containsKey(path)) {",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r380869088",
+            "id": 380869088,
+            "in_reply_to_id": 380831471,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MDg2OTA4OA==",
+            "original_commit_id": "0acff30bda37a8e880f959a9cf9f4af215566aa8",
+            "original_line": 97,
+            "original_position": 33,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/common/CommonTestConfigUtils.java",
+            "position": null,
+            "pull_request_review_id": 360589496,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380869088/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:38:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/380869088",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381416989"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381416989"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "Done.",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-19T17:09:10Z",
+            "diff_hunk": "@@ -84,21 +84,22 @@ private void clearCachedInfo() {\n     }\n \n     final FlutterOutline outline = outlineService.getIfUpdated(file);\n+    final String path = file.getVirtualFile().getPath();\n     // If the outline is outdated, then request a new pass to generate line markers.\n     if (outline == null) {\n-      clearCachedInfo();\n+      clearCachedInfo(path);\n       outlineService.addListener(getListenerForFile(file));\n       return new HashMap<>();\n     }\n \n     synchronized (this) {\n       // Visit the fields on the outline to get which calls are actual named tests.\n-      if (cachedCallToTestType == null) {\n-        cachedCallToTestType = new HashMap<>();\n-        populateTestTypeMap(outline, cachedCallToTestType, file);\n+      if (!cachedCallToTestType.containsKey(path)) {",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381416989",
+            "id": 381416989,
+            "in_reply_to_id": 380831471,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MTQxNjk4OQ==",
+            "original_commit_id": "0acff30bda37a8e880f959a9cf9f4af215566aa8",
+            "original_line": 97,
+            "original_position": 33,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/common/CommonTestConfigUtils.java",
+            "position": null,
+            "pull_request_review_id": 361274724,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381416989/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:38:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381416989",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14947366?v=4",
+                "events_url": "https://api.github.com/users/DaveShuckerow/events{/privacy}",
+                "followers_url": "https://api.github.com/users/DaveShuckerow/followers",
+                "following_url": "https://api.github.com/users/DaveShuckerow/following{/other_user}",
+                "gists_url": "https://api.github.com/users/DaveShuckerow/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/DaveShuckerow",
+                "id": 14947366,
+                "login": "DaveShuckerow",
+                "node_id": "MDQ6VXNlcjE0OTQ3MzY2",
+                "organizations_url": "https://api.github.com/users/DaveShuckerow/orgs",
+                "received_events_url": "https://api.github.com/users/DaveShuckerow/received_events",
+                "repos_url": "https://api.github.com/users/DaveShuckerow/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/DaveShuckerow/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/DaveShuckerow/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/DaveShuckerow"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381445153"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381445153"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "Done.",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-19T17:57:37Z",
+            "diff_hunk": "@@ -160,7 +161,7 @@ protected ActiveEditorsOutlineService getActiveEditorsOutlineService(@NotNull Pr\n    * Traverses the {@param outline} tree and adds to {@param callToTestType } the {@link DartCallExpression}s that are tests or test groups.\n    */\n   private void populateTestTypeMap(@NotNull FlutterOutline outline,\n-                                   @NotNull Map<DartCallExpression, TestType> callToTestType,\n+                                   @NotNull Map<Integer, TestType> callToTestType,\n                                    @NotNull PsiFile file) {\n     final PsiElement element = file.findElementAt(outline.getOffset());",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381445153",
+            "id": 381445153,
+            "in_reply_to_id": 380846356,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MTQ0NTE1Mw==",
+            "original_commit_id": "9a1a89ba27b1f8c6490f839dec6810d4c7160b70",
+            "original_line": 166,
+            "original_position": 73,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/common/CommonTestConfigUtils.java",
+            "position": null,
+            "pull_request_review_id": 361310332,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381445153/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:38:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381445153",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14947366?v=4",
+                "events_url": "https://api.github.com/users/DaveShuckerow/events{/privacy}",
+                "followers_url": "https://api.github.com/users/DaveShuckerow/followers",
+                "following_url": "https://api.github.com/users/DaveShuckerow/following{/other_user}",
+                "gists_url": "https://api.github.com/users/DaveShuckerow/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/DaveShuckerow",
+                "id": 14947366,
+                "login": "DaveShuckerow",
+                "node_id": "MDQ6VXNlcjE0OTQ3MzY2",
+                "organizations_url": "https://api.github.com/users/DaveShuckerow/orgs",
+                "received_events_url": "https://api.github.com/users/DaveShuckerow/received_events",
+                "repos_url": "https://api.github.com/users/DaveShuckerow/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/DaveShuckerow/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/DaveShuckerow/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/DaveShuckerow"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381545187"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381545187"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "nit: rather than two maps with the same key, define a class  with both the \r\nFltuterOutline and the Map<Integer, TestType> as fields.",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-19T21:08:27Z",
+            "diff_hunk": "@@ -64,49 +64,57 @@ public TestType asTestCall(@NotNull PsiElement element) {\n     return null;\n   }\n \n-  Map<DartCallExpression, TestType> cachedCallToTestType;\n+  private final Map<String, Map<Integer, TestType>> cachedCallToTestType = new HashMap<>();\n+  private final Map<String, FlutterOutline> pathToPreviouslyUsedOutline = new HashMap<>();",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381545187",
+            "id": 381545187,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MTU0NTE4Nw==",
+            "original_commit_id": "aac9cf121fc785c8b8de52811ccbedb089b9718a",
+            "original_line": 68,
+            "original_position": 6,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/common/CommonTestConfigUtils.java",
+            "position": null,
+            "pull_request_review_id": 361437985,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381545187/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:38:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381545187",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381547370"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381547370"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "nit: remove the `result` local variable.",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-19T21:12:51Z",
+            "diff_hunk": "@@ -38,16 +40,20 @@ public void loadOutline(@NotNull String flutterOutlinePath) {\n       e.printStackTrace();\n       outlineContents = null;\n     }\n-    flutterOutline = null;\n+    FlutterOutline flutterOutline = null;\n     if (outlineContents != null) {\n       flutterOutline = FlutterOutline.fromJson(new JsonParser().parse(outlineContents).getAsJsonObject());\n     }\n+    pathToFlutterOutline.put(filePath, flutterOutline);\n+\n   }\n \n   @Nullable\n   @Override\n   public FlutterOutline getOutline(String path) {\n-    return flutterOutline;\n+    // The path string that we get will be prepended with a '/' character, compared to how the cache was initialized.\n+    final FlutterOutline result = pathToFlutterOutline.get(path);",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381547370",
+            "id": 381547370,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MTU0NzM3MA==",
+            "original_commit_id": "aac9cf121fc785c8b8de52811ccbedb089b9718a",
+            "original_line": 55,
+            "original_position": 44,
+            "original_start_line": null,
+            "path": "testSrc/unit/io/flutter/testing/FakeActiveEditorsOutlineService.java",
+            "position": null,
+            "pull_request_review_id": 361440718,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381547370/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:38:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381547370",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381558687"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381558687"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "Done.",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-19T21:36:13Z",
+            "diff_hunk": "@@ -38,16 +40,20 @@ public void loadOutline(@NotNull String flutterOutlinePath) {\n       e.printStackTrace();\n       outlineContents = null;\n     }\n-    flutterOutline = null;\n+    FlutterOutline flutterOutline = null;\n     if (outlineContents != null) {\n       flutterOutline = FlutterOutline.fromJson(new JsonParser().parse(outlineContents).getAsJsonObject());\n     }\n+    pathToFlutterOutline.put(filePath, flutterOutline);\n+\n   }\n \n   @Nullable\n   @Override\n   public FlutterOutline getOutline(String path) {\n-    return flutterOutline;\n+    // The path string that we get will be prepended with a '/' character, compared to how the cache was initialized.\n+    final FlutterOutline result = pathToFlutterOutline.get(path);",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381558687",
+            "id": 381558687,
+            "in_reply_to_id": 381547370,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MTU1ODY4Nw==",
+            "original_commit_id": "aac9cf121fc785c8b8de52811ccbedb089b9718a",
+            "original_line": 55,
+            "original_position": 44,
+            "original_start_line": null,
+            "path": "testSrc/unit/io/flutter/testing/FakeActiveEditorsOutlineService.java",
+            "position": null,
+            "pull_request_review_id": 361455000,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381558687/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:38:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381558687",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14947366?v=4",
+                "events_url": "https://api.github.com/users/DaveShuckerow/events{/privacy}",
+                "followers_url": "https://api.github.com/users/DaveShuckerow/followers",
+                "following_url": "https://api.github.com/users/DaveShuckerow/following{/other_user}",
+                "gists_url": "https://api.github.com/users/DaveShuckerow/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/DaveShuckerow",
+                "id": 14947366,
+                "login": "DaveShuckerow",
+                "node_id": "MDQ6VXNlcjE0OTQ3MzY2",
+                "organizations_url": "https://api.github.com/users/DaveShuckerow/orgs",
+                "received_events_url": "https://api.github.com/users/DaveShuckerow/received_events",
+                "repos_url": "https://api.github.com/users/DaveShuckerow/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/DaveShuckerow/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/DaveShuckerow/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/DaveShuckerow"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381558719"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381558719"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "Done.",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-19T21:36:16Z",
+            "diff_hunk": "@@ -64,49 +64,57 @@ public TestType asTestCall(@NotNull PsiElement element) {\n     return null;\n   }\n \n-  Map<DartCallExpression, TestType> cachedCallToTestType;\n+  private final Map<String, Map<Integer, TestType>> cachedCallToTestType = new HashMap<>();\n+  private final Map<String, FlutterOutline> pathToPreviouslyUsedOutline = new HashMap<>();",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381558719",
+            "id": 381558719,
+            "in_reply_to_id": 381545187,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MTU1ODcxOQ==",
+            "original_commit_id": "aac9cf121fc785c8b8de52811ccbedb089b9718a",
+            "original_line": 68,
+            "original_position": 6,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/common/CommonTestConfigUtils.java",
+            "position": null,
+            "pull_request_review_id": 361455036,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381558719/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:38:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381558719",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14947366?v=4",
+                "events_url": "https://api.github.com/users/DaveShuckerow/events{/privacy}",
+                "followers_url": "https://api.github.com/users/DaveShuckerow/followers",
+                "following_url": "https://api.github.com/users/DaveShuckerow/following{/other_user}",
+                "gists_url": "https://api.github.com/users/DaveShuckerow/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/DaveShuckerow",
+                "id": 14947366,
+                "login": "DaveShuckerow",
+                "node_id": "MDQ6VXNlcjE0OTQ3MzY2",
+                "organizations_url": "https://api.github.com/users/DaveShuckerow/orgs",
+                "received_events_url": "https://api.github.com/users/DaveShuckerow/received_events",
+                "repos_url": "https://api.github.com/users/DaveShuckerow/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/DaveShuckerow/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/DaveShuckerow/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/DaveShuckerow"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381560287"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381560287"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "nit: the cleaner pattern for this in java is\r\nfinal entry = cache.get(path);\r\n",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-19T21:39:37Z",
+            "diff_hunk": "@@ -89,7 +87,7 @@ private void clearCachedInfo(String path) {\n     final String path = file.getVirtualFile().getPath();\n     final boolean outlineOutdated;\n     synchronized (this) {\n-      outlineOutdated = pathToPreviouslyUsedOutline.containsKey(path) && outline != pathToPreviouslyUsedOutline.get(path);\n+      outlineOutdated = cache.containsKey(path) && outline != cache.get(path).outline;",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381560287",
+            "id": 381560287,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MTU2MDI4Nw==",
+            "original_commit_id": "fc8fa438e5bc6c9eebf97d833d5f9fbfef2d3a23",
+            "original_line": 90,
+            "original_position": 21,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/common/CommonTestConfigUtils.java",
+            "position": null,
+            "pull_request_review_id": 361457057,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381560287/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:38:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381560287",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381560637"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381560637"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "nit: cache the OutlineCache entry as a local variable so you don't have to read it out of a cache.",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-19T21:40:25Z",
+            "diff_hunk": "@@ -99,14 +97,8 @@ private void clearCachedInfo(String path) {\n     }\n \n     synchronized (this) {\n-      pathToPreviouslyUsedOutline.put(path, outline);\n-      // Visit the fields on the outline to get which calls are actual named tests.\n-      if (!cachedCallToTestType.containsKey(path)) {\n-        cachedCallToTestType.put(path, new HashMap<>());\n-        populateTestTypeMap(outline, cachedCallToTestType.get(path), file);\n-      }\n-\n-      return cachedCallToTestType.get(path);\n+      cache.put(path, new OutlineCache(outline, file));",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381560637",
+            "id": 381560637,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MTU2MDYzNw==",
+            "original_commit_id": "fc8fa438e5bc6c9eebf97d833d5f9fbfef2d3a23",
+            "original_line": 100,
+            "original_position": 37,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/common/CommonTestConfigUtils.java",
+            "position": null,
+            "pull_request_review_id": 361457531,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381560637/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:38:59Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381560637",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/1226812?v=4",
+                "events_url": "https://api.github.com/users/jacob314/events{/privacy}",
+                "followers_url": "https://api.github.com/users/jacob314/followers",
+                "following_url": "https://api.github.com/users/jacob314/following{/other_user}",
+                "gists_url": "https://api.github.com/users/jacob314/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/jacob314",
+                "id": 1226812,
+                "login": "jacob314",
+                "node_id": "MDQ6VXNlcjEyMjY4MTI=",
+                "organizations_url": "https://api.github.com/users/jacob314/orgs",
+                "received_events_url": "https://api.github.com/users/jacob314/received_events",
+                "repos_url": "https://api.github.com/users/jacob314/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/jacob314/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/jacob314/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/jacob314"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381611263"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381611263"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "Done.",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-19T23:41:29Z",
+            "diff_hunk": "@@ -99,14 +97,8 @@ private void clearCachedInfo(String path) {\n     }\n \n     synchronized (this) {\n-      pathToPreviouslyUsedOutline.put(path, outline);\n-      // Visit the fields on the outline to get which calls are actual named tests.\n-      if (!cachedCallToTestType.containsKey(path)) {\n-        cachedCallToTestType.put(path, new HashMap<>());\n-        populateTestTypeMap(outline, cachedCallToTestType.get(path), file);\n-      }\n-\n-      return cachedCallToTestType.get(path);\n+      cache.put(path, new OutlineCache(outline, file));",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381611263",
+            "id": 381611263,
+            "in_reply_to_id": 381560637,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MTYxMTI2Mw==",
+            "original_commit_id": "fc8fa438e5bc6c9eebf97d833d5f9fbfef2d3a23",
+            "original_line": 100,
+            "original_position": 37,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/common/CommonTestConfigUtils.java",
+            "position": null,
+            "pull_request_review_id": 361519241,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381611263/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:41:29Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381611263",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14947366?v=4",
+                "events_url": "https://api.github.com/users/DaveShuckerow/events{/privacy}",
+                "followers_url": "https://api.github.com/users/DaveShuckerow/followers",
+                "following_url": "https://api.github.com/users/DaveShuckerow/following{/other_user}",
+                "gists_url": "https://api.github.com/users/DaveShuckerow/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/DaveShuckerow",
+                "id": 14947366,
+                "login": "DaveShuckerow",
+                "node_id": "MDQ6VXNlcjE0OTQ3MzY2",
+                "organizations_url": "https://api.github.com/users/DaveShuckerow/orgs",
+                "received_events_url": "https://api.github.com/users/DaveShuckerow/received_events",
+                "repos_url": "https://api.github.com/users/DaveShuckerow/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/DaveShuckerow/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/DaveShuckerow/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/DaveShuckerow"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381611277"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381611277"
+                }
+            },
+            "author_association": "CONTRIBUTOR",
+            "body": "Done.\r\n",
+            "commit_id": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "created_at": "2020-02-19T23:41:30Z",
+            "diff_hunk": "@@ -89,7 +87,7 @@ private void clearCachedInfo(String path) {\n     final String path = file.getVirtualFile().getPath();\n     final boolean outlineOutdated;\n     synchronized (this) {\n-      outlineOutdated = pathToPreviouslyUsedOutline.containsKey(path) && outline != pathToPreviouslyUsedOutline.get(path);\n+      outlineOutdated = cache.containsKey(path) && outline != cache.get(path).outline;",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4385#discussion_r381611277",
+            "id": 381611277,
+            "in_reply_to_id": 381560287,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDM4MTYxMTI3Nw==",
+            "original_commit_id": "fc8fa438e5bc6c9eebf97d833d5f9fbfef2d3a23",
+            "original_line": 90,
+            "original_position": 21,
+            "original_start_line": null,
+            "path": "src/io/flutter/run/common/CommonTestConfigUtils.java",
+            "position": null,
+            "pull_request_review_id": 361519253,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381611277/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-02-19T23:41:30Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/381611277",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14947366?v=4",
+                "events_url": "https://api.github.com/users/DaveShuckerow/events{/privacy}",
+                "followers_url": "https://api.github.com/users/DaveShuckerow/followers",
+                "following_url": "https://api.github.com/users/DaveShuckerow/following{/other_user}",
+                "gists_url": "https://api.github.com/users/DaveShuckerow/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/DaveShuckerow",
+                "id": 14947366,
+                "login": "DaveShuckerow",
+                "node_id": "MDQ6VXNlcjE0OTQ3MzY2",
+                "organizations_url": "https://api.github.com/users/DaveShuckerow/orgs",
+                "received_events_url": "https://api.github.com/users/DaveShuckerow/received_events",
+                "repos_url": "https://api.github.com/users/DaveShuckerow/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/DaveShuckerow/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/DaveShuckerow/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/DaveShuckerow"
+            }
+        }
+    ],
+    "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/4385/comments",
+    "commit_data": [
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/0acff30bda37a8e880f959a9cf9f4af215566aa8/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-02-18T17:07:09Z",
+                    "email": "djshuckerow@google.com",
+                    "name": "Dave Shuckerow"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-02-18T17:22:05Z",
+                    "email": "djshuckerow@google.com",
+                    "name": "Dave Shuckerow"
+                },
+                "message": "Switch common test config utils to use a per-file cache",
+                "tree": {
+                    "sha": "8bc5f14a8c3db4d60724891830545be449fe0f5c",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/8bc5f14a8c3db4d60724891830545be449fe0f5c"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/0acff30bda37a8e880f959a9cf9f4af215566aa8",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/0acff30bda37a8e880f959a9cf9f4af215566aa8",
+            "node_id": "MDY6Q29tbWl0MTA5MTg1Njk3OjBhY2ZmMzBiZGEzN2E4ZTg4MGY5NTlhOWNmOWY0YWYyMTU1NjZhYTg=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/3087acaf6c071f1ae73d6f36ac82e2e0cdeef276",
+                    "sha": "3087acaf6c071f1ae73d6f36ac82e2e0cdeef276",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/3087acaf6c071f1ae73d6f36ac82e2e0cdeef276"
+                }
+            ],
+            "sha": "0acff30bda37a8e880f959a9cf9f4af215566aa8",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/0acff30bda37a8e880f959a9cf9f4af215566aa8"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/9a1a89ba27b1f8c6490f839dec6810d4c7160b70/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-02-18T18:00:30Z",
+                    "email": "djshuckerow@google.com",
+                    "name": "Dave Shuckerow"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-02-18T18:00:30Z",
+                    "email": "djshuckerow@google.com",
+                    "name": "Dave Shuckerow"
+                },
+                "message": "Use integer offsets instead of callexpressions",
+                "tree": {
+                    "sha": "1b106978213a34fa0419b7c95dee14e711f7d4ef",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/1b106978213a34fa0419b7c95dee14e711f7d4ef"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/9a1a89ba27b1f8c6490f839dec6810d4c7160b70",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/9a1a89ba27b1f8c6490f839dec6810d4c7160b70",
+            "node_id": "MDY6Q29tbWl0MTA5MTg1Njk3OjlhMWE4OWJhMjdiMWY4YzY0OTBmODM5ZGVjNjgxMGQ0YzcxNjBiNzA=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/0acff30bda37a8e880f959a9cf9f4af215566aa8",
+                    "sha": "0acff30bda37a8e880f959a9cf9f4af215566aa8",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/0acff30bda37a8e880f959a9cf9f4af215566aa8"
+                }
+            ],
+            "sha": "9a1a89ba27b1f8c6490f839dec6810d4c7160b70",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/9a1a89ba27b1f8c6490f839dec6810d4c7160b70"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/793db7faebc991357e7e3736baf9e047636089a6/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-02-18T20:30:28Z",
+                    "email": "djshuckerow@google.com",
+                    "name": "Dave Shuckerow"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-02-18T21:34:00Z",
+                    "email": "djshuckerow@google.com",
+                    "name": "Dave Shuckerow"
+                },
+                "message": "Add tests",
+                "tree": {
+                    "sha": "f350e7f2345261f31b0b5148a01ae84dff32794e",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/f350e7f2345261f31b0b5148a01ae84dff32794e"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/793db7faebc991357e7e3736baf9e047636089a6",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/793db7faebc991357e7e3736baf9e047636089a6",
+            "node_id": "MDY6Q29tbWl0MTA5MTg1Njk3Ojc5M2RiN2ZhZWJjOTkxMzU3ZTdlMzczNmJhZjllMDQ3NjM2MDg5YTY=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/9a1a89ba27b1f8c6490f839dec6810d4c7160b70",
+                    "sha": "9a1a89ba27b1f8c6490f839dec6810d4c7160b70",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/9a1a89ba27b1f8c6490f839dec6810d4c7160b70"
+                }
+            ],
+            "sha": "793db7faebc991357e7e3736baf9e047636089a6",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/793db7faebc991357e7e3736baf9e047636089a6"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/1e25e3f725e12b986e156d18c394a47bcadf0650/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-02-19T16:47:31Z",
+                    "email": "djshuckerow@google.com",
+                    "name": "Dave Shuckerow"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-02-19T16:47:31Z",
+                    "email": "djshuckerow@google.com",
+                    "name": "Dave Shuckerow"
+                },
+                "message": "Start a cache of previous outlines",
+                "tree": {
+                    "sha": "390ca0dcb2935e93702e1adea7abeed7107a26e5",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/390ca0dcb2935e93702e1adea7abeed7107a26e5"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/1e25e3f725e12b986e156d18c394a47bcadf0650",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/1e25e3f725e12b986e156d18c394a47bcadf0650",
+            "node_id": "MDY6Q29tbWl0MTA5MTg1Njk3OjFlMjVlM2Y3MjVlMTJiOTg2ZTE1NmQxOGMzOTRhNDdiY2FkZjA2NTA=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/793db7faebc991357e7e3736baf9e047636089a6",
+                    "sha": "793db7faebc991357e7e3736baf9e047636089a6",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/793db7faebc991357e7e3736baf9e047636089a6"
+                }
+            ],
+            "sha": "1e25e3f725e12b986e156d18c394a47bcadf0650",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/1e25e3f725e12b986e156d18c394a47bcadf0650"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/aac9cf121fc785c8b8de52811ccbedb089b9718a/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-02-19T16:47:57Z",
+                    "email": "djshuckerow@google.com",
+                    "name": "Dave Shuckerow"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-02-19T16:48:50Z",
+                    "email": "djshuckerow@google.com",
+                    "name": "Dave Shuckerow"
+                },
+                "message": "Revert .idea/ files",
+                "tree": {
+                    "sha": "382497592ea37b8621bde8f9830ac41eefe48de2",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/382497592ea37b8621bde8f9830ac41eefe48de2"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/aac9cf121fc785c8b8de52811ccbedb089b9718a",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/aac9cf121fc785c8b8de52811ccbedb089b9718a",
+            "node_id": "MDY6Q29tbWl0MTA5MTg1Njk3OmFhYzljZjEyMWZjNzg1YzhiOGRlNTI4MTFjY2JlZGIwODliOTcxOGE=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/1e25e3f725e12b986e156d18c394a47bcadf0650",
+                    "sha": "1e25e3f725e12b986e156d18c394a47bcadf0650",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/1e25e3f725e12b986e156d18c394a47bcadf0650"
+                }
+            ],
+            "sha": "aac9cf121fc785c8b8de52811ccbedb089b9718a",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/aac9cf121fc785c8b8de52811ccbedb089b9718a"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/fc8fa438e5bc6c9eebf97d833d5f9fbfef2d3a23/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-02-19T21:35:07Z",
+                    "email": "djshuckerow@google.com",
+                    "name": "Dave Shuckerow"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-02-19T21:35:07Z",
+                    "email": "djshuckerow@google.com",
+                    "name": "Dave Shuckerow"
+                },
+                "message": "Respond to comments",
+                "tree": {
+                    "sha": "ea8eba042467760318aedc580ca86b70076c5dbd",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/ea8eba042467760318aedc580ca86b70076c5dbd"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/fc8fa438e5bc6c9eebf97d833d5f9fbfef2d3a23",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/fc8fa438e5bc6c9eebf97d833d5f9fbfef2d3a23",
+            "node_id": "MDY6Q29tbWl0MTA5MTg1Njk3OmZjOGZhNDM4ZTViYzZjOWVlYmY5N2Q4MzNkNWY5ZmJmZWYyZDNhMjM=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/aac9cf121fc785c8b8de52811ccbedb089b9718a",
+                    "sha": "aac9cf121fc785c8b8de52811ccbedb089b9718a",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/aac9cf121fc785c8b8de52811ccbedb089b9718a"
+                }
+            ],
+            "sha": "fc8fa438e5bc6c9eebf97d833d5f9fbfef2d3a23",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/fc8fa438e5bc6c9eebf97d833d5f9fbfef2d3a23"
+        },
+        {
+            "author": null,
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/e76bc87f741877f2423aa8614091d80f073c6954/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-02-19T23:38:52Z",
+                    "email": "djshuckerow@google.com",
+                    "name": "Dave Shuckerow"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-02-19T23:38:52Z",
+                    "email": "djshuckerow@google.com",
+                    "name": "Dave Shuckerow"
+                },
+                "message": "Respond to comments",
+                "tree": {
+                    "sha": "88a83830da9dfd5e73c8274cf5847557be8b0e58",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/88a83830da9dfd5e73c8274cf5847557be8b0e58"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/e76bc87f741877f2423aa8614091d80f073c6954",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": null,
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/e76bc87f741877f2423aa8614091d80f073c6954",
+            "node_id": "MDY6Q29tbWl0MTA5MTg1Njk3OmU3NmJjODdmNzQxODc3ZjI0MjNhYTg2MTQwOTFkODBmMDczYzY5NTQ=",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/fc8fa438e5bc6c9eebf97d833d5f9fbfef2d3a23",
+                    "sha": "fc8fa438e5bc6c9eebf97d833d5f9fbfef2d3a23",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/fc8fa438e5bc6c9eebf97d833d5f9fbfef2d3a23"
+                }
+            ],
+            "sha": "e76bc87f741877f2423aa8614091d80f073c6954",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/e76bc87f741877f2423aa8614091d80f073c6954"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385/commits",
+    "created_at": "2020-02-18T17:12:44Z",
+    "diff_url": "https://github.com/flutter/flutter-intellij/pull/4385.diff",
+    "draft": false,
+    "head": {
+        "label": "DaveShuckerow:cache-invalidation",
+        "ref": "cache-invalidation",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/branches{/branch}",
+            "clone_url": "https://github.com/DaveShuckerow/flutter-intellij.git",
+            "collaborators_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/comments{/number}",
+            "commits_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/contributors",
+            "created_at": "2017-11-01T21:25:50Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/deployments",
+            "description": "Flutter makes it easy and fast to build beautiful mobile apps.",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/downloads",
+            "events_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/events",
+            "fork": true,
+            "forks": 0,
+            "forks_count": 0,
+            "forks_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/forks",
+            "full_name": "DaveShuckerow/flutter-intellij",
+            "git_commits_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/git/tags{/sha}",
+            "git_url": "git://github.com/DaveShuckerow/flutter-intellij.git",
+            "has_downloads": true,
+            "has_issues": false,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "https://flutter.io/intellij-ide",
+            "hooks_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/hooks",
+            "html_url": "https://github.com/DaveShuckerow/flutter-intellij",
+            "id": 109185697,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/issues{/number}",
+            "keys_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/labels{/name}",
+            "language": "Java",
+            "languages_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/languages",
+            "license": {
+                "key": "bsd-3-clause",
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "node_id": "MDc6TGljZW5zZTU=",
+                "spdx_id": "BSD-3-Clause",
+                "url": "https://api.github.com/licenses/bsd-3-clause"
+            },
+            "merges_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/merges",
+            "milestones_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/milestones{/number}",
+            "mirror_url": null,
+            "name": "flutter-intellij",
+            "node_id": "MDEwOlJlcG9zaXRvcnkxMDkxODU2OTc=",
+            "notifications_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/notifications{?since,all,participating}",
+            "open_issues": 0,
+            "open_issues_count": 0,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14947366?v=4",
+                "events_url": "https://api.github.com/users/DaveShuckerow/events{/privacy}",
+                "followers_url": "https://api.github.com/users/DaveShuckerow/followers",
+                "following_url": "https://api.github.com/users/DaveShuckerow/following{/other_user}",
+                "gists_url": "https://api.github.com/users/DaveShuckerow/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/DaveShuckerow",
+                "id": 14947366,
+                "login": "DaveShuckerow",
+                "node_id": "MDQ6VXNlcjE0OTQ3MzY2",
+                "organizations_url": "https://api.github.com/users/DaveShuckerow/orgs",
+                "received_events_url": "https://api.github.com/users/DaveShuckerow/received_events",
+                "repos_url": "https://api.github.com/users/DaveShuckerow/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/DaveShuckerow/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/DaveShuckerow/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/DaveShuckerow"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/pulls{/number}",
+            "pushed_at": "2020-02-19T23:38:58Z",
+            "releases_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/releases{/id}",
+            "size": 28824,
+            "ssh_url": "git@github.com:DaveShuckerow/flutter-intellij.git",
+            "stargazers_count": 0,
+            "stargazers_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/stargazers",
+            "statuses_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/subscribers",
+            "subscription_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/subscription",
+            "svn_url": "https://github.com/DaveShuckerow/flutter-intellij",
+            "tags_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/tags",
+            "teams_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/teams",
+            "topics": [],
+            "trees_url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij/git/trees{/sha}",
+            "updated_at": "2019-05-21T18:08:59Z",
+            "url": "https://api.github.com/repos/DaveShuckerow/flutter-intellij",
+            "visibility": "public",
+            "watchers": 0,
+            "watchers_count": 0,
+            "web_commit_signoff_required": false
+        },
+        "sha": "e76bc87f741877f2423aa8614091d80f073c6954",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/14947366?v=4",
+            "events_url": "https://api.github.com/users/DaveShuckerow/events{/privacy}",
+            "followers_url": "https://api.github.com/users/DaveShuckerow/followers",
+            "following_url": "https://api.github.com/users/DaveShuckerow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/DaveShuckerow/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/DaveShuckerow",
+            "id": 14947366,
+            "login": "DaveShuckerow",
+            "node_id": "MDQ6VXNlcjE0OTQ3MzY2",
+            "organizations_url": "https://api.github.com/users/DaveShuckerow/orgs",
+            "received_events_url": "https://api.github.com/users/DaveShuckerow/received_events",
+            "repos_url": "https://api.github.com/users/DaveShuckerow/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/DaveShuckerow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/DaveShuckerow/subscriptions",
+            "type": "User",
+            "url": "https://api.github.com/users/DaveShuckerow"
+        }
+    },
+    "html_url": "https://github.com/flutter/flutter-intellij/pull/4385",
+    "id": 376736985,
+    "issue_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/4385",
+    "labels": [
+        {
+            "color": "0e8a16",
+            "default": false,
+            "description": null,
+            "id": 487496526,
+            "name": "cla: yes",
+            "node_id": "MDU6TGFiZWw0ODc0OTY1MjY=",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/labels/cla:%20yes"
+        }
+    ],
+    "locked": false,
+    "merge_commit_sha": "67ac65ae89ccebc4b58ecb886f867b8dd0d44ccb",
+    "merged_at": "2020-02-19T23:48:37Z",
+    "milestone": null,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0Mzc2NzM2OTg1",
+    "number": 4385,
+    "patch_url": "https://github.com/flutter/flutter-intellij/pull/4385.patch",
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/e76bc87f741877f2423aa8614091d80f073c6954",
+    "title": "Switch common test config utils to use a per-file cache",
+    "updated_at": "2020-02-19T23:48:37Z",
+    "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4385",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/14947366?v=4",
+        "events_url": "https://api.github.com/users/DaveShuckerow/events{/privacy}",
+        "followers_url": "https://api.github.com/users/DaveShuckerow/followers",
+        "following_url": "https://api.github.com/users/DaveShuckerow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/DaveShuckerow/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/DaveShuckerow",
+        "id": 14947366,
+        "login": "DaveShuckerow",
+        "node_id": "MDQ6VXNlcjE0OTQ3MzY2",
+        "organizations_url": "https://api.github.com/users/DaveShuckerow/orgs",
+        "received_events_url": "https://api.github.com/users/DaveShuckerow/received_events",
+        "repos_url": "https://api.github.com/users/DaveShuckerow/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/DaveShuckerow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/DaveShuckerow/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/DaveShuckerow"
+    }
+}

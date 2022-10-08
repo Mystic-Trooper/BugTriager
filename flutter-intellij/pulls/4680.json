@@ -1,0 +1,813 @@
+{
+    "_links": {
+        "comments": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/issues/4680/comments"
+        },
+        "commits": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4680/commits"
+        },
+        "html": {
+            "href": "https://github.com/flutter/flutter-intellij/pull/4680"
+        },
+        "issue": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/issues/4680"
+        },
+        "review_comment": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments{/number}"
+        },
+        "review_comments": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4680/comments"
+        },
+        "self": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4680"
+        },
+        "statuses": {
+            "href": "https://api.github.com/repos/flutter/flutter-intellij/statuses/4a37b779f20282529dd5623f6df296a4f6693dcd"
+        }
+    },
+    "active_lock_reason": null,
+    "assignee": null,
+    "assignees": [],
+    "author_association": "MEMBER",
+    "auto_merge": null,
+    "base": {
+        "label": "flutter:master",
+        "ref": "master",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/flutter/flutter-intellij/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/flutter/flutter-intellij/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/flutter/flutter-intellij/branches{/branch}",
+            "clone_url": "https://github.com/flutter/flutter-intellij.git",
+            "collaborators_url": "https://api.github.com/repos/flutter/flutter-intellij/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/comments{/number}",
+            "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/flutter/flutter-intellij/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/flutter/flutter-intellij/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/flutter/flutter-intellij/contributors",
+            "created_at": "2016-07-25T22:31:03Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/flutter/flutter-intellij/deployments",
+            "description": "Flutter Plugin for IntelliJ",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/flutter/flutter-intellij/downloads",
+            "events_url": "https://api.github.com/repos/flutter/flutter-intellij/events",
+            "fork": false,
+            "forks": 308,
+            "forks_count": 308,
+            "forks_url": "https://api.github.com/repos/flutter/flutter-intellij/forks",
+            "full_name": "flutter/flutter-intellij",
+            "git_commits_url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/flutter/flutter-intellij/git/tags{/sha}",
+            "git_url": "git://github.com/flutter/flutter-intellij.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "https://flutter.dev/using-ide",
+            "hooks_url": "https://api.github.com/repos/flutter/flutter-intellij/hooks",
+            "html_url": "https://github.com/flutter/flutter-intellij",
+            "id": 64172164,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/flutter/flutter-intellij/issues{/number}",
+            "keys_url": "https://api.github.com/repos/flutter/flutter-intellij/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/flutter/flutter-intellij/labels{/name}",
+            "language": "Java",
+            "languages_url": "https://api.github.com/repos/flutter/flutter-intellij/languages",
+            "license": {
+                "key": "bsd-3-clause",
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "node_id": "MDc6TGljZW5zZTU=",
+                "spdx_id": "BSD-3-Clause",
+                "url": "https://api.github.com/licenses/bsd-3-clause"
+            },
+            "merges_url": "https://api.github.com/repos/flutter/flutter-intellij/merges",
+            "milestones_url": "https://api.github.com/repos/flutter/flutter-intellij/milestones{/number}",
+            "mirror_url": null,
+            "name": "flutter-intellij",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2NDE3MjE2NA==",
+            "notifications_url": "https://api.github.com/repos/flutter/flutter-intellij/notifications{?since,all,participating}",
+            "open_issues": 514,
+            "open_issues_count": 514,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+                "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+                "followers_url": "https://api.github.com/users/flutter/followers",
+                "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+                "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/flutter",
+                "id": 14101776,
+                "login": "flutter",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+                "organizations_url": "https://api.github.com/users/flutter/orgs",
+                "received_events_url": "https://api.github.com/users/flutter/received_events",
+                "repos_url": "https://api.github.com/users/flutter/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/flutter"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls{/number}",
+            "pushed_at": "2022-10-03T08:04:48Z",
+            "releases_url": "https://api.github.com/repos/flutter/flutter-intellij/releases{/id}",
+            "size": 160091,
+            "ssh_url": "git@github.com:flutter/flutter-intellij.git",
+            "stargazers_count": 1802,
+            "stargazers_url": "https://api.github.com/repos/flutter/flutter-intellij/stargazers",
+            "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/flutter/flutter-intellij/subscribers",
+            "subscription_url": "https://api.github.com/repos/flutter/flutter-intellij/subscription",
+            "svn_url": "https://github.com/flutter/flutter-intellij",
+            "tags_url": "https://api.github.com/repos/flutter/flutter-intellij/tags",
+            "teams_url": "https://api.github.com/repos/flutter/flutter-intellij/teams",
+            "topics": [
+                "flutter",
+                "intellij-plugin",
+                "java"
+            ],
+            "trees_url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees{/sha}",
+            "updated_at": "2022-10-03T05:16:49Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij",
+            "visibility": "public",
+            "watchers": 1802,
+            "watchers_count": 1802,
+            "web_commit_signoff_required": false
+        },
+        "sha": "6b122295cd0decd12ae99d35085b7931e4b78cb4",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+            "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+            "followers_url": "https://api.github.com/users/flutter/followers",
+            "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+            "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/flutter",
+            "id": 14101776,
+            "login": "flutter",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+            "organizations_url": "https://api.github.com/users/flutter/orgs",
+            "received_events_url": "https://api.github.com/users/flutter/received_events",
+            "repos_url": "https://api.github.com/users/flutter/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/flutter"
+        }
+    },
+    "body": "See #4658 for full description.\r\n\r\nThe action that would display the news panel is currently disabled. Once we get real content we can re-enable it.",
+    "closed_at": "2020-07-06T21:15:22Z",
+    "comment_data": [
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4680#discussion_r448636272"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4680"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/448636272"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Is the argument `toolWindowManager` the same as what's retrieved here?",
+            "commit_id": "4a37b779f20282529dd5623f6df296a4f6693dcd",
+            "created_at": "2020-07-01T21:54:17Z",
+            "diff_hunk": "@@ -0,0 +1,166 @@\n+/*\n+ * Copyright 2020 The Chromium Authors. All rights reserved.\n+ * Use of this source code is governed by a BSD-style license that can be\n+ * found in the LICENSE file.\n+ */\n+package io.flutter.actions;\n+\n+import com.android.tools.idea.assistant.AssistantBundleCreator;\n+import com.android.tools.idea.assistant.OpenAssistSidePanelAction;\n+import com.intellij.ide.actions.WhatsNewAction;\n+import com.intellij.openapi.actionSystem.AnActionEvent;\n+import com.intellij.openapi.actionSystem.Presentation;\n+import com.intellij.openapi.application.ApplicationManager;\n+import com.intellij.openapi.project.Project;\n+import com.intellij.openapi.project.ProjectManager;\n+import com.intellij.openapi.project.ProjectManagerListener;\n+import com.intellij.openapi.wm.ToolWindow;\n+import com.intellij.openapi.wm.ToolWindowManager;\n+import com.intellij.openapi.wm.ex.ToolWindowManagerListener;\n+import io.flutter.FlutterInitializer;\n+import io.flutter.assistant.whatsnew.FlutterNewsBundleCreator;\n+import java.util.HashMap;\n+import java.util.HashSet;\n+import java.util.Map;\n+import java.util.Objects;\n+import java.util.Set;\n+import org.jetbrains.annotations.NotNull;\n+\n+// Adapted from com.android.tools.idea.whatsnew.assistant.WhatsNewSidePanelAction.\n+public class OpenFlutterNewsSidePanelAction extends OpenAssistSidePanelAction {\n+  @NotNull\n+  private static final WhatsNewAction action = new WhatsNewAction();\n+  @NotNull\n+  private static final Set<Project> openProjectTools = new HashSet<>();\n+\n+  @NotNull\n+  private final Map<Project, FlutterNewsToolWindowListener> myProjectToListenerMap;\n+\n+  public OpenFlutterNewsSidePanelAction() {\n+    myProjectToListenerMap = new HashMap<>();\n+  }\n+\n+  @Override\n+  public void update(@NotNull AnActionEvent e) {\n+    // Project being null can happen when Studio first starts and doesn't have window focus\n+    Presentation presentation = e.getPresentation();\n+    if (e.getProject() == null) {\n+      presentation.setEnabled(false);\n+    }\n+    else if (!presentation.isEnabled()) {\n+      presentation.setEnabled(true);\n+    }\n+\n+    action.update(e);\n+    presentation.setText(\"What's New in Flutter\");\n+    presentation.setDescription(\"See the recent updates to Flutter and the plugin.\");\n+  }\n+\n+  @Override\n+  public void actionPerformed(@NotNull AnActionEvent event) {\n+    openWhatsNewSidePanel(Objects.requireNonNull(event.getProject()), false);\n+  }\n+\n+  public void openWhatsNewSidePanel(@NotNull Project project, boolean isAutoOpened) {\n+    FlutterNewsBundleCreator bundleCreator = AssistantBundleCreator.EP_NAME.findExtension(FlutterNewsBundleCreator.class);\n+    if (bundleCreator == null) {\n+      return;\n+    }\n+\n+    FlutterNewsToolWindowListener.fireOpenEvent(project, isAutoOpened);\n+    openWindow(FlutterNewsBundleCreator.BUNDLE_ID, project);\n+\n+    // Only register a new listener if there isn't already one, to avoid multiple OPEN/CLOSE events\n+    myProjectToListenerMap.computeIfAbsent(project, this::newFlutterNewsToolWindowListener);\n+  }\n+\n+  @NotNull\n+  private OpenFlutterNewsSidePanelAction.FlutterNewsToolWindowListener newFlutterNewsToolWindowListener(@NotNull Project project) {\n+    FlutterNewsToolWindowListener listener = new FlutterNewsToolWindowListener(project, myProjectToListenerMap);\n+    project.getMessageBus().connect(project).subscribe(ToolWindowManagerListener.TOPIC, listener);\n+    return listener;\n+  }\n+\n+  static class FlutterNewsToolWindowListener implements ToolWindowManagerListener {\n+    @NotNull private final Project myProject;\n+    @NotNull Map<Project, FlutterNewsToolWindowListener> myProjectToListenerMap;\n+    private boolean isOpen;\n+\n+    private FlutterNewsToolWindowListener(@NotNull Project project,\n+                                          @NotNull Map<Project, FlutterNewsToolWindowListener> projectToListenerMap) {\n+      myProject = project;\n+      myProjectToListenerMap = projectToListenerMap;\n+      isOpen = true; // Start off as opened so we don't fire an extra opened event\n+\n+      // Need an additional listener for project close, because the below invokeLater isn't fired in time before closing\n+      project.getMessageBus().connect(project).subscribe(ProjectManager.TOPIC, new ProjectManagerListener() {\n+        @Override\n+        public void projectClosed(@NotNull Project project) {\n+          if (!project.equals(myProject)) {\n+            return;\n+          }\n+          if (isOpen) {\n+            fireClosedEvent(myProject);\n+            isOpen = false;\n+          }\n+          myProjectToListenerMap.remove(project);\n+        }\n+      });\n+    }\n+\n+    @Override\n+    public void toolWindowRegistered(@NotNull String id) {\n+    }\n+\n+    @Override\n+    public void toolWindowUnregistered(@NotNull String id, @NotNull ToolWindow toolWindow) {\n+      if (id.equals(OpenAssistSidePanelAction.TOOL_WINDOW_TITLE)) {\n+        myProjectToListenerMap.remove(myProject);\n+      }\n+    }\n+\n+    /**\n+     * Fire metrics and update the actual state after a state change is received.\n+     * The logic is wrapped in invokeLater because dragging and dropping the StripeButton temporarily\n+     * hides and then shows the window. Otherwise, the handler would think the window was closed,\n+     * even though it was only dragged.\n+     */\n+    @Override\n+    public void stateChanged(@NotNull ToolWindowManager toolWindowManager) {\n+      ApplicationManager.getApplication().invokeLater(() -> {\n+        if (myProject.isDisposed()) {\n+          myProjectToListenerMap.remove(myProject);\n+          return;\n+        }\n+\n+        ToolWindow window = ToolWindowManager.getInstance(myProject).getToolWindow(OpenAssistSidePanelAction.TOOL_WINDOW_TITLE);",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4680#discussion_r448636272",
+            "id": 448636272,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDQ0ODYzNjI3Mg==",
+            "original_commit_id": "5f88f32f085ec8fccc169b42de80ad3c015d8477",
+            "original_line": 136,
+            "original_position": 136,
+            "original_start_line": null,
+            "path": "src/io/flutter/actions/OpenFlutterNewsSidePanelAction.java",
+            "position": null,
+            "pull_request_review_id": 441221098,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4680",
+            "reactions": {
+                "+1": 0,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 0,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/448636272/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-07-06T21:06:41Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/448636272",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/6379305?v=4",
+                "events_url": "https://api.github.com/users/helin24/events{/privacy}",
+                "followers_url": "https://api.github.com/users/helin24/followers",
+                "following_url": "https://api.github.com/users/helin24/following{/other_user}",
+                "gists_url": "https://api.github.com/users/helin24/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/helin24",
+                "id": 6379305,
+                "login": "helin24",
+                "node_id": "MDQ6VXNlcjYzNzkzMDU=",
+                "organizations_url": "https://api.github.com/users/helin24/orgs",
+                "received_events_url": "https://api.github.com/users/helin24/received_events",
+                "repos_url": "https://api.github.com/users/helin24/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/helin24/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/helin24/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/helin24"
+            }
+        },
+        {
+            "_links": {
+                "html": {
+                    "href": "https://github.com/flutter/flutter-intellij/pull/4680#discussion_r448646252"
+                },
+                "pull_request": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4680"
+                },
+                "self": {
+                    "href": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/448646252"
+                }
+            },
+            "author_association": "MEMBER",
+            "body": "Not necessarily. The tool window manager is project-specific. This could have been triggered by a different project. It might make sense to check that it is same and do nothing if not.",
+            "commit_id": "4a37b779f20282529dd5623f6df296a4f6693dcd",
+            "created_at": "2020-07-01T22:22:19Z",
+            "diff_hunk": "@@ -0,0 +1,166 @@\n+/*\n+ * Copyright 2020 The Chromium Authors. All rights reserved.\n+ * Use of this source code is governed by a BSD-style license that can be\n+ * found in the LICENSE file.\n+ */\n+package io.flutter.actions;\n+\n+import com.android.tools.idea.assistant.AssistantBundleCreator;\n+import com.android.tools.idea.assistant.OpenAssistSidePanelAction;\n+import com.intellij.ide.actions.WhatsNewAction;\n+import com.intellij.openapi.actionSystem.AnActionEvent;\n+import com.intellij.openapi.actionSystem.Presentation;\n+import com.intellij.openapi.application.ApplicationManager;\n+import com.intellij.openapi.project.Project;\n+import com.intellij.openapi.project.ProjectManager;\n+import com.intellij.openapi.project.ProjectManagerListener;\n+import com.intellij.openapi.wm.ToolWindow;\n+import com.intellij.openapi.wm.ToolWindowManager;\n+import com.intellij.openapi.wm.ex.ToolWindowManagerListener;\n+import io.flutter.FlutterInitializer;\n+import io.flutter.assistant.whatsnew.FlutterNewsBundleCreator;\n+import java.util.HashMap;\n+import java.util.HashSet;\n+import java.util.Map;\n+import java.util.Objects;\n+import java.util.Set;\n+import org.jetbrains.annotations.NotNull;\n+\n+// Adapted from com.android.tools.idea.whatsnew.assistant.WhatsNewSidePanelAction.\n+public class OpenFlutterNewsSidePanelAction extends OpenAssistSidePanelAction {\n+  @NotNull\n+  private static final WhatsNewAction action = new WhatsNewAction();\n+  @NotNull\n+  private static final Set<Project> openProjectTools = new HashSet<>();\n+\n+  @NotNull\n+  private final Map<Project, FlutterNewsToolWindowListener> myProjectToListenerMap;\n+\n+  public OpenFlutterNewsSidePanelAction() {\n+    myProjectToListenerMap = new HashMap<>();\n+  }\n+\n+  @Override\n+  public void update(@NotNull AnActionEvent e) {\n+    // Project being null can happen when Studio first starts and doesn't have window focus\n+    Presentation presentation = e.getPresentation();\n+    if (e.getProject() == null) {\n+      presentation.setEnabled(false);\n+    }\n+    else if (!presentation.isEnabled()) {\n+      presentation.setEnabled(true);\n+    }\n+\n+    action.update(e);\n+    presentation.setText(\"What's New in Flutter\");\n+    presentation.setDescription(\"See the recent updates to Flutter and the plugin.\");\n+  }\n+\n+  @Override\n+  public void actionPerformed(@NotNull AnActionEvent event) {\n+    openWhatsNewSidePanel(Objects.requireNonNull(event.getProject()), false);\n+  }\n+\n+  public void openWhatsNewSidePanel(@NotNull Project project, boolean isAutoOpened) {\n+    FlutterNewsBundleCreator bundleCreator = AssistantBundleCreator.EP_NAME.findExtension(FlutterNewsBundleCreator.class);\n+    if (bundleCreator == null) {\n+      return;\n+    }\n+\n+    FlutterNewsToolWindowListener.fireOpenEvent(project, isAutoOpened);\n+    openWindow(FlutterNewsBundleCreator.BUNDLE_ID, project);\n+\n+    // Only register a new listener if there isn't already one, to avoid multiple OPEN/CLOSE events\n+    myProjectToListenerMap.computeIfAbsent(project, this::newFlutterNewsToolWindowListener);\n+  }\n+\n+  @NotNull\n+  private OpenFlutterNewsSidePanelAction.FlutterNewsToolWindowListener newFlutterNewsToolWindowListener(@NotNull Project project) {\n+    FlutterNewsToolWindowListener listener = new FlutterNewsToolWindowListener(project, myProjectToListenerMap);\n+    project.getMessageBus().connect(project).subscribe(ToolWindowManagerListener.TOPIC, listener);\n+    return listener;\n+  }\n+\n+  static class FlutterNewsToolWindowListener implements ToolWindowManagerListener {\n+    @NotNull private final Project myProject;\n+    @NotNull Map<Project, FlutterNewsToolWindowListener> myProjectToListenerMap;\n+    private boolean isOpen;\n+\n+    private FlutterNewsToolWindowListener(@NotNull Project project,\n+                                          @NotNull Map<Project, FlutterNewsToolWindowListener> projectToListenerMap) {\n+      myProject = project;\n+      myProjectToListenerMap = projectToListenerMap;\n+      isOpen = true; // Start off as opened so we don't fire an extra opened event\n+\n+      // Need an additional listener for project close, because the below invokeLater isn't fired in time before closing\n+      project.getMessageBus().connect(project).subscribe(ProjectManager.TOPIC, new ProjectManagerListener() {\n+        @Override\n+        public void projectClosed(@NotNull Project project) {\n+          if (!project.equals(myProject)) {\n+            return;\n+          }\n+          if (isOpen) {\n+            fireClosedEvent(myProject);\n+            isOpen = false;\n+          }\n+          myProjectToListenerMap.remove(project);\n+        }\n+      });\n+    }\n+\n+    @Override\n+    public void toolWindowRegistered(@NotNull String id) {\n+    }\n+\n+    @Override\n+    public void toolWindowUnregistered(@NotNull String id, @NotNull ToolWindow toolWindow) {\n+      if (id.equals(OpenAssistSidePanelAction.TOOL_WINDOW_TITLE)) {\n+        myProjectToListenerMap.remove(myProject);\n+      }\n+    }\n+\n+    /**\n+     * Fire metrics and update the actual state after a state change is received.\n+     * The logic is wrapped in invokeLater because dragging and dropping the StripeButton temporarily\n+     * hides and then shows the window. Otherwise, the handler would think the window was closed,\n+     * even though it was only dragged.\n+     */\n+    @Override\n+    public void stateChanged(@NotNull ToolWindowManager toolWindowManager) {\n+      ApplicationManager.getApplication().invokeLater(() -> {\n+        if (myProject.isDisposed()) {\n+          myProjectToListenerMap.remove(myProject);\n+          return;\n+        }\n+\n+        ToolWindow window = ToolWindowManager.getInstance(myProject).getToolWindow(OpenAssistSidePanelAction.TOOL_WINDOW_TITLE);",
+            "html_url": "https://github.com/flutter/flutter-intellij/pull/4680#discussion_r448646252",
+            "id": 448646252,
+            "in_reply_to_id": 448636272,
+            "line": null,
+            "node_id": "MDI0OlB1bGxSZXF1ZXN0UmV2aWV3Q29tbWVudDQ0ODY0NjI1Mg==",
+            "original_commit_id": "5f88f32f085ec8fccc169b42de80ad3c015d8477",
+            "original_line": 136,
+            "original_position": 136,
+            "original_start_line": null,
+            "path": "src/io/flutter/actions/OpenFlutterNewsSidePanelAction.java",
+            "position": null,
+            "pull_request_review_id": 441233290,
+            "pull_request_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4680",
+            "reactions": {
+                "+1": 1,
+                "-1": 0,
+                "confused": 0,
+                "eyes": 0,
+                "heart": 0,
+                "hooray": 0,
+                "laugh": 0,
+                "rocket": 0,
+                "total_count": 1,
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/448646252/reactions"
+            },
+            "side": "RIGHT",
+            "start_line": null,
+            "start_side": null,
+            "updated_at": "2020-07-06T21:06:41Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments/448646252",
+            "user": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            }
+        }
+    ],
+    "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/4680/comments",
+    "commit_data": [
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/a7894701e1a893dd1bb371a2c58503a973effd76/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-04-02T21:43:25Z",
+                    "email": "messick@google.com",
+                    "name": "Steve Messick"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-07-01T20:28:50Z",
+                    "email": "messick@google.com",
+                    "name": "Steve Messick"
+                },
+                "message": "Android hacks",
+                "tree": {
+                    "sha": "e50506c2c8652729b9fdd3bba4e55e7b8620b5ef",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/e50506c2c8652729b9fdd3bba4e55e7b8620b5ef"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/a7894701e1a893dd1bb371a2c58503a973effd76",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/a7894701e1a893dd1bb371a2c58503a973effd76",
+            "node_id": "MDY6Q29tbWl0NjQxNzIxNjQ6YTc4OTQ3MDFlMWE4OTNkZDFiYjM3MWEyYzU4NTAzYTk3M2VmZmQ3Ng==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/6b122295cd0decd12ae99d35085b7931e4b78cb4",
+                    "sha": "6b122295cd0decd12ae99d35085b7931e4b78cb4",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/6b122295cd0decd12ae99d35085b7931e4b78cb4"
+                }
+            ],
+            "sha": "a7894701e1a893dd1bb371a2c58503a973effd76",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/a7894701e1a893dd1bb371a2c58503a973effd76"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/8efd52115efffda466af95d015b4508ff64b006c/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-06-16T22:08:23Z",
+                    "email": "messick@google.com",
+                    "name": "Steve Messick"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-07-01T20:28:50Z",
+                    "email": "messick@google.com",
+                    "name": "Steve Messick"
+                },
+                "message": "Add Flutter News panel for release notes",
+                "tree": {
+                    "sha": "5b2255d6ad80fa874e176c29c2c0ee160eb14847",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/5b2255d6ad80fa874e176c29c2c0ee160eb14847"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/8efd52115efffda466af95d015b4508ff64b006c",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/8efd52115efffda466af95d015b4508ff64b006c",
+            "node_id": "MDY6Q29tbWl0NjQxNzIxNjQ6OGVmZDUyMTE1ZWZmZmRhNDY2YWY5NWQwMTViNDUwOGZmNjRiMDA2Yw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/a7894701e1a893dd1bb371a2c58503a973effd76",
+                    "sha": "a7894701e1a893dd1bb371a2c58503a973effd76",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/a7894701e1a893dd1bb371a2c58503a973effd76"
+                }
+            ],
+            "sha": "8efd52115efffda466af95d015b4508ff64b006c",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/8efd52115efffda466af95d015b4508ff64b006c"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/5f88f32f085ec8fccc169b42de80ad3c015d8477/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-07-01T20:54:26Z",
+                    "email": "messick@google.com",
+                    "name": "Steve Messick"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-07-01T20:54:26Z",
+                    "email": "messick@google.com",
+                    "name": "Steve Messick"
+                },
+                "message": "Clean up for review",
+                "tree": {
+                    "sha": "430c3a68a4b9872ee3ed2edd4497f487fedc414b",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/430c3a68a4b9872ee3ed2edd4497f487fedc414b"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/5f88f32f085ec8fccc169b42de80ad3c015d8477",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/5f88f32f085ec8fccc169b42de80ad3c015d8477",
+            "node_id": "MDY6Q29tbWl0NjQxNzIxNjQ6NWY4OGYzMmYwODVlYzhmY2NjMTY5YjQyZGU4MGFkM2MwMTVkODQ3Nw==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/8efd52115efffda466af95d015b4508ff64b006c",
+                    "sha": "8efd52115efffda466af95d015b4508ff64b006c",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/8efd52115efffda466af95d015b4508ff64b006c"
+                }
+            ],
+            "sha": "5f88f32f085ec8fccc169b42de80ad3c015d8477",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/5f88f32f085ec8fccc169b42de80ad3c015d8477"
+        },
+        {
+            "author": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            },
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/commits/4a37b779f20282529dd5623f6df296a4f6693dcd/comments",
+            "commit": {
+                "author": {
+                    "date": "2020-07-06T21:06:26Z",
+                    "email": "messick@google.com",
+                    "name": "Steve Messick"
+                },
+                "comment_count": 0,
+                "committer": {
+                    "date": "2020-07-06T21:06:26Z",
+                    "email": "messick@google.com",
+                    "name": "Steve Messick"
+                },
+                "message": "Move to flutter-studio",
+                "tree": {
+                    "sha": "1e8d12b857de6fc6c68142c2a3ec42ff34e48179",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees/1e8d12b857de6fc6c68142c2a3ec42ff34e48179"
+                },
+                "url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits/4a37b779f20282529dd5623f6df296a4f6693dcd",
+                "verification": {
+                    "payload": null,
+                    "reason": "unsigned",
+                    "signature": null,
+                    "verified": false
+                }
+            },
+            "committer": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+                "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+                "followers_url": "https://api.github.com/users/stevemessick/followers",
+                "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+                "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/stevemessick",
+                "id": 8518285,
+                "login": "stevemessick",
+                "node_id": "MDQ6VXNlcjg1MTgyODU=",
+                "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+                "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+                "repos_url": "https://api.github.com/users/stevemessick/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/stevemessick"
+            },
+            "html_url": "https://github.com/flutter/flutter-intellij/commit/4a37b779f20282529dd5623f6df296a4f6693dcd",
+            "node_id": "MDY6Q29tbWl0NjQxNzIxNjQ6NGEzN2I3NzlmMjAyODI1MjlkZDU2MjNmNmRmMjk2YTRmNjY5M2RjZA==",
+            "parents": [
+                {
+                    "html_url": "https://github.com/flutter/flutter-intellij/commit/5f88f32f085ec8fccc169b42de80ad3c015d8477",
+                    "sha": "5f88f32f085ec8fccc169b42de80ad3c015d8477",
+                    "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/5f88f32f085ec8fccc169b42de80ad3c015d8477"
+                }
+            ],
+            "sha": "4a37b779f20282529dd5623f6df296a4f6693dcd",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/commits/4a37b779f20282529dd5623f6df296a4f6693dcd"
+        }
+    ],
+    "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4680/commits",
+    "created_at": "2020-07-01T21:01:42Z",
+    "diff_url": "https://github.com/flutter/flutter-intellij/pull/4680.diff",
+    "draft": false,
+    "head": {
+        "label": "flutter:flutter-news",
+        "ref": "flutter-news",
+        "repo": {
+            "allow_forking": true,
+            "archive_url": "https://api.github.com/repos/flutter/flutter-intellij/{archive_format}{/ref}",
+            "archived": false,
+            "assignees_url": "https://api.github.com/repos/flutter/flutter-intellij/assignees{/user}",
+            "blobs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/blobs{/sha}",
+            "branches_url": "https://api.github.com/repos/flutter/flutter-intellij/branches{/branch}",
+            "clone_url": "https://github.com/flutter/flutter-intellij.git",
+            "collaborators_url": "https://api.github.com/repos/flutter/flutter-intellij/collaborators{/collaborator}",
+            "comments_url": "https://api.github.com/repos/flutter/flutter-intellij/comments{/number}",
+            "commits_url": "https://api.github.com/repos/flutter/flutter-intellij/commits{/sha}",
+            "compare_url": "https://api.github.com/repos/flutter/flutter-intellij/compare/{base}...{head}",
+            "contents_url": "https://api.github.com/repos/flutter/flutter-intellij/contents/{+path}",
+            "contributors_url": "https://api.github.com/repos/flutter/flutter-intellij/contributors",
+            "created_at": "2016-07-25T22:31:03Z",
+            "default_branch": "master",
+            "deployments_url": "https://api.github.com/repos/flutter/flutter-intellij/deployments",
+            "description": "Flutter Plugin for IntelliJ",
+            "disabled": false,
+            "downloads_url": "https://api.github.com/repos/flutter/flutter-intellij/downloads",
+            "events_url": "https://api.github.com/repos/flutter/flutter-intellij/events",
+            "fork": false,
+            "forks": 308,
+            "forks_count": 308,
+            "forks_url": "https://api.github.com/repos/flutter/flutter-intellij/forks",
+            "full_name": "flutter/flutter-intellij",
+            "git_commits_url": "https://api.github.com/repos/flutter/flutter-intellij/git/commits{/sha}",
+            "git_refs_url": "https://api.github.com/repos/flutter/flutter-intellij/git/refs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/flutter/flutter-intellij/git/tags{/sha}",
+            "git_url": "git://github.com/flutter/flutter-intellij.git",
+            "has_downloads": true,
+            "has_issues": true,
+            "has_pages": false,
+            "has_projects": true,
+            "has_wiki": true,
+            "homepage": "https://flutter.dev/using-ide",
+            "hooks_url": "https://api.github.com/repos/flutter/flutter-intellij/hooks",
+            "html_url": "https://github.com/flutter/flutter-intellij",
+            "id": 64172164,
+            "is_template": false,
+            "issue_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/comments{/number}",
+            "issue_events_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/events{/number}",
+            "issues_url": "https://api.github.com/repos/flutter/flutter-intellij/issues{/number}",
+            "keys_url": "https://api.github.com/repos/flutter/flutter-intellij/keys{/key_id}",
+            "labels_url": "https://api.github.com/repos/flutter/flutter-intellij/labels{/name}",
+            "language": "Java",
+            "languages_url": "https://api.github.com/repos/flutter/flutter-intellij/languages",
+            "license": {
+                "key": "bsd-3-clause",
+                "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                "node_id": "MDc6TGljZW5zZTU=",
+                "spdx_id": "BSD-3-Clause",
+                "url": "https://api.github.com/licenses/bsd-3-clause"
+            },
+            "merges_url": "https://api.github.com/repos/flutter/flutter-intellij/merges",
+            "milestones_url": "https://api.github.com/repos/flutter/flutter-intellij/milestones{/number}",
+            "mirror_url": null,
+            "name": "flutter-intellij",
+            "node_id": "MDEwOlJlcG9zaXRvcnk2NDE3MjE2NA==",
+            "notifications_url": "https://api.github.com/repos/flutter/flutter-intellij/notifications{?since,all,participating}",
+            "open_issues": 514,
+            "open_issues_count": 514,
+            "owner": {
+                "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+                "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+                "followers_url": "https://api.github.com/users/flutter/followers",
+                "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+                "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/flutter",
+                "id": 14101776,
+                "login": "flutter",
+                "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+                "organizations_url": "https://api.github.com/users/flutter/orgs",
+                "received_events_url": "https://api.github.com/users/flutter/received_events",
+                "repos_url": "https://api.github.com/users/flutter/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+                "type": "Organization",
+                "url": "https://api.github.com/users/flutter"
+            },
+            "private": false,
+            "pulls_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls{/number}",
+            "pushed_at": "2022-10-03T08:04:48Z",
+            "releases_url": "https://api.github.com/repos/flutter/flutter-intellij/releases{/id}",
+            "size": 160091,
+            "ssh_url": "git@github.com:flutter/flutter-intellij.git",
+            "stargazers_count": 1802,
+            "stargazers_url": "https://api.github.com/repos/flutter/flutter-intellij/stargazers",
+            "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/{sha}",
+            "subscribers_url": "https://api.github.com/repos/flutter/flutter-intellij/subscribers",
+            "subscription_url": "https://api.github.com/repos/flutter/flutter-intellij/subscription",
+            "svn_url": "https://github.com/flutter/flutter-intellij",
+            "tags_url": "https://api.github.com/repos/flutter/flutter-intellij/tags",
+            "teams_url": "https://api.github.com/repos/flutter/flutter-intellij/teams",
+            "topics": [
+                "flutter",
+                "intellij-plugin",
+                "java"
+            ],
+            "trees_url": "https://api.github.com/repos/flutter/flutter-intellij/git/trees{/sha}",
+            "updated_at": "2022-10-03T05:16:49Z",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij",
+            "visibility": "public",
+            "watchers": 1802,
+            "watchers_count": 1802,
+            "web_commit_signoff_required": false
+        },
+        "sha": "4a37b779f20282529dd5623f6df296a4f6693dcd",
+        "user": {
+            "avatar_url": "https://avatars.githubusercontent.com/u/14101776?v=4",
+            "events_url": "https://api.github.com/users/flutter/events{/privacy}",
+            "followers_url": "https://api.github.com/users/flutter/followers",
+            "following_url": "https://api.github.com/users/flutter/following{/other_user}",
+            "gists_url": "https://api.github.com/users/flutter/gists{/gist_id}",
+            "gravatar_id": "",
+            "html_url": "https://github.com/flutter",
+            "id": 14101776,
+            "login": "flutter",
+            "node_id": "MDEyOk9yZ2FuaXphdGlvbjE0MTAxNzc2",
+            "organizations_url": "https://api.github.com/users/flutter/orgs",
+            "received_events_url": "https://api.github.com/users/flutter/received_events",
+            "repos_url": "https://api.github.com/users/flutter/repos",
+            "site_admin": false,
+            "starred_url": "https://api.github.com/users/flutter/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/flutter/subscriptions",
+            "type": "Organization",
+            "url": "https://api.github.com/users/flutter"
+        }
+    },
+    "html_url": "https://github.com/flutter/flutter-intellij/pull/4680",
+    "id": 442987598,
+    "issue_url": "https://api.github.com/repos/flutter/flutter-intellij/issues/4680",
+    "labels": [
+        {
+            "color": "0e8a16",
+            "default": false,
+            "description": null,
+            "id": 487496526,
+            "name": "cla: yes",
+            "node_id": "MDU6TGFiZWw0ODc0OTY1MjY=",
+            "url": "https://api.github.com/repos/flutter/flutter-intellij/labels/cla:%20yes"
+        }
+    ],
+    "locked": false,
+    "merge_commit_sha": "5e91382ae14662a2567fa81edb12781110639d39",
+    "merged_at": "2020-07-06T21:15:22Z",
+    "milestone": null,
+    "node_id": "MDExOlB1bGxSZXF1ZXN0NDQyOTg3NTk4",
+    "number": 4680,
+    "patch_url": "https://github.com/flutter/flutter-intellij/pull/4680.patch",
+    "requested_reviewers": [],
+    "requested_teams": [],
+    "review_comment_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/comments{/number}",
+    "review_comments_url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4680/comments",
+    "state": "closed",
+    "statuses_url": "https://api.github.com/repos/flutter/flutter-intellij/statuses/4a37b779f20282529dd5623f6df296a4f6693dcd",
+    "title": "Flutter news",
+    "updated_at": "2020-07-06T21:15:28Z",
+    "url": "https://api.github.com/repos/flutter/flutter-intellij/pulls/4680",
+    "user": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/8518285?v=4",
+        "events_url": "https://api.github.com/users/stevemessick/events{/privacy}",
+        "followers_url": "https://api.github.com/users/stevemessick/followers",
+        "following_url": "https://api.github.com/users/stevemessick/following{/other_user}",
+        "gists_url": "https://api.github.com/users/stevemessick/gists{/gist_id}",
+        "gravatar_id": "",
+        "html_url": "https://github.com/stevemessick",
+        "id": 8518285,
+        "login": "stevemessick",
+        "node_id": "MDQ6VXNlcjg1MTgyODU=",
+        "organizations_url": "https://api.github.com/users/stevemessick/orgs",
+        "received_events_url": "https://api.github.com/users/stevemessick/received_events",
+        "repos_url": "https://api.github.com/users/stevemessick/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/stevemessick/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/stevemessick/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/stevemessick"
+    }
+}
