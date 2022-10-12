@@ -6,14 +6,16 @@ def format_input():
 	component_file_json_root_key = 'component'
 	short_desc_file_json_root_key = 'short_desc'
 
-	# assigned_to_file = open('../Dataset/JSON/assigned_to.json', encoding="utf8")
-	assigned_to_file = open('./Dataset/JSON/assigned_to.json', encoding="utf8")
+	assigned_to_file = open('../Dataset/JSON/assigned_to.json', encoding="utf8")
+	# assigned_to_file = open('./Dataset/JSON/assigned_to.json', encoding="utf8")
 	assigned_to = json.loads(assigned_to_file.read())[assigned_to_file_json_root_key]
 
-	component_file = open('./Dataset/JSON/component.json', encoding="utf8")
+	component_file = open('../Dataset/JSON/component.json', encoding="utf8")
+	# component_file = open('./Dataset/JSON/component.json', encoding="utf8")
 	component = json.loads(component_file.read())[component_file_json_root_key]
 
-	short_desc_file = open('./Dataset/JSON/short_desc.json', encoding="utf8")
+	short_desc_file = open('../Dataset/JSON/short_desc.json', encoding="utf8")
+	# short_desc_file = open('./Dataset/JSON/short_desc.json', encoding="utf8")
 	short_desc = json.loads(short_desc_file.read())[short_desc_file_json_root_key]
 
 	output_file = open("OutputFiles/formatted_input", "wb")
