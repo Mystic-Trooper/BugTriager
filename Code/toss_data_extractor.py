@@ -1,3 +1,4 @@
+from distutils.command.build import build
 import json
 
 
@@ -16,7 +17,8 @@ def extract():
 		assignments_len = len(assignments)
 		components_len = len(component[bug_id])
 
-		line = ""
+		# line = bug_id 
+		line = line + " "
 		count = 0
 		for i in range(0, assignments_len, 1):
 			for j in range(0, components_len, 1):
