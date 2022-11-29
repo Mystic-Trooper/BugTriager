@@ -6,7 +6,7 @@ class TossingGraph:
 
 	def prepare_graph(self):
 
-		file1 = open("OutputFiles/toss_data", "r")
+		file1 = open("OutputFiles/toss_data.txt", "r",  encoding="utf8")
 		# Getting all the unique developers
 		devs = set()
 		for line in file1:
@@ -18,7 +18,7 @@ class TossingGraph:
 
 		self.graph = [[0] * len(self.developers) for i in range(len(self.developers))]
 
-		file1 = open("OutputFiles/toss_data", "r")
+		file1 = open("OutputFiles/toss_data.txt", "r", encoding="utf8")
 		for line in file1:
 			parts = line.split(" , ")
 			for i in range(0, len(parts) - 2, 1):

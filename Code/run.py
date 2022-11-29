@@ -31,12 +31,12 @@ def main():
 	print ("Extracting Toss Data... STARTED")
 	toss_data_extractor.extract()
 	print ("Extracting Toss Data... COMPLETED")
-	return
+	
 	print ("Preparing Tossing Graph... STARTED")
 	tossing_graph = toss_graph.TossingGraph()
 	tossing_graph.prepare_graph()
 	print ("Preparing Tossing Graph... COMPLETED")
-	
+	return
 	# print ("Running Classifier...")
 	# clf = classifier.Classifier(tossing_graph, developers, preprocessor)
 	# clf.run()
