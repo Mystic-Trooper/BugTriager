@@ -18,7 +18,7 @@ def format_input():
 	short_desc_file = open('./Dataset/JSON/short_desc.json', encoding="utf8")
 	short_desc = json.loads(short_desc_file.read())[short_desc_file_json_root_key]
 
-	output_file = open("OutputFiles/formatted_input", "wb")
+	output_file = open("OutputFiles/formatted_input.txt", "w", encoding='utf-8')
 	count = 1
 
 	for bug_id, assignments in assigned_to.items():
@@ -32,8 +32,8 @@ def format_input():
 									assignments[i]["what"] is not None and \
 									component[bug_id][j]["what"] in ("UI", "Core", "Text", "Debug", "APT", 'Doc'):
 						count += 1
-						val = (short_desc[bug_id][k]["what"] + "  " + component[bug_id][j]["what"] + " , " + assignments[i]["what"] + "\n")
-						output_file.write(val.encode('utf-8'))
+						val = ( ""+bug_id + " " + short_desc[bug_id][k]["what"] + "  " + component[bug_id][j]["what"] + " , " + assignments[i]["what"] + "\n")
+						output_file.write(val)
 
 	assigned_to_file.close()
 	component_file.close()

@@ -14,7 +14,7 @@ def extract():
 	component_file = open('./Dataset/JSON/component.json', encoding="utf8")
 	component = json.loads(component_file.read())[component_file_json_root_key]
 
-	output_file = open("OutputFiles/toss_data", "wb")
+	output_file = open("OutputFiles/toss_data.txt", "w", encoding="utf8")
 	for bug_id, assignments in assigned_to.items():
 		assignments_len = len(assignments)
 		components_len = len(component[bug_id])
@@ -33,7 +33,7 @@ def extract():
 					count += 1
 		if count >= 2:
 			line += "\n"
-			output_file.write(line.encode('utf-8'))
+			output_file.write(line)
 
 	assigned_to_file.close()
 	component_file.close()

@@ -20,8 +20,8 @@ class Preprocessor:
 		return ''.join(result)
 
 	def process_file(self):
-		input_file = open('OutputFiles/formatted_input', encoding="utf8")
-		output_file = open('OutputFiles/stemmed_input', 'wb')
+		input_file = open('OutputFiles/formatted_input.txt', encoding="utf8")
+		output_file = open('OutputFiles/stemmed_input.txt', 'w', encoding="utf8")
 
 		final_lines = []
 
@@ -30,7 +30,7 @@ class Preprocessor:
 			developer_split_index = line.rfind(" , ")
 			final_lines.append(self.stem_and_stop(line[:developer_split_index]))
 			final_lines.append("{0}".format(line[developer_split_index+1:]))
-		output_file.write(''.join(final_lines).encode('utf-8'))
+		output_file.write(''.join(final_lines))
 
 		input_file.close()
 		output_file.close()

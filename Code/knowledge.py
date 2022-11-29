@@ -1,13 +1,13 @@
 import json
 from collections import defaultdict
-toss_data = open('toss_withId.txt', 'r')
+toss_data = open('OutputFiles/toss_data', 'r')
 component_file_json_root_key = 'component'
-component_file = open('../Dataset/JSON/component.json', encoding="utf8")
+component_file = open('./Dataset/JSON/component.json', encoding="utf8")
 component = json.loads(component_file.read())[component_file_json_root_key]
 
 
 resolution_file_json_root_key= 'resolution'
-resolution_file = open('../Dataset/JSON/resolution.json', encoding="utf8")
+resolution_file = open('./Dataset/JSON/resolution.json', encoding="utf8")
 resolution= json.loads(resolution_file.read())[resolution_file_json_root_key]
 def knowledge():
     developer_id= None
@@ -27,10 +27,10 @@ def knowledge():
                 if(every["who"]== developer_id ):
                     developer_knowledge[developer_id].add(every["what"])
     print(developer_knowledge)       
-        
-                
     
     #print(data[0])
-        
+    component_file.close()
+    resolution_file.close()
+
         
 knowledge()

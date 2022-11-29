@@ -23,7 +23,7 @@ def main():
 	preprocessor = stop_stem.Preprocessor()
 	preprocessor.process_file()
 	print ("Stemming and stop-word removal... COMPLETED")
-
+	
 	# print("Saving Data... STARTED")
 	# developers = data_save.save()
 	# print ("Saving Data... COMPLETED")
@@ -31,7 +31,7 @@ def main():
 	print ("Extracting Toss Data... STARTED")
 	toss_data_extractor.extract()
 	print ("Extracting Toss Data... COMPLETED")
-
+	return
 	print ("Preparing Tossing Graph... STARTED")
 	tossing_graph = toss_graph.TossingGraph()
 	tossing_graph.prepare_graph()

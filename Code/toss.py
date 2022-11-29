@@ -25,5 +25,6 @@ def tosses_more():
     print("total tasks")
     for x in sorted_t:
         print(x, " ", sorted_t[x])
+    toss_data.close()
 if __name__ == '__main__':
     tosses_more()
