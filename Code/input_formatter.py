@@ -32,7 +32,7 @@ def format_input():
 									assignments[i]["what"] is not None and \
 									component[bug_id][j]["what"] in ("UI", "Core", "Text", "Debug", "APT", 'Doc'):
 						count += 1
-						val = ( ""+bug_id + " " + short_desc[bug_id][k]["what"] + "  " + component[bug_id][j]["what"] + " , " + assignments[i]["what"] + "\n")
+						val = ( ""+bug_id + " , " + short_desc[bug_id][k]["what"] + " , " + component[bug_id][j]["what"] + " , " + assignments[i]["what"] +" , " +  str(assignments[i]["who"]) + "\n")
 						output_file.write(val)
 
 	assigned_to_file.close()

@@ -1,3 +1,4 @@
+import json
 from neo4j import GraphDatabase
 import logging
 from neo4j.exceptions import ServiceUnavailable
@@ -69,12 +70,55 @@ def buildGraph():
     user = "neo4j"
     password = "amit"
     app = App(uri,user,password)
-    file1 = open("OutputFiles/toss_data.txt", "r", encoding="utf8")
-    for line in file1:
-        parts = line.split(" , ")
-        for i in range(0, len(parts) - 2, 1):
-            print(parts[i])
-            print(parts[i+1])
-            app.create_friendship(parts[i],parts[i+1])
+    tossed_data = open("OutputFiles/toss_data.txt", "r", encoding="utf8")
+    stemmed_input = open("OutputFiles/stemmed_input.txt", "r", encoding="utf8")
+    severity_json = open("Dataset/JSON/severity.json", "r", encoding="utf8")
+    priority_json = open("Dataset/JSON/priority.json", "r", encoding="utf8")
+    resolution_json = open("Dataset/JSON/resolution.json", "r", encoding="utf8")
+    # gets 
+    for line in tossed_data:
+        tossInfo = line.split(",")
+        # print(tossInfo[1])
+        # print(tossInfo[2])
+        # app.create_friendship(tossInfo[1],tossInfo[2])
 
+    # read json data
+    severity_data = json.load(severity_json)
+    priority_data = json.load(priority_json)
+    resolution_data = json.load(resolution_json)
+
+    # get bug id, short desc, component, developer assigned to
+    for line in stemmed_input:
+        bug_info = line.split(",")
+        if(len(bug_info)==5):
+            bugId= bug_info[0]
+            bug_description= bug_info[1]
+            component= bug_info[2]
+            develoeper= bug_info[3]
+            # find seviarity
+            try:
+                severity = severity_data["severity"][bugId.strip()][0]['what'] 
+            except KeyError: 
+                pass
+            # find priority
+            try:
+                priority = priority_data["priority"][bugId.strip()][0]['what']
+                if(priority==None):
+                    priority="P0"    
+            except KeyError: 
+                pass
+            # find who resolved which bug
+            try:
+             resolvedBy = resolution_data["resolution"][bugId.strip()][0]['who']
+            except KeyError: 
+                pass
+            
+    tossed_data.close()
+    stemmed_input.close()
+    severity_json.close()
+    priority_json.close() 
     app.close()
+
+
+if __name__ == '__main__':
+    buildGraph()

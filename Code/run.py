@@ -9,7 +9,7 @@ import tossing_neo4j_parser
 import classifier
 
 def main():
-
+	# """
 	print ("Checking for output directory `OutputFiles`")
 	if not os.path.exists('./OutputFiles'):
 		print ("Creating output directory `OutputFiles` ...")
@@ -25,9 +25,9 @@ def main():
 	print ("Stemming and stop-word removal... COMPLETED")
 	
 	# print("Saving Data... STARTED")
-	# developers = data_save.save()
+	developers = data_save.save()
 	# print ("Saving Data... COMPLETED")
-
+	
 	print ("Extracting Toss Data... STARTED")
 	toss_data_extractor.extract()
 	print ("Extracting Toss Data... COMPLETED")
@@ -36,15 +36,15 @@ def main():
 	tossing_graph = toss_graph.TossingGraph()
 	tossing_graph.prepare_graph()
 	print ("Preparing Tossing Graph... COMPLETED")
-	return
+
 	# print ("Running Classifier...")
 	# clf = classifier.Classifier(tossing_graph, developers, preprocessor)
 	# clf.run()
 	# print ("Classifier run completed!")
-
-	# print("build Neo4j Graph... STARTED")
-	# buildGraph()
-	# print("build Neo4j Graph... COMPLETED")
+	# """
+	print("build Neo4j Graph... STARTED")
+	buildGraph()
+	print("build Neo4j Graph... COMPLETED")
 
 if __name__ == '__main__':
 	main()
