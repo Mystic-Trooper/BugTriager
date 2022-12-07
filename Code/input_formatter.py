@@ -30,7 +30,7 @@ def format_input():
 				for k in range(0, short_desc_len, 1):
 					if assignments[i]["when"] == component[bug_id][j]["when"] == short_desc[bug_id][k]["when"] and \
 									assignments[i]["what"] is not None and \
-									component[bug_id][j]["what"] in ("UI", "Core", "Text", "Debug", "APT", 'Doc'):
+									component[bug_id][j]["what"] in ('Framework', 'Update', 'Debug', 'bundles', 'Edit', 'Compendium', 'Ant', 'VCM', 'jst.jsp', 'wst.jsdt', 'UI', 'Compare', 'IDE', 'Releng', 'Core', 'User Assistance', 'Web Standard Tools', 'Intro', 'cdt-editor', 'DataTools', 'API Tools', 'General', 'Help', 'APT', 'p2', 'jst.j2ee', 'Search', 'Incubators', 'CVS', 'Doc', 'Runtime', 'Build', 'Text', 'Resources', 'SWT', 'wst.xml', 'cdt-core', 'Team'):
 						count += 1
 						val = ( ""+bug_id + " , " + short_desc[bug_id][k]["what"] + " , " + component[bug_id][j]["what"] + " , " + assignments[i]["what"] +" , " +  str(assignments[i]["who"]) + "\n")
 						output_file.write(val)

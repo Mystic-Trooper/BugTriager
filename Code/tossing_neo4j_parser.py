@@ -112,11 +112,11 @@ def buildGraph():
              resolvedBy = resolution_data["resolution"][bugId.strip()][0]['who']
             except KeyError: 
                 pass
-            
+
     tossed_data.close()
     stemmed_input.close()
     severity_json.close()
-    priority_json.close() 
+    priority_json.close()
     app.close()
 
 
