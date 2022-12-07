@@ -37,14 +37,14 @@ def main():
 	tossing_graph.prepare_graph()
 	print ("Preparing Tossing Graph... COMPLETED")
 
-	# print ("Running Classifier...")
-	# clf = classifier.Classifier(tossing_graph, developers, preprocessor)
-	# clf.run()
-	# print ("Classifier run completed!")
+	print ("Running Classifier...")
+	clf = classifier.Classifier(tossing_graph, developers, preprocessor)
+	clf.run()
+	print ("Classifier run completed!")
 	# """
-	print("build Neo4j Graph... STARTED")
-	buildGraph()
-	print("build Neo4j Graph... COMPLETED")
+	# print("build Neo4j Graph... STARTED")
+	# buildGraph()
+	# print("build Neo4j Graph... COMPLETED")
 
 if __name__ == '__main__':
 	main()
