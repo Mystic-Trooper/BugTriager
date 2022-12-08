@@ -11,6 +11,7 @@ class App:
         # Don't forget to close the driver connection when you are finished with it
         self.driver.close()
 
+# ! For tossing graph
     def create_friendship(self, dev1, dev2):
         with self.driver.session() as session:
             # Write transactions allow the driver to handle retries and transient errors
@@ -54,6 +55,57 @@ class App:
             for row in result:
                 print("Found person: {row}".format(row=row))
 
+    # ! for bug info
+    def create_bug_info(self, bugId,component,develoeper,severity,priority,resolvedBy):
+        with self.driver.session() as session:
+            # Write transactions allow the driver to handle retries and transient errors
+            result = session.write_transaction(
+                self._create_and_return_bugfriendship, bugId,component,develoeper,severity,priority,resolvedBy)
+            for row in result:
+                print("Created Node between: {p1}, {p2}".format(p1=row['p1'], p2=row['p2']))
+
+    @staticmethod
+    def _create_and_return_bugfriendship(tx, bugId,component,develoeper,severity,priority,resolvedBy):
+        # To learn more about the Cypher syntax, see https://neo4j.com/docs/cypher-manual/current/
+        # The Reference Card is also a good resource for keywords https://neo4j.com/docs/cypher-refcard/current/
+        query = (
+            "MERGE (p1:bugId { name: $bugId }) "
+            "MERGE (p2:component { name: $component }) "
+            "MERGE (p3:Dev { name: $develoeper }) "
+            "MERGE (p4:severity { name: $severity }) "
+            "MERGE (p5:priority { name: $priority }) "
+            "MERGE (p6:Dev { name: $resolvedBy }) "
+        )
+
+        relationQuery=(
+            "CREATE (p6)-[:resolved]->(p1)"
+            "CREATE (p1)-[:has_component]->(p2)"
+            "CREATE (p1)-[:has_severity]->(p4)"
+            "CREATE (p1)-[:priority]->(p5)"
+        )
+
+        returnQueryVar="RETURN p1,p2"
+
+        query+=relationQuery
+        result = tx.run(query,bugId=bugId,component=component,develoeper=develoeper,severity=severity,priority=priority,resolvedBy=resolvedBy)
+        query+=returnQueryVar
+      
+        
+        try:
+            return [{"p1": row["p1"]["name"], "p2": row["p2"]["name"]}
+                    for row in result]
+        # Capture any errors along with the query and data for traceability
+        except ServiceUnavailable as exception:
+            logging.error("{query} raised an error: \n {exception}".format(
+                query=query, exception=exception))
+            raise
+        
+    def find_person(self, person_name):
+        with self.driver.session() as session:
+            result = session.read_transaction(self._find_and_return_person, person_name)
+            for row in result:
+                print("Found person: {row}".format(row=row))
+
     @staticmethod
     def _find_and_return_person(tx, person_name):
         query = (
@@ -75,18 +127,24 @@ def buildGraph():
     severity_json = open("Dataset/JSON/severity.json", "r", encoding="utf8")
     priority_json = open("Dataset/JSON/priority.json", "r", encoding="utf8")
     resolution_json = open("Dataset/JSON/resolution.json", "r", encoding="utf8")
+    
     # gets 
-    for line in tossed_data:
-        tossInfo = line.split(",")
-        # print(tossInfo[1])
-        # print(tossInfo[2])
-        # app.create_friendship(tossInfo[1],tossInfo[2])
-
+    counter =0;
+    # for line in tossed_data:
+    #     tossInfo = line.split(",")
+    #     print(tossInfo[1])
+    #     print(tossInfo[2])
+    #     app.create_friendship(tossInfo[1],tossInfo[2])
+    #     if(counter>100):
+    #         break
+    
     # read json data
     severity_data = json.load(severity_json)
     priority_data = json.load(priority_json)
     resolution_data = json.load(resolution_json)
 
+    #  Build graph for top 100 entires for which we have reasonable data
+    count =0;
     # get bug id, short desc, component, developer assigned to
     for line in stemmed_input:
         bug_info = line.split(",")
@@ -95,6 +153,7 @@ def buildGraph():
             bug_description= bug_info[1]
             component= bug_info[2]
             develoeper= bug_info[3]
+            
             # find seviarity
             try:
                 severity = severity_data["severity"][bugId.strip()][0]['what'] 
@@ -113,6 +172,19 @@ def buildGraph():
             except KeyError: 
                 pass
 
+            if(severity!=None and priority!=None and resolvedBy!=None):
+                count+=1;
+                # build relations here
+                print(bug_info)
+                print(severity)
+                print(priority)
+                print(resolvedBy)
+                app.create_bug_info(bugId,component,develoeper,severity,priority,resolvedBy)
+                if(count>=100):
+                    break
+                
+
+                
     tossed_data.close()
     stemmed_input.close()
     severity_json.close()

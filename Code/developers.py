@@ -1,6 +1,5 @@
 import json
 import csv
-import knowledge
 
 
 assigned_to_file_json_root_key = 'assigned_to'
