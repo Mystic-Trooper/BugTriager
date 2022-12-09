@@ -107,6 +107,49 @@ class App:
             for row in result:
                 print("Found person: {row}".format(row=row))
 
+    # ! for adding resolved property
+    def addPropertyResolved(self, dev, resolved_count):
+        with self.driver.session() as session:
+            # Write transactions allow the driver to handle retries and transient errors
+            result = session.write_transaction(
+                self._create_and_return_bugfriendship, dev, resolved_count)
+            for row in result:
+                print("Created Node between: {p1}, {p2}".format(p1=row['p1'], p2=row['p2']))
+
+    @staticmethod
+    def _create_and_return_bugfriendship(tx, dev, resolved_count):
+        # To learn more about the Cypher syntax, see https://neo4j.com/docs/cypher-manual/current/
+        # The Reference Card is also a good resource for keywords https://neo4j.com/docs/cypher-refcard/current/
+        query = (
+            "MATCH (p1:Dev{name:$dev})"
+            
+        )
+
+        relationQuery=(
+            "SET p1.resolved_count = $resolved_count"
+        )
+
+        returnQueryVar="RETURN p1"
+
+        query+=relationQuery
+        result = tx.run(query,dev=dev,resolved_count=resolved_count)
+        query+=returnQueryVar
+      
+        
+        try:
+            return [{"p1": row["p1"]["name"]}
+                    for row in result]
+        # Capture any errors along with the query and data for traceability
+        except ServiceUnavailable as exception:
+            logging.error("{query} raised an error: \n {exception}".format(
+                query=query, exception=exception))
+            raise
+        
+    def find_person(self, person_name):
+        with self.driver.session() as session:
+            result = session.read_transaction(self._find_and_return_person, person_name)
+            for row in result:
+                print("Found person: {row}".format(row=row))
     @staticmethod
     def _find_and_return_person(tx, person_name):
         query = (
@@ -116,6 +159,8 @@ class App:
         )
         result = tx.run(query, person_name=person_name)
         return [row["name"] for row in result]
+    
+
 
 def buildGraph():
     # Aura queries use an encrypted connection using the "neo4j+s" URI scheme
@@ -209,6 +254,23 @@ def buildGraph():
     priority_json.close()
     app.close()
 
+def assignResolved():
+    # Aura queries use an encrypted connection using the "neo4j+s" URI scheme
+    uri = "neo4j://localhost:7687"
+    user = "neo4j"
+    password = "amit"
+    app = App(uri,user,password)
+    developer_resolved_count = open("OutputFiles/developer_resolved_count.txt", "r", encoding="utf8")
+    app.close()
+    for line in developer_resolved_count:
+        but_toss_info = line.split(",")
+        dev_name = but_toss_info[0]
+        total_tosses = but_toss_info[1]
+        total_assignments = but_toss_info[2]
+        total_resolved = but_toss_info[3]
+        app.addPropertyResolved(dev_name,total_resolved)
+        print(dev_name,total_resolved)
 
 if __name__ == '__main__':
-    buildGraph()
+    # buildGraph()
+    assignResolved()
