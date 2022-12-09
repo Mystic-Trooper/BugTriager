@@ -1,6 +1,7 @@
 import json
 from neo4j import GraphDatabase
 import logging
+import csv
 from neo4j.exceptions import ServiceUnavailable
 
 class App:
@@ -128,15 +129,12 @@ def buildGraph():
     priority_json = open("Dataset/JSON/priority.json", "r", encoding="utf8")
     resolution_json = open("Dataset/JSON/resolution.json", "r", encoding="utf8")
     
-    # gets 
-    counter =0;
-    # for line in tossed_data:
-    #     tossInfo = line.split(",")
-    #     print(tossInfo[1])
-    #     print(tossInfo[2])
-    #     app.create_friendship(tossInfo[1],tossInfo[2])
-    #     if(counter>100):
-    #         break
+    output_file = open("curatedInput/toss_data.txt", "w", encoding="utf8")
+    textclass_file = open("curatedInput/text_class.txt", "w", encoding="utf8")
+    
+    
+
+    set_of_tossed_develoeprs =set()
     
     # read json data
     severity_data = json.load(severity_json)
@@ -152,8 +150,7 @@ def buildGraph():
             bugId= bug_info[0]
             bug_description= bug_info[1]
             component= bug_info[2]
-            develoeper= bug_info[3]
-            
+            develoeper= bug_info[3].lower().strip()
             # find seviarity
             try:
                 severity = severity_data["severity"][bugId.strip()][0]['what'] 
@@ -171,20 +168,41 @@ def buildGraph():
              resolvedBy = resolution_data["resolution"][bugId.strip()][0]['who']
             except KeyError: 
                 pass
-
-            if(severity!=None and priority!=None and resolvedBy!=None):
+            if(severity!=None and priority!=None ):
                 count+=1;
                 # build relations here
                 print(bug_info)
-                print(severity)
-                print(priority)
-                print(resolvedBy)
-                app.create_bug_info(bugId,component,develoeper,severity,priority,resolvedBy)
+                # print(severity)
+                # print(priority)
+                # print(resolvedBy)
+                set_of_tossed_develoeprs.add(develoeper)
+                # print(develoeper)
+                entry=bug_description+","+component
+                entry+="\n"
+                textclass_file.write(entry)  
+                # app.create_bug_info(bugId,component,develoeper,severity,priority,develoeper)
                 if(count>=100):
                     break
                 
 
-                
+        # for buidling tossing graph between develeopers 
+    print(len(set_of_tossed_develoeprs))
+    counter =0;
+    for line in tossed_data:
+        tossInfo = line.split(",")
+
+        if(tossInfo[1].lower().strip() in set_of_tossed_develoeprs or tossInfo[1].lower().strip() in set_of_tossed_develoeprs):
+        # if(1):
+            entry = ""+tossInfo[1]+"," +tossInfo[2]
+            counter+=1
+            entry+="\n"
+            output_file.write(entry)  
+            # app.create_friendship(tossInfo[1],tossInfo[2])
+            print(entry)
+        if(counter>100):
+            output_file.write(entry)
+            break
+    print(counter)
     tossed_data.close()
     stemmed_input.close()
     severity_json.close()
