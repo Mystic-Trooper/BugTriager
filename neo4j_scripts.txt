@@ -1,0 +1,62 @@
+//1. get all the dev who can solve swt issues
+
+MATCH (n:component {name:" swt "})<-[]-(b:bugId)<-[:resolved]-(d:Dev) RETURN d
+
+-----------------------------------------------------------------------------------------------------------
+2. get all the dev who can solve swt issues
+MATCH (n:component {name:" swt "})<-[]-(b:bugId)<-[:resolved]-(d:Dev)
+WITH d,b
+MATCH (b)-[:priority]->(p:priority),
+      (b)-[:has_severity]->(s:severity)
+RETURN d
+ORDER BY p desc, s desc
+
+-----------------------------------------------------------------------------------------------------------
+//3. get all the dev who can solve swt issues order by severity & priority
+
+MATCH (n:component{name:" swt "})<-[]-(b:bugId)<-[:resolved]-(d:Dev)
+WITH d,b, size((d)-[:issue_tossed_to]->()) as degree
+MATCH (b)-[:priority]->(p:priority),
+      (b)-[:has_severity]->(s:severity)
+RETURN d
+ORDER BY p desc, s desc, degree asc
+
+
+-----------------------------------------------------------------------------------------------------------
+
+//4. get all the dev who can solve swt issues order by severity & priority & //   no of resolved bug
+MATCH (n:component{name:" swt "})<-[]-(b:bugId)<-[:resolved]-(d:Dev)
+WITH d,b, size((d)-[:issue_tossed_to]->()) as degree
+MATCH (b)-[:priority]->(p:priority),
+      (b)-[:has_severity]->(s:severity)
+RETURN d
+ORDER BY p desc, s desc, degree asc, d.resolved_count desc
+
+-----------------------------------------------------------------------------------------------------------
+
+//5. adamic adar on swt component and developer
+
+MATCH (u1:component{name:" swt "})
+MATCH (u2:Dev)
+WHERE ID(u1) < ID(u2) AND NOT (u1)-[]-(u2) 
+RETURN gds.alpha.linkprediction.adamicAdar(u1, u2) AS score ,u1,u2
+ORDER BY score DESC
+LIMIT 10
+
+-----------------------------------------------------------------------------------------------------------
+//6. common neighbors b/w swt and dev
+MATCH (u1:component{name:" swt "})
+MATCH (u2:Dev)
+RETURN gds.alpha.linkprediction.commonNeighbors(u1, u2) AS score ,u1,u2
+order by score desc 
+limit 10
+
+-----------------------------------------------------------------------------------------------------------
+//7. find Suitable dev using adamic_adar, severity and  tosses 
+MATCH (n:component{name:" swt "})<-[]-(b:bugId)<-[:resolved]-(d:Dev)
+WITH n,d,b
+MATCH (b)-[hp:priority]->(p:priority{name:"P0"}),
+      (b)-[hs:has_severity]->(s:severity{})
+OPTIONAL MATCH (d)-[ito:issue_tossed_to]->()
+RETURN d, gds.alpha.linkprediction.adamicAdar(n, d) AS adamic_adar_score,count(hs) as priority_score, count(ito) as total_tosses
+ORDER BY  abs(0.6*(adamic_adar_score)+0.4*(priority_score)-0.4*(total_tosses)) DESC
