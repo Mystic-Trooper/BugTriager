@@ -1,0 +1,31 @@
+-------------------------- From Knowledge graph ----------------------
+mike_wilson@oti.com
+james_moody@oti.com
+dirk_baeumer@oti.com
+adam_kiezun@oti.com
+randy_giffen@oti.com
+knut_radloff@oti.com
+daniel_megert@oti.com
+erich_gamma@oti.com
+grant_gayed@oti.com
+rodrigo_peretti@oti.com
+karice_mcintyre@oti.com
+lynne_kues@oti.com
+joe_szurszewski@oti.com
+darin_wright@oti.com
+
+---------------- From clasifer model -----------------------------------
+mike_wilson@oti.com
+james_moody@oti.com
+dirk_baeumer@oti.com
+adam_kiezun@oti.com
+randy_giffen@oti.com
+knut_radloff@oti.com
+daniel_megert@oti.com
+erich_gamma@oti.com
+grant_gayed@oti.com
+rodrigo_peretti@oti.com
+karice_mcintyre@oti.com
+lynne_kues@oti.com
+joe_szurszewski@oti.com
+darin_wright@oti.com
