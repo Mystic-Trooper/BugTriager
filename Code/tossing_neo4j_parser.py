@@ -120,7 +120,7 @@ def buildGraph():
     # Aura queries use an encrypted connection using the "neo4j+s" URI scheme
     uri = "neo4j://localhost:7687"
     user = "neo4j"
-    password = "amit"
+    password = "EAFSDd8zrRrc66g"
     app = App(uri,user,password)
     tossed_data = open("OutputFiles/toss_data.txt", "r", encoding="utf8")
     stemmed_input = open("OutputFiles/stemmed_input.txt", "r", encoding="utf8")
